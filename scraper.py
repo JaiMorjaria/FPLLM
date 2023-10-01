@@ -1,8 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.remote.webelement import WebElement
+from typing import List
+from time import sleep
+
 import chromedriver_binary  # Adds chromedriver binary to path
 
 options = Options()
@@ -21,23 +23,43 @@ def grabStatValue(stat):
     acceptAll = driver.find_element(By.ID, "onetrust-accept-btn-handler")
     acceptAll.click()
 
-  
-  nextButton = WebDriverWait(driver, 1).until(
-    EC.presence_of_element_located((By.XPATH, "//div[@class='paginationContainer']//div[@class='paginationBtn paginationNextContainer']")).click()
-  )
-  names = driver.find_elements(By.XPATH, "//td[@class='stats-table__name']")
-  while(len(names) == 8): 
-    for i in range(1, 8):
+  if(driver.find_element(By.ID, "advertClose")):
+      advertisement = driver.find_element(By.ID, "advertClose")
+      advertisement.click()
+
+  sleep(1)
+  next_button = driver.find_element(By.XPATH, "//div[@class='paginationContainer']//div[@class='paginationBtn paginationNextContainer']")
+  sleep(1)
+  next_button.click()
+  prev_button = driver.find_element(By.XPATH, "//div[@class='paginationContainer']//div[@class='paginationBtn paginationPreviousContainer']")
+  sleep(1)
+  prev_button.click()
+  sleep(1)
+  names = driver.find_elements(By.XPATH, "//td[@class='stats-table__player']")
+  values = driver.find_elements(By.XPATH, "//td[@class='stats-table__main-stat']") 
+
+  while (len(names) > 9):
+    grab_names_and_values(names, values, stat)
+    sleep(1)
+    next_button.click()
+    sleep(2)
+    names = driver.find_elements(By.XPATH, "//td[@class='stats-table__player']")
+    values = driver.find_elements(By.XPATH, "//td[@class='stats-table__main-stat']") 
+    grab_names_and_values(names, values, stat)
+
+def grab_names_and_values(names:List[WebElement], values:List[WebElement], stat:str) -> None:
+   for i in range(len(values)):
       curr_name = names[i].text
-      curr_value = names[i].text
+      curr_value = values[i].text
+
       match stat:
         case "big_chance_missed":
           big_chances_missed[curr_name] = int(curr_value)
-
-    nextButton.click()
-    names = driver.find_elements(By.XPATH, "//td[@class='stats-table__name']")
-    
-  print(big_chances_missed)
-
+        case "red_card":
+          red_cards[curr_name] = int(curr_value)
 
 grabStatValue("big_chance_missed")
+grabStatValue("red_card")
+
+print(big_chances_missed)
+print(red_cards)
