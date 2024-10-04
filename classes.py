@@ -36,10 +36,13 @@ class Game:
        self.game_date = game_date
        self.home_team = home_team
        self.away_team = away_team
-       self.game_week = game_week
+       self.game_week = game_week 
     
     def __str__(self):
         return f"Gameweek {self.game_week} matchup on date {self.game_date} between {self.home_team} and {self.away_team}. ID: {self.id}"
+
+    def toDict(self):
+        return { "id": self.id, "game_date": self.game_date, "home_team": self.home_team, "away_team": self.away_team, "game_week": self.game_week }
 
 @dataclass
 class Event:
@@ -47,11 +50,14 @@ class Event:
     player_id: UUID = None
     game_id: UUID = None
     event_type: str = ""
+    quantity: int = 0
 
 
-    def __init__(self, player_id:UUID, game_id:UUID, event_type:str):
+    def __init__(self, player_id:UUID, game_id:UUID, event_type:str, quantity:int):
         self.id = uuid4()
         self.player_id = player_id
         self.game_id = game_id
         self.event_type = event_type
+        self.quantity = quantity
+
     
