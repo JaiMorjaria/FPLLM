@@ -10,6 +10,7 @@ def correctNamingDiscrepancies(team_name:str) -> str:
         "Bournemouth": "AFC Bournemouth",
         "Manchester Utd": "Manchester United",
         "Newcastle Utd": "Newcastle United",
+        "Sheffield Utd": "Sheffield United",
         "West Ham": "West Ham United",
         "Tottenham": "Tottenham Hotspur",
         "Wolves": "Wolverhampton Wanderers"
@@ -50,25 +51,54 @@ for game in epl_schedule.iterrows():
     gameweeks[game_str] = gameweek.id
 
 players_data = pd.Series()
-players_mapping = {}
+players_mapping = {} 
 for player_name in players:
-    player_info = data.loc[data['player'] == player_name, ['team', 'position']].iloc[0]
-    player = Player(player_name, player_info['team'], player_info['position'])
-    players_mapping[player_name] = player.id
+    filtered_data = data.loc[(data['player'] == player_name) & (data['position'] != 'Substitute'), ['position', 'team']]
+
+# Check if the filtered data is not empty before accessing the first row
+    if not filtered_data.empty:  # No parentheses here, since empty is a property
+        player_info = filtered_data.iloc[0]    
+        if not player_info.empty:
+            player = Player(player_name, player_info['team'], player_info['position'])
+            players_mapping[player_name] = player
 
 events = []
 
 for _, row in data.iterrows():
     for column, value in row.items():
         if column not in non_event_columns and value != 0:
-            # Create an event for this stat
-            event = Event(
-                player_id=players_mapping[row.player],
-                game_id=gameweeks[row.game],
-                event_type=column,  # Use the column name as the event type (e.g., 'total_goals')
-                quantity=value
-            )
-            events.append(event)
+            if row.player in players_mapping:
+                # Create an event for this stat
+                event = Event(
+                    player_id=players_mapping[row.player].id,
+                    game_id=gameweeks[row.game],
+                    event_type=column,  # Use the column name as the event type (e.g., 'total_goals')
+                    quantity=value
+                )
+                events.append(event)
+
+'''
+Things I want to look for:
+
+Start/didn't start -1 for playing the whole game -1 for not playing at all
+Minutes played +1 for less than 60 minutes
+Win -1
+Draw +1
+Loss +3
+Goals -4 for fwds -5 for mids -6 for defs
+Assists -3 for fwds -4 for mids -5 for defs
+Shots on target -1
+Shots off target +2
+Goal conceded +6 for GK +5 for DEF
+Foul +3
+Yellow +4
+Red +8
+Own goal +15
+Offside +5
+Save -1 for GKP
+Clean sheet -5 for GKP
+'''
+
 
 print(events)
 
