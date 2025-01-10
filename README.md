@@ -15,6 +15,7 @@ Automating your fantasy premier league research using key statistics and an LLM 
 - PPG/goals/assists/contributions over last 5 games
 - MPG/starting status
 - Corner and FK involvement
+- Average xGI and standard deviation (anyone above/below a std dev is exceptionally good/bad at what they do)
 
 ## Team stats to track:
 - xG
