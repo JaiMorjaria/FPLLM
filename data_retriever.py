@@ -11,13 +11,34 @@ def fuzzy_match(player_name):
     match, score, index = process.extractOne(player_name, understat_names)
     return match if score >= 75 else score  
 
+def get_last_5_games_xgi(player_name, player_per_game_data_understat):
+    # Filter the player's data
+    player_data = player_per_game_data_understat[player_per_game_data_understat['player'] == player_name]
+
+    player_data['match_date'] = pd.to_datetime(player_data['game'].astype(str).str[:10], format="%Y-%m-%d")
+    # Sort the data by match_date in descending order (most recent first)
+    player_data_sorted = player_data.sort_values(by='match_date',  ascending=False)
+
+    # Get the last 5 games
+    last_5_games = player_data_sorted.head(5).copy()
+
+    print(last_5_games.columns)
+    # Calculate xGI (xG + xA) for the last 5 games
+    last_5_games['xgi'] = last_5_games[['xg', 'xa']].sum(axis=1)
+    # Sum up the xGI for the last 5 games
+    mean_xgi_last_5 = last_5_games['xgi'].mean()
+
+    return mean_xgi_last_5
+
 bootstrap_static_url = "https://fantasy.premierleague.com/api/bootstrap-static/"
 bootstrap_static_raw = requests.get(url=bootstrap_static_url).json()
 player_data_fpl_site = bootstrap_static_raw["elements"]
 understat = sd.Understat(leagues="ENG-Premier League", seasons="2024/2025")
-player_data_understat = understat.read_player_season_stats().reset_index()
+player_season_data_understat = understat.read_player_season_stats().reset_index()
+player_per_game_data_understat = understat.read_player_match_stats().reset_index()
 team_data_understat = understat.read_team_match_stats().reset_index()
-understat_names = player_data_understat["player"]
+team_schedule_understart = understat.read_schedule().reset_index()
+understat_names = player_season_data_understat["player"]
 
 
 names_mapping = {
@@ -25,22 +46,30 @@ names_mapping = {
     "Wood": "Chris Wood",
 }
 
+player_stats_list = []
+
 for player in player_data_fpl_site:
-    # if player's news doesn't include the word "injury" they're probably on loan or transferred out of the league
-    #  and therefore don't need to be fuzzy matched
-    # if their TSB% < 1.0, most people aren't even going to think about them as a pick
-    # if they have < 10 points by this point in the season they probably don't play
-    if (player["news"] != "" and "injury" not in player["news"].lower()) or float(player["selected_by_percent"]) < 1.0 or player["total_points"] < 10:
+    if (player["status"] == "u") or float(player["selected_by_percent"]) < 1.0 or player["total_points"] < 10:
         continue
     else:
+        # Check if the player's name is already mapped
         if player["web_name"] not in names_mapping:
             match = fuzzy_match(player["web_name"])
             if type(match) is str:
-                names_mapping[player["web_name"]] =  match
+                names_mapping[player["web_name"]] = match
                 continue
             else:
-                #if we don't have a strong match with the web_name, try again with first and last name
+                # Try matching first and last name
                 names_mapping[player["web_name"]] = fuzzy_match(player["first_name"] + " " + player["second_name"])
+
+        player["position"] = bootstrap_static_raw["element_types"][player["element_type"] - 1]["singular_name"]
+        
+l5_xgis = []
+for player in names_mapping.keys():
+    print(names_mapping['player'])
+    l5_xgis.append(get_last_5_games_xgi(player, player_per_game_data_understat))
+
+player_season_data_understat['xgi'] = l5_xgis
 
 with open('names_mapping.json', 'w', encoding='utf-8') as f:
     json.dump(names_mapping, f, ensure_ascii=False, indent=4)
@@ -65,10 +94,9 @@ team_stats = pd.DataFrame({
     'away_xga_rank': away_xga['home_xg'].rank(ascending=True)
 }).set_index('team')
 
+player_per_game_data_understat['xgi'] = player_per_game_data_understat.loc[:, ['xg', 'xa']].sum(axis=1)
 
-print(team_stats)
-
-
+print(player_per_game_data_understat.columns)
 # categorize player average xG, xA (maybe combine into xGI), minutes per game, number of starts, injury status
 #  defensive metrics? just use team defense maybe? for attacking defenders get 
 # avg xgi across defenders and anyone above a std dev of that is "high" and the rest "avg" or "low"?
