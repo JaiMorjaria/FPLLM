@@ -84,6 +84,7 @@ async function generateAnalysis(player: any, matchups: any) {
         When mentioning a player's xG/xA stats mention that it's the average of their last 5 games, but don't be verbose with either of these statements.
         Only mention penalty, corner and free kick duties if they exist and do not mention if they don't.
         Don't talk about reliance on these duties for goals since you don't have any scope for where the goals come from. 
+        For players with high xG and xA, they're clearly attacking players - don't mention their involvement with clean sheets
         Provide your analysis in the following format:\n Pros: ...\nCons: ...\nVerdict: ...
         Never surround any of the required formatting things with *** around them, just plain text. It's distracting and unnecessary.
         `;
