@@ -107,22 +107,29 @@ def process_fpl_players(player_data_fpl_site, player_season_data_understat, play
 
     understat_names = player_season_data_understat["player"]
     for player in player_data_fpl_site:
-        if player["status"] == "u" or float(player["selected_by_percent"]) < 1.0 or player["total_points"] < 10:
+        if player["status"] == "u" or player["total_points"] < 10:
             continue
 
         player_position = element_types[player["element_type"] - 1]["singular_name"]
         web_name = player["web_name"]
+        # use this as a field for players in the database because players will be 
+        # opening player info > highlighting player full name > analyze pick
+        lookup_name = player["first_name"] + " " + player["second_name"]
 
         if web_name not in names_mapping:
             match = fuzzy_match(web_name, understat_names)
             if match:
                 understat_name = match
             else:
-                understat_name = fuzzy_match(player["first_name"] + " " + player["second_name"], understat_names)
+                understat_name = fuzzy_match(lookup_name, understat_names)
 
             names_mapping[web_name] = {"name": understat_name, "position": player_position}
+            names_mapping[web_name]["lookup_name"] = lookup_name
+        else:
+            names_mapping[web_name]["lookup_name"] = names_mapping[web_name]["name"]
 
         # Update player data with FPL info
+        
         names_mapping[web_name]["selected_by_percent"] = player["selected_by_percent"]
         names_mapping[web_name]["yellow_cards"] = player["yellow_cards"]
         names_mapping[web_name]["price"] = player["now_cost"]
@@ -163,10 +170,10 @@ def process_team_data(schedule, team_stats):
 # Function to insert data into Supabase
 def insert_player_data(player_mapping):
     players_table = supabase.table("players")  # Replace with your actual table name
-    for player_web_name, data in player_mapping.items():
+    for player, data in player_mapping.items():
         team_id_req = supabase.table("teams").select("id").eq("team_name", data["team"]).execute()
         players_table.upsert({
-            "web_name": player_web_name,
+            "web_name": data["lookup_name"],
             "name": data["name"],
             "position": data["position"],
             "selected_by_percent": data["selected_by_percent"],     
