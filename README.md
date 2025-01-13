@@ -1,8 +1,9 @@
 # FPLLM
 Automating your fantasy premier league research using key statistics and an LLM integration. 
 
+![FPLLM_Demo](https://github.com/user-attachments/assets/41f7775d-dbe0-4b17-a1f8-6c8c3b6499e3)
 
-![FPLLM_Demo](https://github.com/user-attachments/assets/af737370-48b8-4a07-aba4-233cfac120d2)
+
 
 ## Technologies:
 - JavaScript (chrome extension frontend, middleware)
@@ -22,7 +23,7 @@ Automating your fantasy premier league research using key statistics and an LLM 
 
 ## Team stats to track:
 - Average home and away xG (depending on matchup)
-- Average ome and away xGA (")
+- Average home and away xGA (")
 - Above stats for a team's next 5 matchups
 - Ranks for the above stats
 
