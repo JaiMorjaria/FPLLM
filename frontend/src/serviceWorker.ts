@@ -36,6 +36,11 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
         if (selectedText) {
             console.log(`Selected player for analysis: ${selectedText}`);
 
+            chrome.tabs.sendMessage(tab.id, {
+                action: "displayOverlay",
+                loading: true
+            });
+
             // Fetch the player and matchups data from Supabase
             const { player, matchups } = await getPlayerAndMatchups(selectedText);
 

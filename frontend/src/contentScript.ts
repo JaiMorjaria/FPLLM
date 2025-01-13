@@ -1,15 +1,19 @@
-
-chrome.runtime.onMessage.addListener((message,) => {
+chrome.runtime.onMessage.addListener((message) => {
   if (message.action === "displayOverlay") {
+    if (message.loading) {
+      showOverlay(null, null, null, null, true);
+    }
     if (message.error) {
+      // Update the overlay with an error message
       showOverlay(null, null, null, message.error);
     } else {
-      showOverlay(message.player, message.matchups, message.analysis);
+      // Update the overlay with the actual data
+        showOverlay(message.player, message.matchups, message.analysis);
     }
   }
 });
 
-function showOverlay(player, matchups, analysis, errorMessage = null) {
+function showOverlay(player = null, matchups = null, analysis = null, errorMessage = null, loading = false) {
   // Remove any existing overlay
   const existingOverlay = document.getElementById("analyze-pick-overlay");
   if (existingOverlay) existingOverlay.remove();
@@ -27,26 +31,32 @@ function showOverlay(player, matchups, analysis, errorMessage = null) {
   overlay.style.background = "white";
   overlay.style.border = "1px solid #ccc";
   overlay.style.boxShadow = "0px 4px 6px rgba(0, 0, 0, 0.1)";
-  overlay.style.borderRadius = "8px";
-  overlay.style.fontFamily = "Arial, sans-serif";
+  overlay.style.borderRadius = "20px";
   overlay.style.color = "#333";
   overlay.style.minWidth = "300px";
   overlay.style.maxWidth = '600px'; // Set a max width for longer analysis
   overlay.style.overflowWrap = 'break-word';
 
-  // Add content to the overlay
   if (errorMessage) {
-    overlay.innerHTML = ` 
+    // Show error message
+    overlay.innerHTML = `
       <h2>Error</h2>
       <p>${errorMessage}</p>
     `;
-  } else {
+  } else if (player && analysis) {
+    // Show player analysis
     overlay.innerHTML = `
       <h2>Player Analysis</h2>
-      <p><strong>Name:</strong> ${player.name}</p>
-      <p><strong>Team:</strong> ${player.team_name}</p>
+      <p><strong>Name:</strong> ${player?.name || "N/A"}</p>
+      <p><strong>Team:</strong> ${player?.team_name || "N/A"}</p>
       <p><strong>Analysis:</strong></p>
-      <div style="white-space: pre-line;">${analysis}</div>
+      <div style="white-space: pre-line;">${analysis || "No analysis available."}</div>
+    `;
+  } else {
+    // Show loading message
+    overlay.innerHTML = `
+      <h2>Player Analysis</h2>
+      <p style="margin-top: 50px;">Gathering ball knowledge...</p>
     `;
   }
 
@@ -62,7 +72,9 @@ function showOverlay(player, matchups, analysis, errorMessage = null) {
   closeIcon.style.justifyContent = "center";
   closeIcon.style.alignItems = "center";
   closeIcon.style.cursor = "pointer";
-  closeIcon.innerHTML = "<span style='color: white; font-family: 'Verdana, sans-serif;'; font-size: 100px;'>X</span>";
+  closeIcon.innerHTML = `
+    <span style="color: white; font-family: 'Arial', sans-serif; font-size: 16px;">&times;</span>
+  `;
 
   // Append close icon to overlay
   overlay.appendChild(closeIcon);
