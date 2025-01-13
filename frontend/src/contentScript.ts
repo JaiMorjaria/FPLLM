@@ -1,4 +1,5 @@
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+
+chrome.runtime.onMessage.addListener((message,) => {
   if (message.action === "displayOverlay") {
     if (message.error) {
       showOverlay(null, null, null, message.error);
@@ -18,9 +19,9 @@ function showOverlay(player, matchups, analysis, errorMessage = null) {
   const overlay = document.createElement("div");
   overlay.id = "analyze-pick-overlay";
   overlay.style.position = "fixed";
-  overlay.style.top = "20%";
+  overlay.style.top = "50%";
   overlay.style.left = "50%";
-  overlay.style.transform = "translate(-50%, -50%)";
+  overlay.style.transform = "translate(-50%, -35%)";
   overlay.style.zIndex = "10000";
   overlay.style.padding = "20px";
   overlay.style.background = "white";
@@ -30,32 +31,48 @@ function showOverlay(player, matchups, analysis, errorMessage = null) {
   overlay.style.fontFamily = "Arial, sans-serif";
   overlay.style.color = "#333";
   overlay.style.minWidth = "300px";
-    overlay.style.maxWidth = '600px'; // Set a max width for longer analysis
-    overlay.style.overflowWrap = 'break-word';
+  overlay.style.maxWidth = '600px'; // Set a max width for longer analysis
+  overlay.style.overflowWrap = 'break-word';
 
   // Add content to the overlay
   if (errorMessage) {
-    overlay.innerHTML = `
+    overlay.innerHTML = ` 
       <h2>Error</h2>
       <p>${errorMessage}</p>
-      <button id="analyze-close-btn" style="margin-top: 10px;">Close</button>
     `;
   } else {
-      overlay.innerHTML = `
+    overlay.innerHTML = `
       <h2>Player Analysis</h2>
-        <p><strong>Name:</strong> ${player.name}</p>
-        <p><strong>Team:</strong> ${player.team_name}</p>
-        <p><strong>Analysis:</strong></p>
-        <div style="white-space: pre-line;">${analysis}</div>
-        <button id="analyze-close-btn" style="margin-top: 10px;">Close</button>
+      <p><strong>Name:</strong> ${player.name}</p>
+      <p><strong>Team:</strong> ${player.team_name}</p>
+      <p><strong>Analysis:</strong></p>
+      <div style="white-space: pre-line;">${analysis}</div>
     `;
   }
+
+  // Create close icon (pink X)
+  const closeIcon = document.createElement("div");
+  closeIcon.style.position = "absolute";
+  closeIcon.style.top = "10px";
+  closeIcon.style.right = "10px";
+  closeIcon.style.width = "24px";
+  closeIcon.style.height = "24px";
+  closeIcon.style.borderRadius = "50%";
+  closeIcon.style.backgroundColor = "#e90052";
+  closeIcon.style.display = "flex";
+  closeIcon.style.justifyContent = "center";
+  closeIcon.style.alignItems = "center";
+  closeIcon.style.cursor = "pointer";
+  closeIcon.innerHTML = "<span class='material-icons' style='color: white; font-size: 18px;'>X</span>";
+
+  // Append close icon to overlay
+  overlay.appendChild(closeIcon);
 
   // Append overlay to the body
   document.body.appendChild(overlay);
 
-  // Add close button functionality
-  document.getElementById("analyze-close-btn").addEventListener("click", () => {
+  // Add functionality to close the overlay when the icon is clicked
+  closeIcon.addEventListener("click", () => {
     overlay.remove();
   });
 }

@@ -11,6 +11,7 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 
+
 chrome.runtime.onInstalled.addListener(async () => {
     // Here goes everything you want to execute after extension initialization
 
@@ -25,6 +26,7 @@ chrome.runtime.onInstalled.addListener(async () => {
 
     console.log('Extension successfully installed!');
 });
+
 
 
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
@@ -68,7 +70,18 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 
 async function generateAnalysis(player: any, matchups: any) {
     try {
-        const systemPrompt = "You are a fantasy football analyst. Analyze the following player data and matchups to provide a concise analysis of the player's pros, cons, and a verdict on whether they are a good pick. Only mention penalty, corner and free kick duties if they exist and do not mention if they don't. Provide your analysis in the following format:\n\nPros: ...\nCons: ...\nVerdict: ...";
+        const systemPrompt = `You are a fantasy football analyst. Analyze the following player data and matchups 
+        to provide a very concise analysis of the player's pros, cons, and a verdict on whether they are a good pick. 
+        Give some evidence for your statements, e.g. when listing tough or easy matchup names give their xG/xGA as it applies to the player
+        (xG for defenders and goalkeepers, xGA for midfielders and forwards).
+        When speaking about team xG and xGA make sure to mention that it's the AVERAGE and whether or not they're home or away as that does affect it. 
+        Also mention the team's rank in that metric as the "nth-ranked" home/away offense/defense in the league by {metric}. ALWAYS mention home/away right next to the offense/defence.
+        When mentioning a player's xG/xA stats mention that it's the average of their last 5 games, but don't be verbose with either of these statements.
+        Only mention penalty, corner and free kick duties if they exist and do not mention if they don't.
+        Don't talk about reliance on these duties for goals since you don't have any scope for where the goals come from. 
+        Provide your analysis in the following format:\n Pros: ...\nCons: ...\nVerdict: ...
+        Never surround any of the required formatting things with *** around them, just plain text. It's distracting and unnecessary.
+        `;
 
 
         const prompt = `

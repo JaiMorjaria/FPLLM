@@ -1,6 +1,6 @@
 {
-  "name": "chrome-extension-webpack",
-  "description": "My basic Chrome extension",
+  "name": "FPLLM",
+  "description": "AI-powered fantasy football analysis - use at your own risk!",
   "version": "0.1.0",
   "manifest_version": 3,
   "background": {
@@ -8,17 +8,13 @@
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["https://fantasy.premierleague.com/*"],
       "js": ["contentScript.js"]
     }
   ],
   "permissions": ["storage", "scripting", "contextMenus", "activeTab"],
-  "options_ui": {
-    "page": "options.html",
-    "open_in_tab": true
-  },
   "action": {
-    "default_title": "My basic Chrome extension",
+    "default_title": "FPLLM",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "/icons/16x.png",
