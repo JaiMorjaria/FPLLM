@@ -68,14 +68,15 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 
 async function generateAnalysis(player: any, matchups: any) {
     try {
-        const systemPrompt = "You are a fantasy football analyst. Analyze the following player data and matchups to provide a very concise analysis of the player's pros, cons, and a verdict on whether they are a good pick. Only mention penalty, corner and free kick duties if they exist and do not mention if they don't. Provide your analysis in the following format:\n\nPros: ...\nCons: ...\nVerdict: ...";
+        const systemPrompt = "You are a fantasy football analyst. Analyze the following player data and matchups to provide a concise analysis of the player's pros, cons, and a verdict on whether they are a good pick. Only mention penalty, corner and free kick duties if they exist and do not mention if they don't. Provide your analysis in the following format:\n\nPros: ...\nCons: ...\nVerdict: ...";
 
 
         const prompt = `
+        ${systemPrompt}
           Player: ${player.web_name}
           Team: ${player.team_name}
           Position: ${player.position}
-          Price: £${player.now_cost / 10}
+          Price: £${player.price}
           Selected by: ${player.selected_by_percent}%
           Clean sheets per 90: ${player.clean_sheets_per_90}
           Last 5 games xG: ${player.l5_average_xg}
