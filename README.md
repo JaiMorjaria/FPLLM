@@ -1,6 +1,9 @@
 # FPLLM
 Automating your fantasy premier league research using key statistics and an LLM integration. 
 
+https://github.com/user-attachments/assets/db9c7a85-c57a-49d2-b3fd-171a6aa89498
+
+
 ## Technologies:
 - JavaScript (chrome extension frontend, middleware)
 - Python (data propagation, stat calculation and filtering)
