@@ -11,6 +11,7 @@ Automating your fantasy premier league research using key statistics and an LLM 
 - xGI
 - Selection%
 - MPG/starting status
+- Penalty duties
 - Corner and FK involvement
 - Price
 - Yellow cards
