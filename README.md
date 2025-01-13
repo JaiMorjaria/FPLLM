@@ -18,7 +18,8 @@ Automating your fantasy premier league research using key statistics and an LLM 
 
 
 ## Team stats to track:
-- Home and away xG (depending on matchup)
-- Home and away xGA (")
+- Average home and away xG (depending on matchup)
+- Average ome and away xGA (")
+- Above stats for a team's next 5 matchups
 - Ranks for the above stats
 
