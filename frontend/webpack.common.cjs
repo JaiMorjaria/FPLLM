@@ -10,7 +10,6 @@ module.exports = {
     serviceWorker: './src/serviceWorker.ts',
     contentScript: './src/contentScript.ts',
     popup: './src/popup.ts',
-    options: './src/options.ts',
   },
   module: {
     rules: [
@@ -39,7 +38,7 @@ module.exports = {
   },
   plugins: [
     new DotenvPlugin({
-      path: '../.env'
+      path: '.env'
     }),
     new ESLintPlugin({
       extensions: ['js', 'ts'],

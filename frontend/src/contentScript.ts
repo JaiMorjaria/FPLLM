@@ -50,11 +50,10 @@ function showOverlay(player, matchups, analysis, errorMessage = null) {
     `;
   }
 
-  // Create close icon (pink X)
   const closeIcon = document.createElement("div");
   closeIcon.style.position = "absolute";
   closeIcon.style.top = "10px";
-  closeIcon.style.right = "10px";
+  closeIcon.style.right = "30px";
   closeIcon.style.width = "24px";
   closeIcon.style.height = "24px";
   closeIcon.style.borderRadius = "50%";
@@ -63,7 +62,7 @@ function showOverlay(player, matchups, analysis, errorMessage = null) {
   closeIcon.style.justifyContent = "center";
   closeIcon.style.alignItems = "center";
   closeIcon.style.cursor = "pointer";
-  closeIcon.innerHTML = "<span class='material-icons' style='color: white; font-size: 18px;'>X</span>";
+  closeIcon.innerHTML = "<span style='color: white; font-family: 'Verdana, sans-serif;'; font-size: 100px;'>X</span>";
 
   // Append close icon to overlay
   overlay.appendChild(closeIcon);
