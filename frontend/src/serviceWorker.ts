@@ -123,6 +123,9 @@ async function generateAnalysis(player: any, matchups: any) {
             Analysis Guidelines:
 
                 Matchup Difficulty Analysis:
+                        Ranks are ordinal positions, not numerical values themselves.
+                        "xGA Rank: 3" means the team has the 3rd lowest xGA in the league.
+                        "xG Rank: 15" means the team has the 15th highest xG in the league.
                     Easy Matchup:
                         Defenders, Goalkeepers: Opponent's xG  rank is between 14-20 (low xG). Higher rank = better matchup!! Explicit guideline: Opponent's average xG is less than 1.5 goals per game
                         Forwards, Midfielders: Opponent's xGA rank is between 14-20 (high xGA). Higher rank = better matchup!! Explicit guideline: Opponent's average xGA is greater than 1.5 goals per game
@@ -135,31 +138,43 @@ async function generateAnalysis(player: any, matchups: any) {
                     Consider the team's average xG and xGA (and their ranks) as additional factors when assessing the overall matchup difficulty.
 
 
+                    Example:
+
+                    "Team A has an xG of 2.32, which is ranked 5th for average home xG. They face team B, which has an xGA of 1.00, ranked 3rd for average away xGA.
+                    This is a tough matchup for Team A, since team B has the third lowest average away xGA in the league. One player having a high xG most likely
+                    does not mitigate this issue, but it doesn't mean they don't have the potential to score points."
+
+
+
                     For each matchup in the provided list:
                         Extract the opponent's name.
                         Extract the opponent's average xGA.
                         Extract the opponent's xGA rank
                         Determine if the opponent's xGA rank falls within the 'Easy Matchup' range (14-20), the 'Tough Matchup' range (1-7), or the 'Neutral Matchup' range (8-13)
-                        If the opponent's xGA rank falls within the 'Easy Matchup' range, add the opponent's name to the 'Easy Matchups' list.
-                        If the opponent's xGA rank falls within the 'Tough Matchup' range, add the opponent's name to the 'Neutral Matchups' list.
-                        If the opponent's xGA rank falls within the 'Tough Matchup' range, add the opponent's name to the 'Tough Matchups' list.
+                        If the opponent's xG/xGA rank falls within the 'Easy Matchup' range, add the opponent's name to the 'Easy Matchups' list.
+                        If the opponent's xG/xGA rank falls within the 'Tough Matchup' range, add the opponent's name to the 'Neutral Matchups' list.
+                        If the opponent's xG/xGA rank falls within the 'Tough Matchup' range, add the opponent's name to the 'Tough Matchups' list.
                     
                     If the team has a high average xG/xGA rank and is facing a "neutral" opponent, consider it a potentially favorable matchup.
                     Attackers: If the matchup is in "neutral" range and the team's average xG is significantly higher than the other team's xGA, consider it an easy matchup regardless of rank.
                     Defenders: If the matchup is in "neutral" range and the team's average xGA is significantly lower than the other team's xG, consider it an easy matchup regardless of rank.
 
+                    Return ALL matchp instructions in the following form:
+
+                    "Facing Nottingham Forest (away). Nottingham Forest has the 3rd-lowest average away xGA (1.00 goals), indicating a strong defense."
+
                 Player Strengths:
                     High xG/xA in recent games (>= 0.3 for forwards, >= 0.15 for midfielders)
                     Strong attacking role (for midfielders with high xG/xA)
                     Penalty, corner, or free kick duties
-                    Facing easy matchups
+                    Facing easy matchups (matchups against teams that are ranked 14-20th in average xGA)
                     High average minutes (>60 in a game since that's the 2 point threshold)
                     Relatively low ownership % (<10%) IF the above are good, represents a differential pick
                     Relatively cheap price
 
                 Player Weaknesses:
                     Low xG/xA in recent games (<= 0.1 for forwards, <= 0.05 for midfielders)
-                    Facing tough matchups
+                    Facing tough matchups (matchups against teams that are in the top 7 for average xGA)
                     Defensive role (for midfielders with low xG/xA)
                     Low average minutes (<60)
                     Relatively high ownership (>25%) IF they have good strengths, represents a safe pick with a low ceiling
@@ -177,11 +192,14 @@ async function generateAnalysis(player: any, matchups: any) {
                 Mention ONLY an opponent's xGA when talking about attacking midfielders and forwards, and mention ONLY an opponent's xG when talking about defenders and goalkeepers. An opponent's xG is not relevant to attackers, and an opponent's xGA is not relevant to defenders.
                 Mention ONLY the teham's xG when talking about attacking midfielders and forwards, and mention ONLY the team's xGA when talking about defenders and goalkeepers. A team's xGA is not relevant to attackers, and an team's xG is not relevant to defenders.
                 When mentioning a team's rank in a certain metric, give the actual figure as well in this format: (nth-ranked average {home/away} {metric}, {metric number}). Don't use the word "opponent" in the brackets, it's understood. Make sure to mention home or away though, it's important
-            
+                Stop using your heuristic to determine matchup difficulty, ONLY use the numbers, ranks and analysis guidelines provided. A lot of teams that were historically not great are doing well now, so be open-minded when evaluating matchups.
+                Remember that ranks are ORDINAL so lower values are better, e.g. rank 3 in xGA is the 3rd lowest expected goals allowed in the league, representing an excellent defense and a tough matchup.
+                
             Output Format:
 
             Pros:
-                Bullet points listing player strengths (e.g., "High xG in last 5 games", "Facing opponent with high xGA")
+                Bullet points listing player strengths (e.g., "High xG in last 5 games",)
+                Do NOT list tough matchups here. ALWAYS list tough matchups under "Cons".
             Cons:
                 Bullet points listing player weaknesses (e.g., "Facing opponent with low xGA", "Low xA in last 5 games")
 
