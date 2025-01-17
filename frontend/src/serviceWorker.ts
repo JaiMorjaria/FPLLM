@@ -26,6 +26,7 @@ chrome.runtime.onInstalled.addListener(async () => {
         id: 'analyzePick',
         title: 'Analyze Pick',
         contexts: ['selection'],
+        documentUrlPatterns: ["*://fantasy.premierleague.com/*"], // Restrict to this domain
     });
 
     console.log('Extension successfully installed!');
