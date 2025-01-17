@@ -1,59 +1,11 @@
 {
-    "Son": {
-        "name": "Son Heung-Min",
-        "position": "Midfielder",
-        "lookup_name": "Son Heung-Min",
-        "selected_by_percent": "5.2",
-        "yellow_cards": 0,
-        "price": 98,
-        "penalty_duties": true,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.15,
-        "team": "Tottenham",
-        "l5_average_xg": 0.37,
-        "l5_average_xa": 0.3,
-        "minutes_per_game": 73
-    },
-    "Wood": {
-        "name": "Chris Wood",
-        "position": "Forward",
-        "lookup_name": "Chris Wood",
-        "selected_by_percent": "1.4",
-        "yellow_cards": 2,
-        "price": 40,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "team": "Nottingham Forest",
-        "l5_average_xg": 0.33,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 80,
-        "clean_sheets_per_90": 0.16
-    },
-    "Justin": {
-        "name": "James Justin",
-        "position": "Defender",
-        "lookup_name": "James Justin",
-        "selected_by_percent": "1.7",
-        "yellow_cards": 2,
-        "price": 42,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.05,
-        "team": "Leicester",
-        "l5_average_xg": 0.16,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 86
-    },
-    "G.Jesus": {
+    "Gabriel Fernando de Jesus": {
         "name": "Gabriel Jesus",
         "position": "Forward",
         "lookup_name": "Gabriel Fernando de Jesus",
-        "selected_by_percent": "8.1",
+        "selected_by_percent": "3.4",
         "yellow_cards": 4,
-        "price": 69,
+        "price": 68,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
@@ -62,54 +14,54 @@
         "l5_average_xa": 0.03,
         "minutes_per_game": 34
     },
-    "Gabriel": {
+    "Gabriel dos Santos Magalhães": {
         "name": "Gabriel",
         "position": "Defender",
         "lookup_name": "Gabriel dos Santos Magalhães",
         "selected_by_percent": "29.0",
-        "yellow_cards": 2,
+        "yellow_cards": 3,
         "price": 64,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.35,
+        "clean_sheets_per_90": 0.33,
         "team": "Arsenal",
-        "l5_average_xg": 0.2,
-        "l5_average_xa": 0.12,
+        "l5_average_xg": 0.21,
+        "l5_average_xa": 0.11,
         "minutes_per_game": 86
     },
-    "Havertz": {
+    "Kai Havertz": {
         "name": "Kai Havertz",
         "position": "Forward",
         "lookup_name": "Kai Havertz",
-        "selected_by_percent": "8.4",
-        "yellow_cards": 3,
+        "selected_by_percent": "8.1",
+        "yellow_cards": 4,
         "price": 78,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Arsenal",
-        "l5_average_xg": 0.59,
+        "l5_average_xg": 0.65,
         "l5_average_xa": 0.25,
         "minutes_per_game": 87
     },
-    "J.Timber": {
+    "Jurriën Timber": {
         "name": "Jurriën Timber",
         "position": "Defender",
         "lookup_name": "Jurriën Timber",
-        "selected_by_percent": "5.6",
+        "selected_by_percent": "5.2",
         "yellow_cards": 5,
         "price": 57,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.39,
+        "clean_sheets_per_90": 0.36,
         "team": "Arsenal",
         "l5_average_xg": 0.0,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 83
+        "l5_average_xa": 0.0,
+        "minutes_per_game": 84
     },
-    "Jorginho": {
+    "Jorge Luiz Frello Filho": {
         "name": "Jorginho",
         "position": "Midfielder",
         "lookup_name": "Jorge Luiz Frello Filho",
@@ -125,7 +77,7 @@
         "l5_average_xa": 0.06,
         "minutes_per_game": 46
     },
-    "Kiwior": {
+    "Jakub Kiwior": {
         "name": "Jakub Kiwior",
         "position": "Defender",
         "lookup_name": "Jakub Kiwior",
@@ -141,27 +93,27 @@
         "l5_average_xa": 0.01,
         "minutes_per_game": 38
     },
-    "Martinelli": {
+    "Gabriel Martinelli Silva": {
         "name": "Gabriel Martinelli",
         "position": "Midfielder",
         "lookup_name": "Gabriel Martinelli Silva",
-        "selected_by_percent": "4.7",
+        "selected_by_percent": "4.1",
         "yellow_cards": 1,
         "price": 68,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.46,
+        "clean_sheets_per_90": 0.45,
         "team": "Arsenal",
-        "l5_average_xg": 0.24,
+        "l5_average_xg": 0.22,
         "l5_average_xa": 0.12,
-        "minutes_per_game": 65
+        "minutes_per_game": 63
     },
-    "Nwaneri": {
+    "Ethan Nwaneri": {
         "name": "Ethan Nwaneri",
         "position": "Midfielder",
         "lookup_name": "Ethan Nwaneri",
-        "selected_by_percent": "0.6",
+        "selected_by_percent": "0.5",
         "yellow_cards": 1,
         "price": 45,
         "penalty_duties": false,
@@ -173,34 +125,34 @@
         "l5_average_xa": 0.01,
         "minutes_per_game": 17
     },
-    "Ødegaard": {
+    "Martin Ødegaard": {
         "name": "Martin Odegaard",
         "position": "Midfielder",
         "lookup_name": "Martin Ødegaard",
-        "selected_by_percent": "6.0",
+        "selected_by_percent": "5.5",
         "yellow_cards": 1,
         "price": 83,
         "penalty_duties": false,
         "freekick_duties": true,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.53,
+        "clean_sheets_per_90": 0.49,
         "team": "Arsenal",
-        "l5_average_xg": 0.2,
-        "l5_average_xa": 0.13,
+        "l5_average_xg": 0.21,
+        "l5_average_xa": 0.25,
         "minutes_per_game": 80
     },
-    "Raya": {
+    "David Raya Martin": {
         "name": "David Raya",
         "position": "Goalkeeper",
         "lookup_name": "David Raya Martin",
-        "selected_by_percent": "30.4",
+        "selected_by_percent": "29.6",
         "yellow_cards": 2,
         "price": 56,
-        "clean_sheets_per_90": 0.35,
+        "clean_sheets_per_90": 0.33,
         "team": "Arsenal",
         "minutes_per_game": 90
     },
-    "Rice": {
+    "Declan Rice": {
         "name": "Declan Rice",
         "position": "Midfielder",
         "lookup_name": "Declan Rice",
@@ -210,17 +162,17 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.33,
+        "clean_sheets_per_90": 0.31,
         "team": "Arsenal",
-        "l5_average_xg": 0.05,
-        "l5_average_xa": 0.5,
+        "l5_average_xg": 0.06,
+        "l5_average_xa": 0.55,
         "minutes_per_game": 77
     },
-    "Saka": {
+    "Bukayo Saka": {
         "name": "Bukayo Saka",
         "position": "Midfielder",
         "lookup_name": "Bukayo Saka",
-        "selected_by_percent": "10.2",
+        "selected_by_percent": "9.9",
         "yellow_cards": 3,
         "price": 102,
         "penalty_duties": true,
@@ -232,23 +184,23 @@
         "l5_average_xa": 0.48,
         "minutes_per_game": 81
     },
-    "Saliba": {
+    "William Saliba": {
         "name": "William Saliba",
         "position": "Defender",
         "lookup_name": "William Saliba",
-        "selected_by_percent": "29.3",
+        "selected_by_percent": "28.5",
         "yellow_cards": 2,
         "price": 63,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.38,
+        "clean_sheets_per_90": 0.36,
         "team": "Arsenal",
         "l5_average_xg": 0.0,
         "l5_average_xa": 0.02,
         "minutes_per_game": 86
     },
-    "Thomas": {
+    "Thomas Partey": {
         "name": "Thomas Partey",
         "position": "Midfielder",
         "lookup_name": "Thomas Partey",
@@ -258,13 +210,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.24,
+        "clean_sheets_per_90": 0.23,
         "team": "Arsenal",
-        "l5_average_xg": 0.05,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 78
+        "l5_average_xg": 0.06,
+        "l5_average_xa": 0.06,
+        "minutes_per_game": 79
     },
-    "Trossard": {
+    "Leandro Trossard": {
         "name": "Leandro Trossard",
         "position": "Midfielder",
         "lookup_name": "Leandro Trossard",
@@ -274,13 +226,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.4,
+        "clean_sheets_per_90": 0.38,
         "team": "Arsenal",
-        "l5_average_xg": 0.06,
-        "l5_average_xa": 0.31,
-        "minutes_per_game": 56
+        "l5_average_xg": 0.16,
+        "l5_average_xa": 0.32,
+        "minutes_per_game": 57
     },
-    "White": {
+    "Benjamin White": {
         "name": "Ben White",
         "position": "Defender",
         "lookup_name": "Benjamin White",
@@ -296,7 +248,7 @@
         "l5_average_xa": 0.08,
         "minutes_per_game": 75
     },
-    "Zinchenko": {
+    "Oleksandr Zinchenko": {
         "name": "Oleksandr Zinchenko",
         "position": "Defender",
         "lookup_name": "Oleksandr Zinchenko",
@@ -306,17 +258,33 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.77,
+        "clean_sheets_per_90": 0.76,
         "team": "Arsenal",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.01,
-        "minutes_per_game": 31
+        "minutes_per_game": 27
     },
-    "Calafiori": {
+    "Raheem Sterling": {
+        "name": "Raheem Sterling",
+        "position": "Midfielder",
+        "lookup_name": "Raheem Sterling",
+        "selected_by_percent": "0.8",
+        "yellow_cards": 0,
+        "price": 67,
+        "penalty_duties": false,
+        "freekick_duties": false,
+        "corner_duties": false,
+        "clean_sheets_per_90": 0.0,
+        "team": "Arsenal",
+        "l5_average_xg": 0.12,
+        "l5_average_xa": 0.05,
+        "minutes_per_game": 27
+    },
+    "Riccardo Calafiori": {
         "name": "Riccardo Calafiori",
         "position": "Defender",
         "lookup_name": "Riccardo Calafiori",
-        "selected_by_percent": "1.3",
+        "selected_by_percent": "1.2",
         "yellow_cards": 3,
         "price": 58,
         "penalty_duties": false,
@@ -328,7 +296,23 @@
         "l5_average_xa": 0.03,
         "minutes_per_game": 65
     },
-    "Merino": {
+    "Myles Lewis-Skelly": {
+        "name": "Myles Lewis-Skelly",
+        "position": "Midfielder",
+        "lookup_name": "Myles Lewis-Skelly",
+        "selected_by_percent": "0.2",
+        "yellow_cards": 2,
+        "price": 45,
+        "penalty_duties": false,
+        "freekick_duties": false,
+        "corner_duties": false,
+        "clean_sheets_per_90": 0.55,
+        "team": "Arsenal",
+        "l5_average_xg": 0.0,
+        "l5_average_xa": 0.03,
+        "minutes_per_game": 47
+    },
+    "Mikel Merino": {
         "name": "Mikel Merino",
         "position": "Midfielder",
         "lookup_name": "Mikel Merino",
@@ -340,15 +324,15 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.27,
         "team": "Arsenal",
-        "l5_average_xg": 0.3,
-        "l5_average_xa": 0.1,
-        "minutes_per_game": 51
+        "l5_average_xg": 0.29,
+        "l5_average_xa": 0.06,
+        "minutes_per_game": 47
     },
-    "Bailey": {
+    "Leon Bailey": {
         "name": "Leon Bailey",
         "position": "Midfielder",
         "lookup_name": "Leon Bailey",
-        "selected_by_percent": "0.9",
+        "selected_by_percent": "0.8",
         "yellow_cards": 2,
         "price": 62,
         "penalty_duties": false,
@@ -360,7 +344,7 @@
         "l5_average_xa": 0.05,
         "minutes_per_game": 55
     },
-    "Barkley": {
+    "Ross Barkley": {
         "name": "Ross Barkley",
         "position": "Midfielder",
         "lookup_name": "Ross Barkley",
@@ -376,23 +360,39 @@
         "l5_average_xa": 0.12,
         "minutes_per_game": 30
     },
-    "Cash": {
+    "Emiliano Buendía Stati": {
+        "name": "Emiliano Buendía",
+        "position": "Midfielder",
+        "lookup_name": "Emiliano Buendía Stati",
+        "selected_by_percent": "0.1",
+        "yellow_cards": 1,
+        "price": 51,
+        "penalty_duties": false,
+        "freekick_duties": false,
+        "corner_duties": false,
+        "clean_sheets_per_90": 0.0,
+        "team": "Aston Villa",
+        "l5_average_xg": 0.13,
+        "l5_average_xa": 0.0,
+        "minutes_per_game": 3
+    },
+    "Matty Cash": {
         "name": "Matthew Cash",
         "position": "Defender",
         "lookup_name": "Matty Cash",
-        "selected_by_percent": "1.2",
+        "selected_by_percent": "1.1",
         "yellow_cards": 5,
         "price": 44,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.09,
+        "clean_sheets_per_90": 0.17,
         "team": "Aston Villa",
-        "l5_average_xg": 0.05,
+        "l5_average_xg": 0.04,
         "l5_average_xa": 0.04,
-        "minutes_per_game": 76
+        "minutes_per_game": 77
     },
-    "Diego Carlos": {
+    "Diego Carlos Santos Silva": {
         "name": "Diego Carlos",
         "position": "Defender",
         "lookup_name": "Diego Carlos Santos Silva",
@@ -408,23 +408,23 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 82
     },
-    "Digne": {
+    "Lucas Digne": {
         "name": "Lucas Digne",
         "position": "Defender",
         "lookup_name": "Lucas Digne",
-        "selected_by_percent": "7.2",
+        "selected_by_percent": "6.9",
         "yellow_cards": 3,
         "price": 46,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.12,
+        "clean_sheets_per_90": 0.17,
         "team": "Aston Villa",
-        "l5_average_xg": 0.01,
+        "l5_average_xg": 0.03,
         "l5_average_xa": 0.06,
-        "minutes_per_game": 77
+        "minutes_per_game": 78
     },
-    "Duran": {
+    "Jhon Durán": {
         "name": "Jhon Durán",
         "position": "Forward",
         "lookup_name": "Jhon Durán",
@@ -439,39 +439,23 @@
         "l5_average_xa": 0.02,
         "minutes_per_game": 30
     },
-    "Kamara": {
-        "name": "Boubacar Kamara",
-        "position": "Midfielder",
-        "lookup_name": "Boubacar Kamara",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 1,
-        "price": 50,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.13,
-        "team": "Aston Villa",
-        "l5_average_xg": 0.02,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 62
-    },
-    "Konsa": {
+    "Ezri Konsa Ngoyo": {
         "name": "Ezri Konsa Ngoyo",
         "position": "Defender",
         "lookup_name": "Ezri Konsa Ngoyo",
-        "selected_by_percent": "6.9",
+        "selected_by_percent": "6.7",
         "yellow_cards": 0,
         "price": 44,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.06,
+        "clean_sheets_per_90": 0.11,
         "team": "Aston Villa",
-        "l5_average_xg": 0.04,
+        "l5_average_xg": 0.0,
         "l5_average_xa": 0.01,
         "minutes_per_game": 85
     },
-    "Maatsen": {
+    "Ian Maatsen": {
         "name": "Ian Maatsen",
         "position": "Defender",
         "lookup_name": "Ian Maatsen",
@@ -487,27 +471,22 @@
         "l5_average_xa": 0.16,
         "minutes_per_game": 17
     },
-    "Martinez": {
+    "Emiliano Martínez Romero": {
         "name": "Emiliano Martinez",
         "position": "Goalkeeper",
-        "lookup_name": "Emiliano Martinez",
-        "selected_by_percent": "3.5",
-        "yellow_cards": 6,
-        "price": 44,
-        "clean_sheets_per_90": 0.3,
+        "lookup_name": "Emiliano Martínez Romero",
+        "selected_by_percent": "11.0",
+        "yellow_cards": 2,
+        "price": 50,
+        "clean_sheets_per_90": 0.15,
         "team": "Aston Villa",
-        "minutes_per_game": 88,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.0
+        "minutes_per_game": 88
     },
-    "McGinn": {
+    "John McGinn": {
         "name": "John McGinn",
         "position": "Midfielder",
         "lookup_name": "John McGinn",
-        "selected_by_percent": "0.8",
+        "selected_by_percent": "0.7",
         "yellow_cards": 3,
         "price": 52,
         "penalty_duties": false,
@@ -519,13 +498,29 @@
         "l5_average_xa": 0.13,
         "minutes_per_game": 71
     },
-    "Pau": {
+    "Tyrone Mings": {
+        "name": "Tyrone Mings",
+        "position": "Defender",
+        "lookup_name": "Tyrone Mings",
+        "selected_by_percent": "0.1",
+        "yellow_cards": 1,
+        "price": 44,
+        "penalty_duties": false,
+        "freekick_duties": false,
+        "corner_duties": false,
+        "clean_sheets_per_90": 0.26,
+        "team": "Aston Villa",
+        "l5_average_xg": 0.06,
+        "l5_average_xa": 0.04,
+        "minutes_per_game": 85
+    },
+    "Pau Torres": {
         "name": "Pau Torres",
         "position": "Defender",
         "lookup_name": "Pau Torres",
-        "selected_by_percent": "1.0",
+        "selected_by_percent": "0.9",
         "yellow_cards": 1,
-        "price": 43,
+        "price": 42,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
@@ -535,7 +530,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 86
     },
-    "Ramsey": {
+    "Jacob Ramsey": {
         "name": "Jacob Ramsey",
         "position": "Midfielder",
         "lookup_name": "Jacob Ramsey",
@@ -545,29 +540,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.0,
+        "clean_sheets_per_90": 0.11,
         "team": "Aston Villa",
-        "l5_average_xg": 0.02,
-        "l5_average_xa": 0.11,
-        "minutes_per_game": 60
+        "l5_average_xg": 0.11,
+        "l5_average_xa": 0.09,
+        "minutes_per_game": 61
     },
-    "Rogers": {
+    "Morgan Rogers": {
         "name": "Morgan Rogers",
         "position": "Midfielder",
         "lookup_name": "Morgan Rogers",
-        "selected_by_percent": "21.8",
+        "selected_by_percent": "22.4",
         "yellow_cards": 5,
         "price": 55,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.17,
+        "clean_sheets_per_90": 0.22,
         "team": "Aston Villa",
         "l5_average_xg": 0.19,
-        "l5_average_xa": 0.2,
+        "l5_average_xa": 0.18,
         "minutes_per_game": 84
     },
-    "Tielemans": {
+    "Youri Tielemans": {
         "name": "Youri Tielemans",
         "position": "Midfielder",
         "lookup_name": "Youri Tielemans",
@@ -577,92 +572,60 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": true,
-        "clean_sheets_per_90": 0.11,
+        "clean_sheets_per_90": 0.15,
         "team": "Aston Villa",
-        "l5_average_xg": 0.05,
+        "l5_average_xg": 0.08,
         "l5_average_xa": 0.1,
         "minutes_per_game": 85
     },
-    "Watkins": {
+    "Ollie Watkins": {
         "name": "Ollie Watkins",
         "position": "Forward",
         "lookup_name": "Ollie Watkins",
-        "selected_by_percent": "16.8",
+        "selected_by_percent": "16.3",
         "yellow_cards": 0,
         "price": 89,
         "penalty_duties": true,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Aston Villa",
-        "l5_average_xg": 0.39,
-        "l5_average_xa": 0.07,
-        "minutes_per_game": 69
+        "l5_average_xg": 0.48,
+        "l5_average_xa": 0.09,
+        "minutes_per_game": 70
     },
-    "Onana": {
+    "Amadou Onana": {
         "name": "Amadou Onana",
         "position": "Midfielder",
         "lookup_name": "Amadou Onana",
-        "selected_by_percent": "7.5",
-        "yellow_cards": 0,
-        "price": 51,
+        "selected_by_percent": "2.6",
+        "yellow_cards": 4,
+        "price": 49,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.3,
+        "clean_sheets_per_90": 0.18,
         "team": "Aston Villa",
-        "l5_average_xg": 0.11,
+        "l5_average_xg": 0.09,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 66
+        "minutes_per_game": 68
     },
-    "Adams": {
-        "name": "Tyler Adams",
-        "position": "Midfielder",
-        "lookup_name": "Tyler Adams",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 3,
-        "price": 49,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.36,
-        "team": "Bournemouth",
-        "l5_average_xg": 0.11,
-        "l5_average_xa": 0.04,
-        "minutes_per_game": 49
-    },
-    "Brooks": {
-        "name": "David Brooks",
-        "position": "Midfielder",
-        "lookup_name": "David Brooks",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 2,
-        "price": 49,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.0,
-        "team": "Bournemouth",
-        "l5_average_xg": 0.06,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 18
-    },
-    "Christie": {
+    "Ryan Christie": {
         "name": "Ryan Christie",
         "position": "Midfielder",
         "lookup_name": "Ryan Christie",
         "selected_by_percent": "0.2",
-        "yellow_cards": 6,
+        "yellow_cards": 7,
         "price": 49,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.45,
+        "clean_sheets_per_90": 0.42,
         "team": "Bournemouth",
-        "l5_average_xg": 0.06,
-        "l5_average_xa": 0.13,
-        "minutes_per_game": 74
+        "l5_average_xg": 0.01,
+        "l5_average_xa": 0.08,
+        "minutes_per_game": 75
     },
-    "Cook": {
+    "Lewis Cook": {
         "name": "Lewis Cook",
         "position": "Midfielder",
         "lookup_name": "Lewis Cook",
@@ -672,17 +635,17 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": true,
-        "clean_sheets_per_90": 0.17,
+        "clean_sheets_per_90": 0.16,
         "team": "Bournemouth",
         "l5_average_xg": 0.01,
-        "l5_average_xa": 0.16,
+        "l5_average_xa": 0.15,
         "minutes_per_game": 83
     },
     "Enes Ünal": {
         "name": "Enes Ünal",
         "position": "Forward",
         "lookup_name": "Enes Ünal",
-        "selected_by_percent": "0.2",
+        "selected_by_percent": "0.1",
         "yellow_cards": 2,
         "price": 54,
         "penalty_duties": false,
@@ -693,7 +656,7 @@
         "l5_average_xa": 0.02,
         "minutes_per_game": 17
     },
-    "Hill": {
+    "James Hill": {
         "name": "James Hill",
         "position": "Defender",
         "lookup_name": "James Hill",
@@ -703,13 +666,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.58,
+        "clean_sheets_per_90": 0.51,
         "team": "Bournemouth",
         "l5_average_xg": 0.0,
-        "l5_average_xa": 0.08,
-        "minutes_per_game": 40
+        "l5_average_xa": 0.07,
+        "minutes_per_game": 36
     },
-    "Kerkez": {
+    "Milos Kerkez": {
         "name": "Milos Kerkez",
         "position": "Defender",
         "lookup_name": "Milos Kerkez",
@@ -719,29 +682,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.26,
+        "clean_sheets_per_90": 0.25,
         "team": "Bournemouth",
-        "l5_average_xg": 0.03,
-        "l5_average_xa": 0.16,
+        "l5_average_xg": 0.02,
+        "l5_average_xa": 0.14,
         "minutes_per_game": 87
     },
-    "Kluivert": {
+    "Justin Kluivert": {
         "name": "Justin Kluivert",
         "position": "Midfielder",
         "lookup_name": "Justin Kluivert",
-        "selected_by_percent": "3.4",
+        "selected_by_percent": "3.2",
         "yellow_cards": 5,
         "price": 55,
         "penalty_duties": true,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.68,
+        "clean_sheets_per_90": 0.64,
         "team": "Bournemouth",
-        "l5_average_xg": 0.36,
-        "l5_average_xa": 0.08,
-        "minutes_per_game": 64
+        "l5_average_xg": 0.46,
+        "l5_average_xa": 0.05,
+        "minutes_per_game": 65
     },
-    "O.Dango": {
+    "Dango Ouattara": {
         "name": "Dango Ouattara",
         "position": "Midfielder",
         "lookup_name": "Dango Ouattara",
@@ -751,61 +714,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.41,
+        "clean_sheets_per_90": 0.37,
         "team": "Bournemouth",
-        "l5_average_xg": 0.4,
-        "l5_average_xa": 0.24,
-        "minutes_per_game": 51
+        "l5_average_xg": 0.29,
+        "l5_average_xa": 0.19,
+        "minutes_per_game": 53
     },
-    "Philip": {
-        "name": "Philip Billing",
-        "position": "Midfielder",
-        "lookup_name": "Philip Billing",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 1,
-        "price": 48,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.0,
-        "team": "Bournemouth",
-        "l5_average_xg": 0.07,
-        "l5_average_xa": 0.09,
-        "minutes_per_game": 15
-    },
-    "Scott": {
-        "name": "Alex Scott",
-        "position": "Midfielder",
-        "lookup_name": "Alex Scott",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 0,
-        "price": 47,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.35,
-        "team": "Bournemouth",
-        "l5_average_xg": 0.01,
-        "l5_average_xa": 0.04,
-        "minutes_per_game": 32
-    },
-    "Semenyo": {
+    "Antoine Semenyo": {
         "name": "Antoine Semenyo",
         "position": "Midfielder",
         "lookup_name": "Antoine Semenyo",
-        "selected_by_percent": "6.5",
+        "selected_by_percent": "6.2",
         "yellow_cards": 5,
         "price": 56,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.33,
+        "clean_sheets_per_90": 0.31,
         "team": "Bournemouth",
-        "l5_average_xg": 0.62,
+        "l5_average_xg": 0.53,
         "l5_average_xa": 0.15,
         "minutes_per_game": 87
     },
-    "Senesi": {
+    "Marcos Senesi": {
         "name": "Marcos Senesi",
         "position": "Defender",
         "lookup_name": "Marcos Senesi",
@@ -821,7 +752,7 @@
         "l5_average_xa": 0.01,
         "minutes_per_game": 85
     },
-    "Sinisterra": {
+    "Luis Sinisterra": {
         "name": "Luis Sinisterra",
         "position": "Midfielder",
         "lookup_name": "Luis Sinisterra",
@@ -837,11 +768,11 @@
         "l5_average_xa": 0.15,
         "minutes_per_game": 25
     },
-    "Smith": {
+    "Adam Smith": {
         "name": "Adam Smith",
         "position": "Defender",
         "lookup_name": "Adam Smith",
-        "selected_by_percent": "0.2",
+        "selected_by_percent": "0.1",
         "yellow_cards": 4,
         "price": 44,
         "penalty_duties": false,
@@ -853,7 +784,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 62
     },
-    "Tavernier": {
+    "Marcus Tavernier": {
         "name": "Marcus Tavernier",
         "position": "Midfielder",
         "lookup_name": "Marcus Tavernier",
@@ -869,18 +800,18 @@
         "l5_average_xa": 0.23,
         "minutes_per_game": 76
     },
-    "Travers": {
+    "Mark Travers": {
         "name": "Mark Travers",
         "position": "Goalkeeper",
         "lookup_name": "Mark Travers",
         "selected_by_percent": "0.2",
         "yellow_cards": 0,
         "price": 44,
-        "clean_sheets_per_90": 0.25,
+        "clean_sheets_per_90": 0.2,
         "team": "Bournemouth",
         "minutes_per_game": 90
     },
-    "Zabarnyi": {
+    "Illia Zabarnyi": {
         "name": "Illia Zabarnyi",
         "position": "Defender",
         "lookup_name": "Illia Zabarnyi",
@@ -890,46 +821,46 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.25,
+        "clean_sheets_per_90": 0.24,
         "team": "Bournemouth",
-        "l5_average_xg": 0.06,
+        "l5_average_xg": 0.04,
         "l5_average_xa": 0.05,
         "minutes_per_game": 90
     },
-    "Arrizabalaga": {
+    "Kepa Arrizabalaga": {
         "name": "Kepa",
         "position": "Goalkeeper",
         "lookup_name": "Kepa Arrizabalaga",
-        "selected_by_percent": "2.0",
+        "selected_by_percent": "1.8",
         "yellow_cards": 2,
         "price": 45,
         "clean_sheets_per_90": 0.29,
         "team": "Bournemouth",
         "minutes_per_game": 90
     },
-    "Huijsen": {
+    "Dean Huijsen": {
         "name": "Dean Huijsen",
         "position": "Defender",
         "lookup_name": "Dean Huijsen",
-        "selected_by_percent": "3.9",
-        "yellow_cards": 3,
+        "selected_by_percent": "3.8",
+        "yellow_cards": 4,
         "price": 44,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.41,
+        "clean_sheets_per_90": 0.37,
         "team": "Bournemouth",
         "l5_average_xg": 0.07,
         "l5_average_xa": 0.15,
-        "minutes_per_game": 61
+        "minutes_per_game": 63
     },
-    "Evanilson": {
+    "Francisco Evanilson de Lima Barbosa": {
         "name": "Evanilson",
         "position": "Forward",
         "lookup_name": "Francisco Evanilson de Lima Barbosa",
-        "selected_by_percent": "2.4",
+        "selected_by_percent": "1.5",
         "yellow_cards": 0,
-        "price": 59,
+        "price": 58,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
@@ -938,23 +869,23 @@
         "l5_average_xa": 0.03,
         "minutes_per_game": 74
     },
-    "Collins": {
+    "Nathan Collins": {
         "name": "Nathan Collins",
         "position": "Defender",
         "lookup_name": "Nathan Collins",
-        "selected_by_percent": "2.3",
+        "selected_by_percent": "2.2",
         "yellow_cards": 2,
         "price": 46,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.15,
+        "clean_sheets_per_90": 0.14,
         "team": "Brentford",
-        "l5_average_xg": 0.02,
-        "l5_average_xa": 0.06,
+        "l5_average_xg": 0.03,
+        "l5_average_xa": 0.0,
         "minutes_per_game": 90
     },
-    "Damsgaard": {
+    "Mikkel Damsgaard": {
         "name": "Mikkel Damsgaard",
         "position": "Midfielder",
         "lookup_name": "Mikkel Damsgaard",
@@ -964,24 +895,24 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": true,
-        "clean_sheets_per_90": 0.31,
+        "clean_sheets_per_90": 0.29,
         "team": "Brentford",
         "l5_average_xg": 0.07,
-        "l5_average_xa": 0.33,
+        "l5_average_xa": 0.36,
         "minutes_per_game": 74
     },
-    "Flekken": {
+    "Mark Flekken": {
         "name": "Mark Flekken",
         "position": "Goalkeeper",
         "lookup_name": "Mark Flekken",
-        "selected_by_percent": "9.2",
+        "selected_by_percent": "9.1",
         "yellow_cards": 1,
         "price": 44,
         "clean_sheets_per_90": 0.1,
         "team": "Brentford",
         "minutes_per_game": 87
     },
-    "Janelt": {
+    "Vitaly Janelt": {
         "name": "Vitaly Janelt",
         "position": "Midfielder",
         "lookup_name": "Vitaly Janelt",
@@ -991,13 +922,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.19,
+        "clean_sheets_per_90": 0.18,
         "team": "Brentford",
-        "l5_average_xg": 0.01,
-        "l5_average_xa": 0.1,
+        "l5_average_xg": 0.02,
+        "l5_average_xa": 0.02,
         "minutes_per_game": 76
     },
-    "Jensen": {
+    "Mathias Jensen": {
         "name": "Mathias Jensen",
         "position": "Midfielder",
         "lookup_name": "Mathias Jensen",
@@ -1007,13 +938,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.32,
+        "clean_sheets_per_90": 0.29,
         "team": "Brentford",
         "l5_average_xg": 0.02,
-        "l5_average_xa": 0.13,
-        "minutes_per_game": 56
+        "l5_average_xa": 0.17,
+        "minutes_per_game": 57
     },
-    "Lewis-Potter": {
+    "Keane Lewis-Potter": {
         "name": "Keane Lewis-Potter",
         "position": "Midfielder",
         "lookup_name": "Keane Lewis-Potter",
@@ -1023,29 +954,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.23,
+        "clean_sheets_per_90": 0.22,
         "team": "Brentford",
-        "l5_average_xg": 0.28,
-        "l5_average_xa": 0.05,
+        "l5_average_xg": 0.27,
+        "l5_average_xa": 0.06,
         "minutes_per_game": 79
     },
-    "Mbeumo": {
+    "Bryan Mbeumo": {
         "name": "Bryan Mbeumo",
         "position": "Midfielder",
         "lookup_name": "Bryan Mbeumo",
-        "selected_by_percent": "32.8",
+        "selected_by_percent": "32.5",
         "yellow_cards": 2,
         "price": 78,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.2,
+        "clean_sheets_per_90": 0.19,
         "team": "Brentford",
-        "l5_average_xg": 0.43,
-        "l5_average_xa": 0.37,
+        "l5_average_xg": 0.4,
+        "l5_average_xa": 0.54,
         "minutes_per_game": 89
     },
-    "Nørgaard": {
+    "Christian Nørgaard": {
         "name": "Christian Nørgaard",
         "position": "Midfielder",
         "lookup_name": "Christian Nørgaard",
@@ -1055,17 +986,17 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.13,
+        "clean_sheets_per_90": 0.12,
         "team": "Brentford",
-        "l5_average_xg": 0.18,
+        "l5_average_xg": 0.11,
         "l5_average_xa": 0.02,
         "minutes_per_game": 83
     },
-    "Pinnock": {
+    "Ethan Pinnock": {
         "name": "Ethan Pinnock",
         "position": "Defender",
         "lookup_name": "Ethan Pinnock",
-        "selected_by_percent": "0.4",
+        "selected_by_percent": "0.3",
         "yellow_cards": 2,
         "price": 44,
         "penalty_duties": false,
@@ -1077,7 +1008,7 @@
         "l5_average_xa": 0.15,
         "minutes_per_game": 90
     },
-    "Roerslev": {
+    "Mads Roerslev Rasmussen": {
         "name": "Mads Roerslev",
         "position": "Defender",
         "lookup_name": "Mads Roerslev Rasmussen",
@@ -1087,13 +1018,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.22,
+        "clean_sheets_per_90": 0.2,
         "team": "Brentford",
-        "l5_average_xg": 0.02,
-        "l5_average_xa": 0.04,
-        "minutes_per_game": 50
+        "l5_average_xg": 0.04,
+        "l5_average_xa": 0.13,
+        "minutes_per_game": 52
     },
-    "Schade": {
+    "Kevin Schade": {
         "name": "Kevin Schade",
         "position": "Midfielder",
         "lookup_name": "Kevin Schade",
@@ -1103,28 +1034,28 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.29,
+        "clean_sheets_per_90": 0.28,
         "team": "Brentford",
-        "l5_average_xg": 0.12,
-        "l5_average_xa": 0.14,
-        "minutes_per_game": 47
+        "l5_average_xg": 0.11,
+        "l5_average_xa": 0.16,
+        "minutes_per_game": 46
     },
-    "Wissa": {
+    "Yoane Wissa": {
         "name": "Yoane Wissa",
         "position": "Forward",
         "lookup_name": "Yoane Wissa",
-        "selected_by_percent": "9.5",
+        "selected_by_percent": "9.8",
         "yellow_cards": 2,
         "price": 62,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Brentford",
-        "l5_average_xg": 0.58,
-        "l5_average_xa": 0.1,
-        "minutes_per_game": 77
+        "l5_average_xg": 0.86,
+        "l5_average_xa": 0.11,
+        "minutes_per_game": 78
     },
-    "Yarmoliuk": {
+    "Yehor Yarmoliuk": {
         "name": "Yehor Yarmolyuk",
         "position": "Midfielder",
         "lookup_name": "Yehor Yarmoliuk",
@@ -1136,11 +1067,11 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.0,
         "team": "Brentford",
-        "l5_average_xg": 0.08,
+        "l5_average_xg": 0.02,
         "l5_average_xa": 0.01,
-        "minutes_per_game": 31
+        "minutes_per_game": 30
     },
-    "Carvalho": {
+    "Fábio Freitas Gouveia Carvalho": {
         "name": "Fabio Carvalho",
         "position": "Midfielder",
         "lookup_name": "Fábio Freitas Gouveia Carvalho",
@@ -1156,7 +1087,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 23
     },
-    "Van den Berg": {
+    "Sepp van den Berg": {
         "name": "Sepp van den Berg",
         "position": "Defender",
         "lookup_name": "Sepp van den Berg",
@@ -1168,11 +1099,11 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.13,
         "team": "Brentford",
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.0,
+        "l5_average_xg": 0.01,
+        "l5_average_xa": 0.01,
         "minutes_per_game": 84
     },
-    "Adingra": {
+    "Simon Adingra": {
         "name": "Simon Adingra",
         "position": "Midfielder",
         "lookup_name": "Simon Adingra",
@@ -1182,13 +1113,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.0,
+        "clean_sheets_per_90": 0.17,
         "team": "Brighton",
-        "l5_average_xg": 0.26,
-        "l5_average_xa": 0.04,
-        "minutes_per_game": 34
+        "l5_average_xg": 0.19,
+        "l5_average_xa": 0.05,
+        "minutes_per_game": 36
     },
-    "Baleba": {
+    "Carlos Baleba": {
         "name": "Carlos Baleba",
         "position": "Midfielder",
         "lookup_name": "Carlos Baleba",
@@ -1198,29 +1129,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.29,
+        "clean_sheets_per_90": 0.34,
         "team": "Brighton",
         "l5_average_xg": 0.03,
         "l5_average_xa": 0.02,
-        "minutes_per_game": 75
+        "minutes_per_game": 76
     },
-    "Dunk": {
+    "Lewis Dunk": {
         "name": "Lewis Dunk",
         "position": "Defender",
         "lookup_name": "Lewis Dunk",
-        "selected_by_percent": "3.4",
+        "selected_by_percent": "3.3",
         "yellow_cards": 4,
         "price": 43,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.29,
+        "clean_sheets_per_90": 0.28,
         "team": "Brighton",
         "l5_average_xg": 0.11,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 84
+        "l5_average_xa": 0.01,
+        "minutes_per_game": 80
     },
-    "Enciso": {
+    "Julio Enciso": {
         "name": "Julio Enciso",
         "position": "Midfielder",
         "lookup_name": "Julio Enciso",
@@ -1236,7 +1167,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 25
     },
-    "Estupiñan": {
+    "Pervis Estupiñán": {
         "name": "Estupiñán",
         "position": "Defender",
         "lookup_name": "Pervis Estupiñán",
@@ -1246,13 +1177,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.07,
+        "clean_sheets_per_90": 0.14,
         "team": "Brighton",
-        "l5_average_xg": 0.03,
-        "l5_average_xa": 0.11,
-        "minutes_per_game": 77
+        "l5_average_xg": 0.01,
+        "l5_average_xa": 0.12,
+        "minutes_per_game": 78
     },
-    "Ferguson": {
+    "Evan Ferguson": {
         "name": "Evan Ferguson",
         "position": "Forward",
         "lookup_name": "Evan Ferguson",
@@ -1267,23 +1198,7 @@
         "l5_average_xa": 0.13,
         "minutes_per_game": 15
     },
-    "Hinshelwood": {
-        "name": "Jack Hinshelwood",
-        "position": "Midfielder",
-        "lookup_name": "Jack Hinshelwood",
-        "selected_by_percent": "0.1",
-        "yellow_cards": 2,
-        "price": 49,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.32,
-        "team": "Brighton",
-        "l5_average_xg": 0.08,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 85
-    },
-    "Igor": {
+    "Igor Julio dos Santos de Paulo": {
         "name": "Igor Julio",
         "position": "Defender",
         "lookup_name": "Igor Julio dos Santos de Paulo",
@@ -1299,22 +1214,22 @@
         "l5_average_xa": 0.02,
         "minutes_per_game": 74
     },
-    "João Pedro": {
+    "João Pedro Junqueira de Jesus": {
         "name": "João Pedro",
         "position": "Forward",
         "lookup_name": "João Pedro Junqueira de Jesus",
-        "selected_by_percent": "16.7",
-        "yellow_cards": 1,
+        "selected_by_percent": "15.7",
+        "yellow_cards": 2,
         "price": 57,
         "penalty_duties": true,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Brighton",
-        "l5_average_xg": 0.23,
-        "l5_average_xa": 0.2,
+        "l5_average_xg": 0.24,
+        "l5_average_xa": 0.13,
         "minutes_per_game": 75
     },
-    "Lamptey": {
+    "Tariq Lamptey": {
         "name": "Tariq Lamptey",
         "position": "Defender",
         "lookup_name": "Tariq Lamptey",
@@ -1330,7 +1245,7 @@
         "l5_average_xa": 0.02,
         "minutes_per_game": 49
     },
-    "Minteh": {
+    "Yankuba Minteh": {
         "name": "Yankuba Minteh",
         "position": "Midfielder",
         "lookup_name": "Yankuba Minteh",
@@ -1342,27 +1257,27 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.14,
         "team": "Brighton",
-        "l5_average_xg": 0.05,
+        "l5_average_xg": 0.12,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 40
+        "minutes_per_game": 39
     },
-    "Mitoma": {
+    "Mitoma Kaoru": {
         "name": "Kaoru Mitoma",
         "position": "Midfielder",
         "lookup_name": "Mitoma Kaoru",
-        "selected_by_percent": "5.3",
+        "selected_by_percent": "5.1",
         "yellow_cards": 0,
-        "price": 64,
+        "price": 63,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.17,
+        "clean_sheets_per_90": 0.22,
         "team": "Brighton",
-        "l5_average_xg": 0.11,
+        "l5_average_xg": 0.06,
         "l5_average_xa": 0.07,
         "minutes_per_game": 79
     },
-    "Van Hecke": {
+    "Jan Paul van Hecke": {
         "name": "Jan Paul van Hecke",
         "position": "Defender",
         "lookup_name": "Jan Paul van Hecke",
@@ -1372,55 +1287,55 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.18,
+        "clean_sheets_per_90": 0.22,
         "team": "Brighton",
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.03,
+        "l5_average_xg": 0.02,
+        "l5_average_xa": 0.02,
         "minutes_per_game": 84
     },
-    "Veltman": {
+    "Joël Veltman": {
         "name": "Joël Veltman",
         "position": "Defender",
         "lookup_name": "Joël Veltman",
         "selected_by_percent": "1.9",
-        "yellow_cards": 3,
+        "yellow_cards": 4,
         "price": 44,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.3,
+        "clean_sheets_per_90": 0.35,
         "team": "Brighton",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.05,
-        "minutes_per_game": 86
+        "minutes_per_game": 87
     },
-    "Verbruggen": {
+    "Bart Verbruggen": {
         "name": "Bart Verbruggen",
         "position": "Goalkeeper",
         "lookup_name": "Bart Verbruggen",
-        "selected_by_percent": "2.9",
+        "selected_by_percent": "3.0",
         "yellow_cards": 2,
         "price": 45,
-        "clean_sheets_per_90": 0.17,
+        "clean_sheets_per_90": 0.21,
         "team": "Brighton",
         "minutes_per_game": 90
     },
-    "Welbeck": {
+    "Danny Welbeck": {
         "name": "Danny Welbeck",
         "position": "Forward",
         "lookup_name": "Danny Welbeck",
-        "selected_by_percent": "5.9",
+        "selected_by_percent": "6.0",
         "yellow_cards": 1,
         "price": 55,
         "penalty_duties": false,
         "freekick_duties": true,
         "corner_duties": false,
         "team": "Brighton",
-        "l5_average_xg": 0.24,
-        "l5_average_xa": 0.02,
-        "minutes_per_game": 81
+        "l5_average_xg": 0.19,
+        "l5_average_xa": 0.01,
+        "minutes_per_game": 77
     },
-    "Wieffer": {
+    "Mats Wieffer": {
         "name": "Mats Wieffer",
         "position": "Midfielder",
         "lookup_name": "Mats Wieffer",
@@ -1436,55 +1351,23 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 35
     },
-    "Gruda": {
-        "name": "Brajan Gruda",
-        "position": "Midfielder",
-        "lookup_name": "Brajan Gruda",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 0,
-        "price": 54,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.28,
-        "team": "Brighton",
-        "l5_average_xg": 0.04,
-        "l5_average_xa": 0.08,
-        "minutes_per_game": 33
-    },
-    "Ayari": {
-        "name": "Yasin Ayari",
-        "position": "Midfielder",
-        "lookup_name": "Yasin Ayari",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 3,
-        "price": 50,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.36,
-        "team": "Brighton",
-        "l5_average_xg": 0.14,
-        "l5_average_xa": 0.1,
-        "minutes_per_game": 60
-    },
-    "Georginio": {
+    "Georginio Rutter": {
         "name": "Georginio Rutter",
         "position": "Midfielder",
         "lookup_name": "Georginio Rutter",
-        "selected_by_percent": "0.6",
+        "selected_by_percent": "0.5",
         "yellow_cards": 2,
-        "price": 52,
+        "price": 51,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "clean_sheets_per_90": 0.33,
         "team": "Brighton",
-        "l5_average_xg": 0.05,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 57
+        "l5_average_xg": 0.08,
+        "l5_average_xa": 0.1,
+        "minutes_per_game": 56
     },
-    "F.Kadıoğlu": {
+    "Ferdi Kadioglu": {
         "name": "Ferdi Kadioglu",
         "position": "Defender",
         "lookup_name": "Ferdi Kadioglu",
@@ -1500,23 +1383,7 @@
         "l5_average_xa": 0.01,
         "minutes_per_game": 66
     },
-    "O'Riley": {
-        "name": "Matt O'Riley",
-        "position": "Midfielder",
-        "lookup_name": "Matt O'Riley",
-        "selected_by_percent": "0.1",
-        "yellow_cards": 1,
-        "price": 55,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": true,
-        "clean_sheets_per_90": 0.26,
-        "team": "Brighton",
-        "l5_average_xg": 0.1,
-        "l5_average_xa": 0.21,
-        "minutes_per_game": 43
-    },
-    "Caicedo": {
+    "Moisés Caicedo Corozo": {
         "name": "Moisés Caicedo",
         "position": "Midfielder",
         "lookup_name": "Moisés Caicedo Corozo",
@@ -1526,45 +1393,45 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.25,
+        "clean_sheets_per_90": 0.24,
         "team": "Chelsea",
         "l5_average_xg": 0.02,
-        "l5_average_xa": 0.03,
+        "l5_average_xa": 0.02,
         "minutes_per_game": 89
     },
-    "Colwill": {
+    "Levi Colwill": {
         "name": "Levi Colwill",
         "position": "Defender",
         "lookup_name": "Levi Colwill",
-        "selected_by_percent": "5.0",
+        "selected_by_percent": "4.8",
         "yellow_cards": 5,
         "price": 46,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.21,
+        "clean_sheets_per_90": 0.2,
         "team": "Chelsea",
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.03,
+        "l5_average_xg": 0.01,
+        "l5_average_xa": 0.04,
         "minutes_per_game": 90
     },
-    "Cucurella": {
+    "Marc Cucurella Saseta": {
         "name": "Marc Cucurella",
         "position": "Defender",
         "lookup_name": "Marc Cucurella Saseta",
-        "selected_by_percent": "6.9",
+        "selected_by_percent": "6.7",
         "yellow_cards": 6,
         "price": 52,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.19,
+        "clean_sheets_per_90": 0.18,
         "team": "Chelsea",
-        "l5_average_xg": 0.14,
-        "l5_average_xa": 0.06,
+        "l5_average_xg": 0.17,
+        "l5_average_xa": 0.03,
         "minutes_per_game": 81
     },
-    "Disasi": {
+    "Axel Disasi": {
         "name": "Axel Disasi",
         "position": "Defender",
         "lookup_name": "Axel Disasi",
@@ -1580,27 +1447,27 @@
         "l5_average_xa": 0.03,
         "minutes_per_game": 71
     },
-    "Enzo": {
+    "Enzo Fernández": {
         "name": "Enzo Fernández",
         "position": "Midfielder",
         "lookup_name": "Enzo Fernández",
-        "selected_by_percent": "8.2",
+        "selected_by_percent": "7.1",
         "yellow_cards": 3,
-        "price": 51,
+        "price": 50,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.19,
+        "clean_sheets_per_90": 0.18,
         "team": "Chelsea",
-        "l5_average_xg": 0.12,
-        "l5_average_xa": 0.29,
-        "minutes_per_game": 74
+        "l5_average_xg": 0.1,
+        "l5_average_xa": 0.35,
+        "minutes_per_game": 75
     },
-    "Gusto": {
+    "Malo Gusto": {
         "name": "Malo Gusto",
         "position": "Defender",
         "lookup_name": "Malo Gusto",
-        "selected_by_percent": "2.0",
+        "selected_by_percent": "1.9",
         "yellow_cards": 3,
         "price": 49,
         "penalty_duties": false,
@@ -1612,54 +1479,70 @@
         "l5_average_xa": 0.06,
         "minutes_per_game": 73
     },
-    "Lavia": {
+    "Reece James": {
+        "name": "Reece James",
+        "position": "Defender",
+        "lookup_name": "Reece James",
+        "selected_by_percent": "0.3",
+        "yellow_cards": 0,
+        "price": 48,
+        "penalty_duties": false,
+        "freekick_duties": false,
+        "corner_duties": false,
+        "clean_sheets_per_90": 0.0,
+        "team": "Chelsea",
+        "l5_average_xg": 0.02,
+        "l5_average_xa": 0.01,
+        "minutes_per_game": 55
+    },
+    "Roméo Lavia": {
         "name": "Romeo Lavia",
         "position": "Midfielder",
         "lookup_name": "Roméo Lavia",
         "selected_by_percent": "0.5",
-        "yellow_cards": 3,
+        "yellow_cards": 4,
         "price": 45,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.19,
+        "clean_sheets_per_90": 0.17,
         "team": "Chelsea",
         "l5_average_xg": 0.02,
         "l5_average_xa": 0.02,
-        "minutes_per_game": 55
+        "minutes_per_game": 56
     },
-    "Madueke": {
+    "Noni Madueke": {
         "name": "Noni Madueke",
         "position": "Midfielder",
         "lookup_name": "Noni Madueke",
-        "selected_by_percent": "4.9",
+        "selected_by_percent": "4.6",
         "yellow_cards": 3,
-        "price": 62,
+        "price": 61,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.24,
+        "clean_sheets_per_90": 0.23,
         "team": "Chelsea",
-        "l5_average_xg": 0.18,
-        "l5_average_xa": 0.1,
-        "minutes_per_game": 64
+        "l5_average_xg": 0.22,
+        "l5_average_xa": 0.14,
+        "minutes_per_game": 65
     },
-    "N.Jackson": {
+    "Nicolas Jackson": {
         "name": "Nicolas Jackson",
         "position": "Forward",
         "lookup_name": "Nicolas Jackson",
-        "selected_by_percent": "21.1",
-        "yellow_cards": 4,
-        "price": 81,
+        "selected_by_percent": "19.4",
+        "yellow_cards": 5,
+        "price": 80,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Chelsea",
-        "l5_average_xg": 0.52,
-        "l5_average_xa": 0.03,
+        "l5_average_xg": 0.62,
+        "l5_average_xa": 0.11,
         "minutes_per_game": 79
     },
-    "Nkunku": {
+    "Christopher Nkunku": {
         "name": "Christopher Nkunku",
         "position": "Midfielder",
         "lookup_name": "Christopher Nkunku",
@@ -1675,34 +1558,34 @@
         "l5_average_xa": 0.02,
         "minutes_per_game": 19
     },
-    "Palmer": {
+    "Cole Palmer": {
         "name": "Cole Palmer",
         "position": "Midfielder",
         "lookup_name": "Cole Palmer",
-        "selected_by_percent": "68.9",
+        "selected_by_percent": "69.1",
         "yellow_cards": 3,
         "price": 114,
         "penalty_duties": true,
         "freekick_duties": true,
         "corner_duties": true,
-        "clean_sheets_per_90": 0.21,
+        "clean_sheets_per_90": 0.2,
         "team": "Chelsea",
-        "l5_average_xg": 0.26,
-        "l5_average_xa": 0.37,
+        "l5_average_xg": 0.33,
+        "l5_average_xa": 0.4,
         "minutes_per_game": 88
     },
-    "Sánchez": {
+    "Robert Sánchez": {
         "name": "Robert Sánchez",
         "position": "Goalkeeper",
         "lookup_name": "Robert Sánchez",
-        "selected_by_percent": "13.2",
+        "selected_by_percent": "12.9",
         "yellow_cards": 4,
         "price": 48,
-        "clean_sheets_per_90": 0.22,
+        "clean_sheets_per_90": 0.21,
         "team": "Chelsea",
         "minutes_per_game": 90
     },
-    "Tosin": {
+    "Tosin Adarabioyo": {
         "name": "Tosin Adarabioyo",
         "position": "Defender",
         "lookup_name": "Tosin Adarabioyo",
@@ -1712,13 +1595,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.29,
+        "clean_sheets_per_90": 0.28,
         "team": "Chelsea",
-        "l5_average_xg": 0.05,
+        "l5_average_xg": 0.02,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 70
+        "minutes_per_game": 64
     },
-    "W.Fofana": {
+    "Wesley Fofana": {
         "name": "Wesley Fofana",
         "position": "Defender",
         "lookup_name": "Wesley Fofana",
@@ -1734,7 +1617,7 @@
         "l5_average_xa": 0.01,
         "minutes_per_game": 85
     },
-    "Sancho": {
+    "Jadon Sancho": {
         "name": "Jadon Sancho",
         "position": "Midfielder",
         "lookup_name": "Jadon Sancho",
@@ -1744,13 +1627,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.21,
+        "clean_sheets_per_90": 0.19,
         "team": "Chelsea",
-        "l5_average_xg": 0.1,
-        "l5_average_xa": 0.29,
-        "minutes_per_game": 63
+        "l5_average_xg": 0.12,
+        "l5_average_xa": 0.17,
+        "minutes_per_game": 64
     },
-    "Neto": {
+    "Pedro Lomba Neto": {
         "name": "Neto",
         "position": "Midfielder",
         "lookup_name": "Pedro Lomba Neto",
@@ -1766,7 +1649,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 90
     },
-    "João Félix": {
+    "João Félix Sequeira": {
         "name": "João Félix",
         "position": "Midfielder",
         "lookup_name": "João Félix Sequeira",
@@ -1776,13 +1659,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.26,
+        "clean_sheets_per_90": 0.25,
         "team": "Chelsea",
-        "l5_average_xg": 0.39,
-        "l5_average_xa": 0.13,
-        "minutes_per_game": 33
+        "l5_average_xg": 0.36,
+        "l5_average_xa": 0.12,
+        "minutes_per_game": 31
     },
-    "Nketiah": {
+    "Eddie Nketiah": {
         "name": "Eddie Nketiah",
         "position": "Forward",
         "lookup_name": "Eddie Nketiah",
@@ -1793,11 +1676,11 @@
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Crystal Palace",
-        "l5_average_xg": 0.08,
+        "l5_average_xg": 0.1,
         "l5_average_xa": 0.13,
-        "minutes_per_game": 40
+        "minutes_per_game": 37
     },
-    "Chalobah": {
+    "Trevoh Chalobah": {
         "name": "Trevoh Chalobah",
         "position": "Defender",
         "lookup_name": "Trevoh Chalobah",
@@ -1813,8 +1696,8 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 89
     },
-    "C.Doucouré": {
-        "name": "Abdoulaye Doucouré",
+    "Cheick Doucouré": {
+        "name": "Cheick Oumar Doucoure",
         "position": "Midfielder",
         "lookup_name": "Cheick Doucouré",
         "selected_by_percent": "0.1",
@@ -1823,13 +1706,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.0,
-        "team": "Everton",
-        "l5_average_xg": 0.05,
-        "l5_average_xa": 0.05,
-        "minutes_per_game": 80
+        "clean_sheets_per_90": 0.2,
+        "team": "Crystal Palace",
+        "l5_average_xg": 0.0,
+        "l5_average_xa": 0.0,
+        "minutes_per_game": 33
     },
-    "C.Richards": {
+    "Chris Richards": {
         "name": "Chris Richards",
         "position": "Defender",
         "lookup_name": "Chris Richards",
@@ -1839,13 +1722,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.14,
+        "clean_sheets_per_90": 0.25,
         "team": "Crystal Palace",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 69
+        "minutes_per_game": 71
     },
-    "Clyne": {
+    "Nathaniel Clyne": {
         "name": "Nathaniel Clyne",
         "position": "Defender",
         "lookup_name": "Nathaniel Clyne",
@@ -1855,56 +1738,56 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.24,
+        "clean_sheets_per_90": 0.23,
         "team": "Crystal Palace",
         "l5_average_xg": 0.0,
         "l5_average_xa": 0.02,
-        "minutes_per_game": 48
+        "minutes_per_game": 44
     },
-    "Eze": {
+    "Eberechi Eze": {
         "name": "Eberechi Eze",
         "position": "Midfielder",
         "lookup_name": "Eberechi Eze",
-        "selected_by_percent": "8.4",
+        "selected_by_percent": "8.8",
         "yellow_cards": 1,
         "price": 66,
         "penalty_duties": false,
         "freekick_duties": true,
         "corner_duties": true,
-        "clean_sheets_per_90": 0.27,
+        "clean_sheets_per_90": 0.32,
         "team": "Crystal Palace",
-        "l5_average_xg": 0.27,
-        "l5_average_xa": 0.16,
+        "l5_average_xg": 0.25,
+        "l5_average_xa": 0.24,
         "minutes_per_game": 85
     },
-    "Guéhi": {
+    "Marc Guéhi": {
         "name": "Marc Guehi",
         "position": "Defender",
         "lookup_name": "Marc Guéhi",
-        "selected_by_percent": "5.6",
+        "selected_by_percent": "5.9",
         "yellow_cards": 5,
         "price": 45,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.21,
+        "clean_sheets_per_90": 0.25,
         "team": "Crystal Palace",
-        "l5_average_xg": 0.0,
+        "l5_average_xg": 0.08,
         "l5_average_xa": 0.0,
         "minutes_per_game": 90
     },
-    "Henderson": {
+    "Dean Henderson": {
         "name": "Dean Henderson",
         "position": "Goalkeeper",
         "lookup_name": "Dean Henderson",
-        "selected_by_percent": "11.9",
+        "selected_by_percent": "11.8",
         "yellow_cards": 2,
         "price": 45,
-        "clean_sheets_per_90": 0.2,
+        "clean_sheets_per_90": 0.24,
         "team": "Crystal Palace",
         "minutes_per_game": 90
     },
-    "Hughes": {
+    "Will Hughes": {
         "name": "Will Hughes",
         "position": "Midfielder",
         "lookup_name": "Will Hughes",
@@ -1914,13 +1797,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.25,
+        "clean_sheets_per_90": 0.31,
         "team": "Crystal Palace",
-        "l5_average_xg": 0.04,
-        "l5_average_xa": 0.28,
+        "l5_average_xg": 0.03,
+        "l5_average_xa": 0.15,
         "minutes_per_game": 65
     },
-    "Kamada": {
+    "Daichi Kamada": {
         "name": "Daichi Kamada",
         "position": "Midfielder",
         "lookup_name": "Daichi Kamada",
@@ -1933,10 +1816,10 @@
         "clean_sheets_per_90": 0.12,
         "team": "Crystal Palace",
         "l5_average_xg": 0.02,
-        "l5_average_xa": 0.05,
-        "minutes_per_game": 46
+        "l5_average_xa": 0.0,
+        "minutes_per_game": 45
     },
-    "Lerma": {
+    "Jefferson Lerma Solís": {
         "name": "Jefferson Lerma",
         "position": "Midfielder",
         "lookup_name": "Jefferson Lerma Solís",
@@ -1950,24 +1833,24 @@
         "team": "Crystal Palace",
         "l5_average_xg": 0.05,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 67
+        "minutes_per_game": 65
     },
-    "Mateta": {
+    "Jean-Philippe Mateta": {
         "name": "Jean-Philippe Mateta",
         "position": "Forward",
         "lookup_name": "Jean-Philippe Mateta",
-        "selected_by_percent": "3.5",
+        "selected_by_percent": "4.4",
         "yellow_cards": 2,
-        "price": 72,
+        "price": 73,
         "penalty_duties": true,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Crystal Palace",
-        "l5_average_xg": 0.35,
+        "l5_average_xg": 0.59,
         "l5_average_xa": 0.1,
         "minutes_per_game": 76
     },
-    "Mitchell": {
+    "Tyrick Mitchell": {
         "name": "Tyrick Mitchell",
         "position": "Defender",
         "lookup_name": "Tyrick Mitchell",
@@ -1977,29 +1860,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.26,
+        "clean_sheets_per_90": 0.3,
         "team": "Crystal Palace",
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.41,
+        "l5_average_xg": 0.08,
+        "l5_average_xa": 0.21,
         "minutes_per_game": 87
     },
-    "Muñoz": {
+    "Daniel Muñoz": {
         "name": "Daniel Muñoz",
         "position": "Defender",
         "lookup_name": "Daniel Muñoz",
-        "selected_by_percent": "5.3",
+        "selected_by_percent": "6.0",
         "yellow_cards": 5,
-        "price": 47,
+        "price": 48,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.22,
+        "clean_sheets_per_90": 0.26,
         "team": "Crystal Palace",
-        "l5_average_xg": 0.29,
-        "l5_average_xa": 0.18,
-        "minutes_per_game": 85
+        "l5_average_xg": 0.27,
+        "l5_average_xa": 0.27,
+        "minutes_per_game": 86
     },
-    "Schlupp": {
+    "Jeffrey Schlupp": {
         "name": "Jeffrey Schlupp",
         "position": "Midfielder",
         "lookup_name": "Jeffrey Schlupp",
@@ -2015,7 +1898,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 6
     },
-    "Wharton": {
+    "Adam Wharton": {
         "name": "Adam Wharton",
         "position": "Midfielder",
         "lookup_name": "Adam Wharton",
@@ -2031,23 +1914,23 @@
         "l5_average_xa": 0.04,
         "minutes_per_game": 79
     },
-    "I.Sarr": {
+    "Ismaïla Sarr": {
         "name": "Ismaila Sarr",
         "position": "Midfielder",
         "lookup_name": "Ismaïla Sarr",
-        "selected_by_percent": "5.1",
+        "selected_by_percent": "4.8",
         "yellow_cards": 3,
         "price": 59,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.21,
+        "clean_sheets_per_90": 0.26,
         "team": "Crystal Palace",
-        "l5_average_xg": 0.52,
-        "l5_average_xa": 0.38,
-        "minutes_per_game": 63
+        "l5_average_xg": 0.29,
+        "l5_average_xa": 0.47,
+        "minutes_per_game": 64
     },
-    "Devenny": {
+    "Justin Devenny": {
         "name": "Justin Devenny",
         "position": "Midfielder",
         "lookup_name": "Justin Devenny",
@@ -2061,9 +1944,9 @@
         "team": "Crystal Palace",
         "l5_average_xg": 0.02,
         "l5_average_xa": 0.02,
-        "minutes_per_game": 27
+        "minutes_per_game": 25
     },
-    "Lacroix": {
+    "Maxence Lacroix": {
         "name": "Maxence Lacroix",
         "position": "Defender",
         "lookup_name": "Maxence Lacroix",
@@ -2073,14 +1956,14 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.24,
+        "clean_sheets_per_90": 0.28,
         "team": "Crystal Palace",
         "l5_average_xg": 0.03,
         "l5_average_xa": 0.0,
         "minutes_per_game": 90
     },
-    "A.Doucoure": {
-        "name": "Cheick Oumar Doucoure",
+    "Abdoulaye Doucouré": {
+        "name": "Abdoulaye Doucouré",
         "position": "Midfielder",
         "lookup_name": "Abdoulaye Doucouré",
         "selected_by_percent": "0.2",
@@ -2089,13 +1972,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.47,
-        "team": "Crystal Palace",
-        "l5_average_xg": 0.03,
-        "l5_average_xa": 0.0,
-        "minutes_per_game": 30
+        "clean_sheets_per_90": 0.44,
+        "team": "Everton",
+        "l5_average_xg": 0.04,
+        "l5_average_xa": 0.05,
+        "minutes_per_game": 80
     },
-    "Beto": {
+    "Norberto Bercique Gomes Betuncal": {
         "name": "Beto",
         "position": "Forward",
         "lookup_name": "Norberto Bercique Gomes Betuncal",
@@ -2106,11 +1989,11 @@
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Everton",
-        "l5_average_xg": 0.17,
+        "l5_average_xg": 0.05,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 16
+        "minutes_per_game": 15
     },
-    "Branthwaite": {
+    "Jarrad Branthwaite": {
         "name": "Jarrad Branthwaite",
         "position": "Defender",
         "lookup_name": "Jarrad Branthwaite",
@@ -2120,44 +2003,44 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.5,
+        "clean_sheets_per_90": 0.45,
         "team": "Everton",
-        "l5_average_xg": 0.02,
+        "l5_average_xg": 0.03,
         "l5_average_xa": 0.01,
-        "minutes_per_game": 75
+        "minutes_per_game": 76
     },
-    "Calvert-Lewin": {
+    "Dominic Calvert-Lewin": {
         "name": "Dominic Calvert-Lewin",
         "position": "Forward",
         "lookup_name": "Dominic Calvert-Lewin",
-        "selected_by_percent": "1.5",
+        "selected_by_percent": "1.4",
         "yellow_cards": 1,
         "price": 54,
         "penalty_duties": true,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Everton",
-        "l5_average_xg": 0.04,
+        "l5_average_xg": 0.22,
         "l5_average_xa": 0.01,
         "minutes_per_game": 74
     },
-    "Gana": {
+    "Idrissa Gueye": {
         "name": "Idrissa Gueye",
         "position": "Midfielder",
         "lookup_name": "Idrissa Gueye",
         "selected_by_percent": "0.1",
-        "yellow_cards": 3,
+        "yellow_cards": 4,
         "price": 48,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.39,
+        "clean_sheets_per_90": 0.36,
         "team": "Everton",
-        "l5_average_xg": 0.01,
+        "l5_average_xg": 0.02,
         "l5_average_xa": 0.0,
         "minutes_per_game": 78
     },
-    "Harrison": {
+    "Jack Harrison": {
         "name": "Harrison Armstrong",
         "position": "Midfielder",
         "lookup_name": "Jack Harrison",
@@ -2167,33 +2050,33 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.39,
+        "clean_sheets_per_90": 0.36,
         "team": "Everton",
         "l5_average_xg": 0.09,
         "l5_average_xa": 0.02,
         "minutes_per_game": 13
     },
-    "Keane": {
-        "name": "Keane Lewis-Potter",
+    "Michael Keane": {
+        "name": "Michael Keane",
         "position": "Defender",
         "lookup_name": "Michael Keane",
-        "selected_by_percent": "4.9",
+        "selected_by_percent": "4.8",
         "yellow_cards": 4,
         "price": 40,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "clean_sheets_per_90": 0.22,
-        "team": "Brentford",
-        "l5_average_xg": 0.28,
-        "l5_average_xa": 0.05,
-        "minutes_per_game": 79
+        "team": "Everton",
+        "l5_average_xg": 0.06,
+        "l5_average_xa": 0.0,
+        "minutes_per_game": 90
     },
-    "McNeil": {
+    "Dwight McNeil": {
         "name": "Dwight McNeil",
         "position": "Midfielder",
         "lookup_name": "Dwight McNeil",
-        "selected_by_percent": "1.7",
+        "selected_by_percent": "1.5",
         "yellow_cards": 1,
         "price": 51,
         "penalty_duties": false,
@@ -2205,23 +2088,23 @@
         "l5_average_xa": 0.21,
         "minutes_per_game": 88
     },
-    "Mykolenko": {
+    "Vitalii Mykolenko": {
         "name": "Vitalii Mykolenko",
         "position": "Defender",
         "lookup_name": "Vitalii Mykolenko",
-        "selected_by_percent": "5.8",
+        "selected_by_percent": "5.7",
         "yellow_cards": 2,
         "price": 43,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.37,
+        "clean_sheets_per_90": 0.35,
         "team": "Everton",
-        "l5_average_xg": 0.01,
-        "l5_average_xa": 0.02,
+        "l5_average_xg": 0.0,
+        "l5_average_xa": 0.05,
         "minutes_per_game": 86
     },
-    "Ndiaye": {
+    "Iliman Ndiaye": {
         "name": "Iliman Ndiaye",
         "position": "Forward",
         "lookup_name": "Iliman Ndiaye",
@@ -2234,52 +2117,52 @@
         "team": "Everton",
         "l5_average_xg": 0.23,
         "l5_average_xa": 0.09,
-        "minutes_per_game": 80
+        "minutes_per_game": 81
     },
-    "Pickford": {
+    "Jordan Pickford": {
         "name": "Jordan Pickford",
         "position": "Goalkeeper",
         "lookup_name": "Jordan Pickford",
         "selected_by_percent": "13.8",
-        "yellow_cards": 4,
+        "yellow_cards": 5,
         "price": 50,
-        "clean_sheets_per_90": 0.37,
+        "clean_sheets_per_90": 0.35,
         "team": "Everton",
         "minutes_per_game": 90
     },
-    "Tarkowski": {
+    "James Tarkowski": {
         "name": "James Tarkowski",
         "position": "Defender",
         "lookup_name": "James Tarkowski",
-        "selected_by_percent": "1.6",
+        "selected_by_percent": "1.5",
         "yellow_cards": 4,
         "price": 48,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.37,
+        "clean_sheets_per_90": 0.35,
         "team": "Everton",
         "l5_average_xg": 0.0,
-        "l5_average_xa": 0.0,
+        "l5_average_xa": 0.01,
         "minutes_per_game": 89
     },
-    "Young": {
+    "Ashley Young": {
         "name": "Ashley Young",
         "position": "Defender",
         "lookup_name": "Ashley Young",
-        "selected_by_percent": "3.4",
+        "selected_by_percent": "3.2",
         "yellow_cards": 5,
         "price": 47,
         "penalty_duties": false,
         "freekick_duties": true,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.46,
+        "clean_sheets_per_90": 0.44,
         "team": "Everton",
-        "l5_average_xg": 0.02,
-        "l5_average_xa": 0.01,
+        "l5_average_xg": 0.01,
+        "l5_average_xa": 0.03,
         "minutes_per_game": 85
     },
-    "Lindstrøm": {
+    "Jesper Lindstrøm": {
         "name": "Jesper Lindstrom",
         "position": "Midfielder",
         "lookup_name": "Jesper Lindstrøm",
@@ -2289,29 +2172,13 @@
         "penalty_duties": false,
         "freekick_duties": true,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.43,
+        "clean_sheets_per_90": 0.41,
         "team": "Everton",
-        "l5_average_xg": 0.03,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 42
+        "l5_average_xg": 0.05,
+        "l5_average_xa": 0.11,
+        "minutes_per_game": 41
     },
-    "Mangala": {
-        "name": "Orel Mangala",
-        "position": "Midfielder",
-        "lookup_name": "Orel Mangala",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 2,
-        "price": 50,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.36,
-        "team": "Everton",
-        "l5_average_xg": 0.04,
-        "l5_average_xa": 0.04,
-        "minutes_per_game": 61
-    },
-    "Nelson": {
+    "Reiss Nelson": {
         "name": "Reiss Nelson",
         "position": "Midfielder",
         "lookup_name": "Reiss Nelson",
@@ -2327,23 +2194,23 @@
         "l5_average_xa": 0.12,
         "minutes_per_game": 40
     },
-    "Smith Rowe": {
+    "Emile Smith Rowe": {
         "name": "Emile Smith-Rowe",
         "position": "Midfielder",
         "lookup_name": "Emile Smith Rowe",
-        "selected_by_percent": "10.3",
+        "selected_by_percent": "9.8",
         "yellow_cards": 1,
         "price": 53,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.4,
+        "clean_sheets_per_90": 0.37,
         "team": "Fulham",
-        "l5_average_xg": 0.06,
+        "l5_average_xg": 0.08,
         "l5_average_xa": 0.01,
         "minutes_per_game": 65
     },
-    "Andersen": {
+    "Joachim Andersen": {
         "name": "Joachim Andersen",
         "position": "Defender",
         "lookup_name": "Joachim Andersen",
@@ -2353,13 +2220,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.17,
+        "clean_sheets_per_90": 0.16,
         "team": "Crystal Palace",
-        "l5_average_xg": 0.01,
+        "l5_average_xg": 0.0,
         "l5_average_xa": 0.0,
         "minutes_per_game": 88
     },
-    "Adama": {
+    "Adama Traoré": {
         "name": "Adama Traoré",
         "position": "Midfielder",
         "lookup_name": "Adama Traoré",
@@ -2369,29 +2236,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.29,
+        "clean_sheets_per_90": 0.28,
         "team": "Fulham",
-        "l5_average_xg": 0.03,
-        "l5_average_xa": 0.26,
-        "minutes_per_game": 49
+        "l5_average_xg": 0.13,
+        "l5_average_xa": 0.28,
+        "minutes_per_game": 47
     },
-    "Andreas": {
+    "Andreas Hoelgebaum Pereira": {
         "name": "Andreas Pereira",
         "position": "Midfielder",
         "lookup_name": "Andreas Hoelgebaum Pereira",
-        "selected_by_percent": "1.1",
+        "selected_by_percent": "1.0",
         "yellow_cards": 6,
         "price": 50,
         "penalty_duties": true,
         "freekick_duties": true,
         "corner_duties": true,
-        "clean_sheets_per_90": 0.31,
+        "clean_sheets_per_90": 0.29,
         "team": "Fulham",
-        "l5_average_xg": 0.06,
+        "l5_average_xg": 0.07,
         "l5_average_xa": 0.09,
-        "minutes_per_game": 67
+        "minutes_per_game": 68
     },
-    "Bassey": {
+    "Calvin Bassey": {
         "name": "Calvin Bassey",
         "position": "Defender",
         "lookup_name": "Calvin Bassey",
@@ -2401,49 +2268,33 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.16,
+        "clean_sheets_per_90": 0.15,
         "team": "Fulham",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.0,
         "minutes_per_game": 90
     },
-    "Cairney": {
-        "name": "Tom Cairney",
-        "position": "Midfielder",
-        "lookup_name": "Tom Cairney",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 2,
-        "price": 48,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.26,
-        "team": "Fulham",
-        "l5_average_xg": 0.02,
-        "l5_average_xa": 0.08,
-        "minutes_per_game": 23
-    },
-    "Castagne": {
+    "Timothy Castagne": {
         "name": "Timothy Castagne",
         "position": "Defender",
         "lookup_name": "Timothy Castagne",
-        "selected_by_percent": "1.8",
-        "yellow_cards": 0,
+        "selected_by_percent": "1.9",
+        "yellow_cards": 1,
         "price": 42,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.17,
+        "clean_sheets_per_90": 0.14,
         "team": "Fulham",
         "l5_average_xg": 0.02,
-        "l5_average_xa": 0.13,
-        "minutes_per_game": 52
+        "l5_average_xa": 0.14,
+        "minutes_per_game": 55
     },
-    "Diop": {
+    "Issa Diop": {
         "name": "Issa Diop",
         "position": "Defender",
         "lookup_name": "Issa Diop",
-        "selected_by_percent": "0.3",
+        "selected_by_percent": "0.2",
         "yellow_cards": 2,
         "price": 44,
         "penalty_duties": false,
@@ -2455,96 +2306,96 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 70
     },
-    "Iwobi": {
+    "Alex Iwobi": {
         "name": "Alex Iwobi",
         "position": "Midfielder",
         "lookup_name": "Alex Iwobi",
-        "selected_by_percent": "7.8",
+        "selected_by_percent": "8.1",
         "yellow_cards": 1,
         "price": 59,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.26,
+        "clean_sheets_per_90": 0.25,
         "team": "Fulham",
         "l5_average_xg": 0.16,
-        "l5_average_xa": 0.14,
+        "l5_average_xa": 0.34,
         "minutes_per_game": 86
     },
-    "Leno": {
+    "Bernd Leno": {
         "name": "Bernd Leno",
         "position": "Goalkeeper",
         "lookup_name": "Bernd Leno",
         "selected_by_percent": "3.2",
         "yellow_cards": 2,
         "price": 50,
-        "clean_sheets_per_90": 0.15,
+        "clean_sheets_per_90": 0.14,
         "team": "Fulham",
         "minutes_per_game": 90
     },
-    "Lukić": {
+    "Saša Lukić": {
         "name": "Sasa Lukic",
         "position": "Midfielder",
         "lookup_name": "Saša Lukić",
         "selected_by_percent": "0.1",
-        "yellow_cards": 7,
+        "yellow_cards": 8,
         "price": 48,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.16,
+        "clean_sheets_per_90": 0.14,
         "team": "Fulham",
-        "l5_average_xg": 0.02,
-        "l5_average_xa": 0.1,
-        "minutes_per_game": 77
+        "l5_average_xg": 0.15,
+        "l5_average_xa": 0.08,
+        "minutes_per_game": 78
     },
-    "Muniz": {
+    "Rodrigo Muniz Carvalho": {
         "name": "Rodrigo Muniz",
         "position": "Forward",
         "lookup_name": "Rodrigo Muniz Carvalho",
-        "selected_by_percent": "1.9",
+        "selected_by_percent": "1.7",
         "yellow_cards": 1,
         "price": 55,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Fulham",
-        "l5_average_xg": 0.23,
+        "l5_average_xg": 0.13,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 30
+        "minutes_per_game": 28
     },
-    "Raúl": {
+    "Raúl Jiménez": {
         "name": "Raúl Jiménez",
         "position": "Forward",
         "lookup_name": "Raúl Jiménez",
-        "selected_by_percent": "10.9",
-        "yellow_cards": 2,
+        "selected_by_percent": "13.3",
+        "yellow_cards": 3,
         "price": 57,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Fulham",
-        "l5_average_xg": 0.54,
-        "l5_average_xa": 0.0,
-        "minutes_per_game": 62
+        "l5_average_xg": 0.71,
+        "l5_average_xa": 0.01,
+        "minutes_per_game": 63
     },
-    "Robinson": {
+    "Antonee Robinson": {
         "name": "Antonee Robinson",
         "position": "Defender",
         "lookup_name": "Antonee Robinson",
-        "selected_by_percent": "25.5",
+        "selected_by_percent": "26.1",
         "yellow_cards": 4,
         "price": 50,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.15,
+        "clean_sheets_per_90": 0.14,
         "team": "Fulham",
-        "l5_average_xg": 0.12,
-        "l5_average_xa": 0.25,
+        "l5_average_xg": 0.13,
+        "l5_average_xa": 0.1,
         "minutes_per_game": 90
     },
-    "Tete": {
+    "Kenny Tete": {
         "name": "Kenny Tete",
         "position": "Defender",
         "lookup_name": "Kenny Tete",
@@ -2560,7 +2411,7 @@
         "l5_average_xa": 0.08,
         "minutes_per_game": 85
     },
-    "Wilson": {
+    "Harry Wilson": {
         "name": "Harry Wilson",
         "position": "Midfielder",
         "lookup_name": "Harry Wilson",
@@ -2570,33 +2421,17 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.15,
+        "clean_sheets_per_90": 0.13,
         "team": "Fulham",
-        "l5_average_xg": 0.33,
-        "l5_average_xa": 0.07,
-        "minutes_per_game": 36
+        "l5_average_xg": 0.3,
+        "l5_average_xa": 0.09,
+        "minutes_per_game": 40
     },
-    "Berge": {
-        "name": "Sander Berge",
-        "position": "Midfielder",
-        "lookup_name": "Sander Berge",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 2,
-        "price": 50,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.19,
-        "team": "Fulham",
-        "l5_average_xg": 0.01,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 68
-    },
-    "Burgess": {
+    "Cameron Burgess": {
         "name": "Cameron Burgess",
         "position": "Defender",
         "lookup_name": "Cameron Burgess",
-        "selected_by_percent": "2.1",
+        "selected_by_percent": "2.0",
         "yellow_cards": 0,
         "price": 40,
         "penalty_duties": false,
@@ -2608,23 +2443,7 @@
         "l5_average_xa": 0.03,
         "minutes_per_game": 90
     },
-    "Burns": {
-        "name": "Wes Burns",
-        "position": "Midfielder",
-        "lookup_name": "Wes Burns",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 1,
-        "price": 48,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.11,
-        "team": "Ipswich",
-        "l5_average_xg": 0.02,
-        "l5_average_xa": 0.11,
-        "minutes_per_game": 53
-    },
-    "Chaplin": {
+    "Conor Chaplin": {
         "name": "Conor Chaplin",
         "position": "Midfielder",
         "lookup_name": "Conor Chaplin",
@@ -2640,69 +2459,54 @@
         "l5_average_xa": 0.06,
         "minutes_per_game": 40
     },
-    "Davis": {
+    "Leif Davis": {
         "name": "Leif Davis",
         "position": "Defender",
         "lookup_name": "Leif Davis",
         "selected_by_percent": "1.7",
         "yellow_cards": 5,
-        "price": 45,
+        "price": 44,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": true,
         "clean_sheets_per_90": 0.1,
         "team": "Ipswich",
-        "l5_average_xg": 0.03,
+        "l5_average_xg": 0.01,
         "l5_average_xa": 0.03,
         "minutes_per_game": 90
     },
-    "Delap": {
+    "Liam Delap": {
         "name": "Liam Delap",
         "position": "Forward",
         "lookup_name": "Liam Delap",
-        "selected_by_percent": "3.3",
-        "yellow_cards": 6,
+        "selected_by_percent": "3.6",
+        "yellow_cards": 7,
         "price": 56,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Ipswich",
-        "l5_average_xg": 0.61,
-        "l5_average_xa": 0.24,
+        "l5_average_xg": 0.49,
+        "l5_average_xa": 0.19,
         "minutes_per_game": 78
     },
-    "Greaves": {
+    "Jacob Greaves": {
         "name": "Jacob Greaves",
         "position": "Defender",
         "lookup_name": "Jacob Greaves",
-        "selected_by_percent": "4.1",
+        "selected_by_percent": "4.2",
         "yellow_cards": 2,
         "price": 39,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.18,
+        "clean_sheets_per_90": 0.17,
         "team": "Ipswich",
-        "l5_average_xg": 0.12,
+        "l5_average_xg": 0.0,
         "l5_average_xa": 0.0,
         "minutes_per_game": 90
     },
-    "Hirst": {
-        "name": "George Hirst",
-        "position": "Forward",
-        "lookup_name": "George Hirst",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 1,
-        "price": 54,
-        "penalty_duties": true,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "team": "Ipswich",
-        "l5_average_xg": 0.07,
-        "l5_average_xa": 0.06,
-        "minutes_per_game": 20
-    },
-    "Hutchinson": {
+    "Omari Giraud-Hutchinson": {
         "name": "Omari Hutchinson",
         "position": "Midfielder",
         "lookup_name": "Omari Giraud-Hutchinson",
@@ -2712,29 +2516,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.18,
+        "clean_sheets_per_90": 0.17,
         "team": "Ipswich",
-        "l5_average_xg": 0.18,
-        "l5_average_xa": 0.11,
+        "l5_average_xg": 0.19,
+        "l5_average_xa": 0.09,
         "minutes_per_game": 86
     },
-    "Johnson": {
+    "Ben Johnson": {
         "name": "Ben Johnson",
         "position": "Defender",
         "lookup_name": "Ben Johnson",
-        "selected_by_percent": "5.1",
-        "yellow_cards": 3,
-        "price": 64,
+        "selected_by_percent": "2.3",
+        "yellow_cards": 2,
+        "price": 39,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.12,
+        "clean_sheets_per_90": 0.0,
         "team": "Ipswich",
         "l5_average_xg": 0.07,
         "l5_average_xa": 0.0,
         "minutes_per_game": 55
     },
-    "Morsy": {
+    "Sam Morsy": {
         "name": "Sam Morsy",
         "position": "Midfielder",
         "lookup_name": "Sam Morsy",
@@ -2747,26 +2551,10 @@
         "clean_sheets_per_90": 0.11,
         "team": "Ipswich",
         "l5_average_xg": 0.0,
-        "l5_average_xa": 0.06,
-        "minutes_per_game": 89
+        "l5_average_xa": 0.03,
+        "minutes_per_game": 86
     },
-    "Taylor": {
-        "name": "Jack Taylor",
-        "position": "Midfielder",
-        "lookup_name": "Jack Taylor",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 3,
-        "price": 48,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.0,
-        "team": "Ipswich",
-        "l5_average_xg": 0.01,
-        "l5_average_xa": 0.0,
-        "minutes_per_game": 21
-    },
-    "Tuanzebe": {
+    "Axel Tuanzebe": {
         "name": "Axel Tuanzebe",
         "position": "Defender",
         "lookup_name": "Axel Tuanzebe",
@@ -2782,34 +2570,34 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 86
     },
-    "Walton": {
+    "Christian Walton": {
         "name": "Christian Walton",
         "position": "Goalkeeper",
         "lookup_name": "Christian Walton",
         "selected_by_percent": "0.2",
         "yellow_cards": 0,
         "price": 43,
-        "clean_sheets_per_90": 0.33,
+        "clean_sheets_per_90": 0.25,
         "team": "Ipswich",
         "minutes_per_game": 90
     },
-    "Woolfenden": {
+    "Luke Woolfenden": {
         "name": "Luke Woolfenden",
         "position": "Defender",
         "lookup_name": "Luke Woolfenden",
         "selected_by_percent": "1.4",
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "price": 40,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.14,
+        "clean_sheets_per_90": 0.12,
         "team": "Ipswich",
         "l5_average_xg": 0.0,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 79
+        "minutes_per_game": 81
     },
-    "Phillips": {
+    "Kalvin Phillips": {
         "name": "Kalvin Phillips",
         "position": "Midfielder",
         "lookup_name": "Kalvin Phillips",
@@ -2819,13 +2607,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.13,
+        "clean_sheets_per_90": 0.12,
         "team": "Ipswich",
-        "l5_average_xg": 0.04,
+        "l5_average_xg": 0.0,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 63
+        "minutes_per_game": 65
     },
-    "Muric": {
+    "Arijanet Muric": {
         "name": "Arijanet Muric",
         "position": "Goalkeeper",
         "lookup_name": "Arijanet Muric",
@@ -2836,7 +2624,7 @@
         "team": "Ipswich",
         "minutes_per_game": 90
     },
-    "Szmodics": {
+    "Sam Szmodics": {
         "name": "Sammie Szmodics",
         "position": "Midfielder",
         "lookup_name": "Sam Szmodics",
@@ -2852,55 +2640,39 @@
         "l5_average_xa": 0.01,
         "minutes_per_game": 56
     },
-    "Cajuste": {
+    "Jens Cajuste": {
         "name": "Jens Cajuste",
         "position": "Midfielder",
         "lookup_name": "Jens Cajuste",
-        "selected_by_percent": "0.2",
+        "selected_by_percent": "0.1",
         "yellow_cards": 2,
         "price": 45,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.11,
+        "clean_sheets_per_90": 0.1,
         "team": "Ipswich",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.02,
-        "minutes_per_game": 61
+        "minutes_per_game": 62
     },
-    "O'Shea": {
+    "Dara O'Shea": {
         "name": "Dara O'Shea",
         "position": "Defender",
         "lookup_name": "Dara O'Shea",
-        "selected_by_percent": "1.7",
+        "selected_by_percent": "1.6",
         "yellow_cards": 5,
         "price": 41,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.12,
+        "clean_sheets_per_90": 0.11,
         "team": "Ipswich",
         "l5_average_xg": 0.03,
         "l5_average_xa": 0.0,
         "minutes_per_game": 88
     },
-    "J.Clarke": {
-        "name": "Harry Clarke",
-        "position": "Midfielder",
-        "lookup_name": "Jack Clarke",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 1,
-        "price": 54,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.0,
-        "team": "Ipswich",
-        "l5_average_xg": 0.01,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 54
-    },
-    "Buonanotte": {
+    "Facundo Buonanotte": {
         "name": "Facundo Buonanotte",
         "position": "Midfielder",
         "lookup_name": "Facundo Buonanotte",
@@ -2910,13 +2682,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.17,
+        "clean_sheets_per_90": 0.16,
         "team": "Leicester",
         "l5_average_xg": 0.01,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 61
+        "l5_average_xa": 0.04,
+        "minutes_per_game": 62
     },
-    "J.Ayew": {
+    "Jordan Ayew": {
         "name": "Jordan Ayew",
         "position": "Midfielder",
         "lookup_name": "Jordan Ayew",
@@ -2929,10 +2701,10 @@
         "clean_sheets_per_90": 0.1,
         "team": "Crystal Palace",
         "l5_average_xg": 0.04,
-        "l5_average_xa": 0.13,
-        "minutes_per_game": 52
+        "l5_average_xa": 0.19,
+        "minutes_per_game": 49
     },
-    "B.Soumaré": {
+    "Boubakary Soumaré": {
         "name": "Boubakary Soumare",
         "position": "Midfielder",
         "lookup_name": "Boubakary Soumaré",
@@ -2944,11 +2716,11 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.0,
         "team": "Leicester",
-        "l5_average_xg": 0.01,
+        "l5_average_xg": 0.02,
         "l5_average_xa": 0.01,
-        "minutes_per_game": 64
+        "minutes_per_game": 66
     },
-    "Daka": {
+    "Patson Daka": {
         "name": "Patson Daka",
         "position": "Forward",
         "lookup_name": "Patson Daka",
@@ -2959,11 +2731,11 @@
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Leicester",
-        "l5_average_xg": 0.0,
+        "l5_average_xg": 0.04,
         "l5_average_xa": 0.0,
         "minutes_per_game": 23
     },
-    "De Cordova-Reid": {
+    "Bobby De Cordova-Reid": {
         "name": "Bobby Reid",
         "position": "Midfielder",
         "lookup_name": "Bobby De Cordova-Reid",
@@ -2979,11 +2751,11 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 17
     },
-    "Faes": {
+    "Wout Faes": {
         "name": "Wout Faes",
         "position": "Defender",
         "lookup_name": "Wout Faes",
-        "selected_by_percent": "7.2",
+        "selected_by_percent": "7.1",
         "yellow_cards": 2,
         "price": 40,
         "penalty_duties": false,
@@ -2992,10 +2764,10 @@
         "clean_sheets_per_90": 0.07,
         "team": "Leicester",
         "l5_average_xg": 0.0,
-        "l5_average_xa": 0.0,
-        "minutes_per_game": 74
+        "l5_average_xa": 0.02,
+        "minutes_per_game": 75
     },
-    "Hermansen": {
+    "Mads Hermansen": {
         "name": "Mads Hermansen",
         "position": "Goalkeeper",
         "lookup_name": "Mads Hermansen",
@@ -3006,7 +2778,23 @@
         "team": "Leicester",
         "minutes_per_game": 87
     },
-    "Kristiansen": {
+    "James Justin": {
+        "name": "James Justin",
+        "position": "Defender",
+        "lookup_name": "James Justin",
+        "selected_by_percent": "1.7",
+        "yellow_cards": 2,
+        "price": 42,
+        "penalty_duties": false,
+        "freekick_duties": false,
+        "corner_duties": false,
+        "clean_sheets_per_90": 0.05,
+        "team": "Leicester",
+        "l5_average_xg": 0.18,
+        "l5_average_xa": 0.01,
+        "minutes_per_game": 86
+    },
+    "Victor Kristiansen": {
         "name": "Victor Kristiansen",
         "position": "Defender",
         "lookup_name": "Victor Kristiansen",
@@ -3019,10 +2807,10 @@
         "clean_sheets_per_90": 0.06,
         "team": "Leicester",
         "l5_average_xg": 0.0,
-        "l5_average_xa": 0.05,
+        "l5_average_xa": 0.04,
         "minutes_per_game": 88
     },
-    "Mavididi": {
+    "Stephy Mavididi": {
         "name": "Stephy Mavididi",
         "position": "Midfielder",
         "lookup_name": "Stephy Mavididi",
@@ -3032,29 +2820,13 @@
         "penalty_duties": false,
         "freekick_duties": true,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.08,
+        "clean_sheets_per_90": 0.07,
         "team": "Leicester",
-        "l5_average_xg": 0.12,
-        "l5_average_xa": 0.13,
-        "minutes_per_game": 58
+        "l5_average_xg": 0.19,
+        "l5_average_xa": 0.27,
+        "minutes_per_game": 60
     },
-    "McAteer": {
-        "name": "Kasey McAteer",
-        "position": "Midfielder",
-        "lookup_name": "Kasey McAteer",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 0,
-        "price": 47,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.27,
-        "team": "Leicester",
-        "l5_average_xg": 0.21,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 37
-    },
-    "Ndidi": {
+    "Wilfred Ndidi": {
         "name": "Wilfred Ndidi",
         "position": "Midfielder",
         "lookup_name": "Wilfred Ndidi",
@@ -3070,11 +2842,11 @@
         "l5_average_xa": 0.01,
         "minutes_per_game": 82
     },
-    "Okoli": {
+    "Caleb Okoli": {
         "name": "Caleb Okoli",
         "position": "Defender",
         "lookup_name": "Caleb Okoli",
-        "selected_by_percent": "0.8",
+        "selected_by_percent": "0.7",
         "yellow_cards": 2,
         "price": 40,
         "penalty_duties": false,
@@ -3086,7 +2858,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 61
     },
-    "Vardy": {
+    "Jamie Vardy": {
         "name": "Jamie Vardy",
         "position": "Forward",
         "lookup_name": "Jamie Vardy",
@@ -3097,17 +2869,17 @@
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Leicester",
-        "l5_average_xg": 0.53,
-        "l5_average_xa": 0.24,
+        "l5_average_xg": 0.68,
+        "l5_average_xa": 0.14,
         "minutes_per_game": 83
     },
-    "Winks": {
+    "Harry Winks": {
         "name": "Harry Winks",
         "position": "Midfielder",
         "lookup_name": "Harry Winks",
-        "selected_by_percent": "6.1",
+        "selected_by_percent": "6.0",
         "yellow_cards": 3,
-        "price": 45,
+        "price": 44,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
@@ -3115,25 +2887,9 @@
         "team": "Leicester",
         "l5_average_xg": 0.0,
         "l5_average_xa": 0.02,
-        "minutes_per_game": 76
+        "minutes_per_game": 75
     },
-    "Skipp": {
-        "name": "Oliver Skipp",
-        "position": "Midfielder",
-        "lookup_name": "Oliver Skipp",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 4,
-        "price": 47,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.13,
-        "team": "Leicester",
-        "l5_average_xg": 0.01,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 58
-    },
-    "A.Fatawu": {
+    "Abdul Fatawu": {
         "name": "Abdul Fatawu",
         "position": "Midfielder",
         "lookup_name": "Abdul Fatawu",
@@ -3149,7 +2905,7 @@
         "l5_average_xa": 0.18,
         "minutes_per_game": 51
     },
-    "El Khannouss": {
+    "Bilal El Khannouss": {
         "name": "Bilal El Khannouss",
         "position": "Midfielder",
         "lookup_name": "Bilal El Khannouss",
@@ -3159,40 +2915,40 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.11,
+        "clean_sheets_per_90": 0.1,
         "team": "Leicester",
         "l5_average_xg": 0.03,
         "l5_average_xa": 0.05,
-        "minutes_per_game": 54
+        "minutes_per_game": 55
     },
-    "A.Becker": {
+    "Alisson Ramses Becker": {
         "name": "Alisson",
         "position": "Goalkeeper",
         "lookup_name": "Alisson Ramses Becker",
-        "selected_by_percent": "6.9",
+        "selected_by_percent": "7.0",
         "yellow_cards": 0,
         "price": 54,
-        "clean_sheets_per_90": 0.46,
+        "clean_sheets_per_90": 0.42,
         "team": "Liverpool",
         "minutes_per_game": 89
     },
-    "Alexander-Arnold": {
+    "Trent Alexander-Arnold": {
         "name": "Trent Alexander-Arnold",
         "position": "Defender",
         "lookup_name": "Trent Alexander-Arnold",
-        "selected_by_percent": "27.2",
+        "selected_by_percent": "26.9",
         "yellow_cards": 4,
         "price": 72,
         "penalty_duties": false,
         "freekick_duties": true,
         "corner_duties": true,
-        "clean_sheets_per_90": 0.45,
+        "clean_sheets_per_90": 0.42,
         "team": "Liverpool",
-        "l5_average_xg": 0.04,
-        "l5_average_xa": 0.36,
+        "l5_average_xg": 0.05,
+        "l5_average_xa": 0.35,
         "minutes_per_game": 79
     },
-    "Bradley": {
+    "Conor Bradley": {
         "name": "Conor Bradley",
         "position": "Defender",
         "lookup_name": "Conor Bradley",
@@ -3208,7 +2964,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 27
     },
-    "Darwin": {
+    "Darwin Núñez Ribeiro": {
         "name": "Darwin Núñez",
         "position": "Forward",
         "lookup_name": "Darwin Núñez Ribeiro",
@@ -3223,8 +2979,8 @@
         "l5_average_xa": 0.08,
         "minutes_per_game": 49
     },
-    "Diogo J.": {
-        "name": "Diogo Dalot",
+    "Diogo Teixeira da Silva": {
+        "name": "Diogo Jota",
         "position": "Midfielder",
         "lookup_name": "Diogo Teixeira da Silva",
         "selected_by_percent": "3.2",
@@ -3233,34 +2989,34 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.6,
-        "team": "Manchester United",
-        "l5_average_xg": 0.05,
-        "l5_average_xa": 0.04,
-        "minutes_per_game": 88
+        "clean_sheets_per_90": 0.58,
+        "team": "Liverpool",
+        "l5_average_xg": 0.42,
+        "l5_average_xa": 0.01,
+        "minutes_per_game": 47
     },
-    "Gakpo": {
+    "Cody Gakpo": {
         "name": "Cody Gakpo",
         "position": "Forward",
         "lookup_name": "Cody Gakpo",
-        "selected_by_percent": "8.2",
+        "selected_by_percent": "8.7",
         "yellow_cards": 4,
-        "price": 73,
+        "price": 74,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Liverpool",
-        "l5_average_xg": 0.36,
-        "l5_average_xa": 0.21,
-        "minutes_per_game": 52
+        "l5_average_xg": 0.27,
+        "l5_average_xa": 0.32,
+        "minutes_per_game": 54
     },
-    "Gomez": {
+    "Joe Gomez": {
         "name": "Joseph Gomez",
         "position": "Defender",
         "lookup_name": "Joe Gomez",
-        "selected_by_percent": "0.8",
+        "selected_by_percent": "0.7",
         "yellow_cards": 1,
-        "price": 48,
+        "price": 47,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
@@ -3270,7 +3026,7 @@
         "l5_average_xa": 0.02,
         "minutes_per_game": 56
     },
-    "Gravenberch": {
+    "Ryan Gravenberch": {
         "name": "Ryan Gravenberch",
         "position": "Midfielder",
         "lookup_name": "Ryan Gravenberch",
@@ -3280,17 +3036,17 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.38,
+        "clean_sheets_per_90": 0.36,
         "team": "Liverpool",
-        "l5_average_xg": 0.02,
+        "l5_average_xg": 0.04,
         "l5_average_xa": 0.16,
         "minutes_per_game": 87
     },
-    "Jones": {
+    "Curtis Jones": {
         "name": "Curtis Jones",
         "position": "Midfielder",
         "lookup_name": "Curtis Jones",
-        "selected_by_percent": "0.6",
+        "selected_by_percent": "0.5",
         "yellow_cards": 1,
         "price": 53,
         "penalty_duties": false,
@@ -3298,70 +3054,70 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.31,
         "team": "Liverpool",
-        "l5_average_xg": 0.18,
+        "l5_average_xg": 0.17,
         "l5_average_xa": 0.05,
-        "minutes_per_game": 55
+        "minutes_per_game": 52
     },
-    "Kelleher": {
+    "Caoimhin Kelleher": {
         "name": "Caoimhin Kelleher",
         "position": "Goalkeeper",
         "lookup_name": "Caoimhin Kelleher",
-        "selected_by_percent": "1.7",
+        "selected_by_percent": "1.6",
         "yellow_cards": 0,
-        "price": 42,
+        "price": 41,
         "clean_sheets_per_90": 0.38,
         "team": "Liverpool",
         "minutes_per_game": 90
     },
-    "Konaté": {
+    "Ibrahima Konaté": {
         "name": "Ibrahima Konaté",
         "position": "Defender",
         "lookup_name": "Ibrahima Konaté",
-        "selected_by_percent": "3.3",
+        "selected_by_percent": "3.6",
         "yellow_cards": 4,
         "price": 51,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.42,
+        "clean_sheets_per_90": 0.4,
         "team": "Liverpool",
         "l5_average_xg": 0.18,
         "l5_average_xa": 0.01,
-        "minutes_per_game": 82
+        "minutes_per_game": 81
     },
     "Luis Díaz": {
         "name": "Luis Díaz",
         "position": "Midfielder",
         "lookup_name": "Luis Díaz",
-        "selected_by_percent": "21.6",
-        "yellow_cards": 1,
-        "price": 76,
+        "selected_by_percent": "19.6",
+        "yellow_cards": 2,
+        "price": 75,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.65,
+        "clean_sheets_per_90": 0.61,
         "team": "Liverpool",
-        "l5_average_xg": 0.37,
-        "l5_average_xa": 0.08,
-        "minutes_per_game": 62
+        "l5_average_xg": 0.35,
+        "l5_average_xa": 0.1,
+        "minutes_per_game": 63
     },
-    "M.Salah": {
+    "Mohamed Salah": {
         "name": "Mohamed Salah",
         "position": "Midfielder",
         "lookup_name": "Mohamed Salah",
-        "selected_by_percent": "70.2",
+        "selected_by_percent": "70.3",
         "yellow_cards": 1,
         "price": 137,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.43,
+        "clean_sheets_per_90": 0.41,
         "team": "Liverpool",
-        "l5_average_xg": 1.13,
-        "l5_average_xa": 0.6,
+        "l5_average_xg": 1.16,
+        "l5_average_xa": 0.61,
         "minutes_per_game": 88
     },
-    "Mac Allister": {
+    "Alexis Mac Allister": {
         "name": "Alexis Mac Allister",
         "position": "Midfielder",
         "lookup_name": "Alexis Mac Allister",
@@ -3371,29 +3127,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.48,
+        "clean_sheets_per_90": 0.45,
         "team": "Liverpool",
-        "l5_average_xg": 0.31,
-        "l5_average_xa": 0.33,
-        "minutes_per_game": 73
+        "l5_average_xg": 0.28,
+        "l5_average_xa": 0.32,
+        "minutes_per_game": 74
     },
-    "Robertson": {
+    "Andrew Robertson": {
         "name": "Andrew Robertson",
         "position": "Defender",
         "lookup_name": "Andrew Robertson",
-        "selected_by_percent": "4.7",
+        "selected_by_percent": "4.6",
         "yellow_cards": 2,
         "price": 59,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.46,
+        "clean_sheets_per_90": 0.44,
         "team": "Liverpool",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.05,
         "minutes_per_game": 77
     },
-    "Szoboszlai": {
+    "Dominik Szoboszlai": {
         "name": "Dominik Szoboszlai",
         "position": "Midfielder",
         "lookup_name": "Dominik Szoboszlai",
@@ -3403,13 +3159,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.4,
+        "clean_sheets_per_90": 0.37,
         "team": "Liverpool",
-        "l5_average_xg": 0.41,
-        "l5_average_xa": 0.23,
-        "minutes_per_game": 66
+        "l5_average_xg": 0.5,
+        "l5_average_xa": 0.22,
+        "minutes_per_game": 67
     },
-    "Tsimikas": {
+    "Konstantinos Tsimikas": {
         "name": "Konstantinos Tsimikas",
         "position": "Defender",
         "lookup_name": "Konstantinos Tsimikas",
@@ -3419,29 +3175,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.36,
+        "clean_sheets_per_90": 0.33,
         "team": "Liverpool",
         "l5_average_xg": 0.02,
-        "l5_average_xa": 0.17,
-        "minutes_per_game": 29
+        "l5_average_xa": 0.28,
+        "minutes_per_game": 28
     },
-    "Virgil": {
+    "Virgil van Dijk": {
         "name": "Virgil van Dijk",
         "position": "Defender",
         "lookup_name": "Virgil van Dijk",
-        "selected_by_percent": "22.7",
+        "selected_by_percent": "22.3",
         "yellow_cards": 1,
         "price": 64,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.42,
+        "clean_sheets_per_90": 0.4,
         "team": "Liverpool",
-        "l5_average_xg": 0.12,
-        "l5_average_xa": 0.0,
+        "l5_average_xg": 0.1,
+        "l5_average_xa": 0.01,
         "minutes_per_game": 90
     },
-    "Akanji": {
+    "Manuel Akanji": {
         "name": "Manuel Akanji",
         "position": "Defender",
         "lookup_name": "Manuel Akanji",
@@ -3451,14 +3207,14 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.2,
+        "clean_sheets_per_90": 0.19,
         "team": "Manchester City",
-        "l5_average_xg": 0.01,
-        "l5_average_xa": 0.01,
+        "l5_average_xg": 0.06,
+        "l5_average_xa": 0.03,
         "minutes_per_game": 85
     },
-    "Aké": {
-        "name": "Bukayo Saka",
+    "Nathan Aké": {
+        "name": "Nathan Aké",
         "position": "Defender",
         "lookup_name": "Nathan Aké",
         "selected_by_percent": "1.0",
@@ -3467,45 +3223,45 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.53,
-        "team": "Arsenal",
-        "l5_average_xg": 0.3,
-        "l5_average_xa": 0.48,
-        "minutes_per_game": 81
+        "clean_sheets_per_90": 0.45,
+        "team": "Manchester City",
+        "l5_average_xg": 0.01,
+        "l5_average_xa": 0.0,
+        "minutes_per_game": 67
     },
-    "Bernardo": {
+    "Bernardo Veiga de Carvalho e Silva": {
         "name": "Bernardo Silva",
         "position": "Midfielder",
         "lookup_name": "Bernardo Veiga de Carvalho e Silva",
-        "selected_by_percent": "3.6",
+        "selected_by_percent": "3.4",
         "yellow_cards": 4,
         "price": 63,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.22,
+        "clean_sheets_per_90": 0.21,
         "team": "Manchester City",
         "l5_average_xg": 0.11,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 81
+        "l5_average_xa": 0.04,
+        "minutes_per_game": 82
     },
-    "De Bruyne": {
+    "Kevin De Bruyne": {
         "name": "Kevin De Bruyne",
         "position": "Midfielder",
         "lookup_name": "Kevin De Bruyne",
-        "selected_by_percent": "4.4",
+        "selected_by_percent": "4.3",
         "yellow_cards": 2,
         "price": 94,
         "penalty_duties": false,
         "freekick_duties": true,
         "corner_duties": true,
-        "clean_sheets_per_90": 0.44,
+        "clean_sheets_per_90": 0.4,
         "team": "Manchester City",
-        "l5_average_xg": 0.03,
-        "l5_average_xa": 0.26,
-        "minutes_per_game": 63
+        "l5_average_xg": 0.06,
+        "l5_average_xa": 0.35,
+        "minutes_per_game": 65
     },
-    "Doku": {
+    "Jérémy Doku": {
         "name": "Jéremy Doku",
         "position": "Midfielder",
         "lookup_name": "Jérémy Doku",
@@ -3521,34 +3277,34 @@
         "l5_average_xa": 0.09,
         "minutes_per_game": 50
     },
-    "Ederson M.": {
+    "Ederson Santana de Moraes": {
         "name": "Ederson",
         "position": "Goalkeeper",
         "lookup_name": "Ederson Santana de Moraes",
-        "selected_by_percent": "4.8",
+        "selected_by_percent": "4.7",
         "yellow_cards": 3,
         "price": 53,
         "clean_sheets_per_90": 0.15,
         "team": "Manchester City",
         "minutes_per_game": 90
     },
-    "Foden": {
+    "Phil Foden": {
         "name": "Phil Foden",
         "position": "Midfielder",
         "lookup_name": "Phil Foden",
-        "selected_by_percent": "5.4",
+        "selected_by_percent": "5.7",
         "yellow_cards": 2,
         "price": 92,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.17,
+        "clean_sheets_per_90": 0.16,
         "team": "Manchester City",
-        "l5_average_xg": 0.29,
-        "l5_average_xa": 0.27,
-        "minutes_per_game": 69
+        "l5_average_xg": 0.4,
+        "l5_average_xa": 0.31,
+        "minutes_per_game": 70
     },
-    "Grealish": {
+    "Jack Grealish": {
         "name": "Jack Grealish",
         "position": "Midfielder",
         "lookup_name": "Jack Grealish",
@@ -3564,38 +3320,38 @@
         "l5_average_xa": 0.12,
         "minutes_per_game": 39
     },
-    "Gvardiol": {
+    "Joško Gvardiol": {
         "name": "Josko Gvardiol",
         "position": "Defender",
         "lookup_name": "Joško Gvardiol",
-        "selected_by_percent": "20.8",
+        "selected_by_percent": "20.4",
         "yellow_cards": 1,
         "price": 60,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.22,
+        "clean_sheets_per_90": 0.21,
         "team": "Manchester City",
-        "l5_average_xg": 0.21,
+        "l5_average_xg": 0.23,
         "l5_average_xa": 0.0,
         "minutes_per_game": 87
     },
-    "Haaland": {
+    "Erling Haaland": {
         "name": "Erling Haaland",
         "position": "Forward",
         "lookup_name": "Erling Haaland",
-        "selected_by_percent": "30.6",
+        "selected_by_percent": "30.4",
         "yellow_cards": 2,
         "price": 148,
         "penalty_duties": true,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Manchester City",
-        "l5_average_xg": 0.63,
-        "l5_average_xa": 0.08,
+        "l5_average_xg": 0.74,
+        "l5_average_xa": 0.07,
         "minutes_per_game": 89
     },
-    "Kovačić": {
+    "Mateo Kovačić": {
         "name": "Mateo Kovacic",
         "position": "Midfielder",
         "lookup_name": "Mateo Kovačić",
@@ -3605,29 +3361,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.3,
+        "clean_sheets_per_90": 0.35,
         "team": "Manchester City",
-        "l5_average_xg": 0.04,
+        "l5_average_xg": 0.05,
         "l5_average_xa": 0.09,
         "minutes_per_game": 77
     },
-    "Lewis": {
-        "name": "Myles Lewis-Skelly",
+    "Rico Lewis": {
+        "name": "Rico Lewis",
         "position": "Defender",
         "lookup_name": "Rico Lewis",
-        "selected_by_percent": "6.9",
+        "selected_by_percent": "6.6",
         "yellow_cards": 3,
         "price": 46,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "clean_sheets_per_90": 0.2,
-        "team": "Arsenal",
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 40
+        "team": "Manchester City",
+        "l5_average_xg": 0.08,
+        "l5_average_xa": 0.02,
+        "minutes_per_game": 77
     },
-    "Matheus N.": {
+    "Matheus Luiz Nunes": {
         "name": "Matheus Nunes",
         "position": "Midfielder",
         "lookup_name": "Matheus Luiz Nunes",
@@ -3637,24 +3393,24 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.17,
+        "clean_sheets_per_90": 0.15,
         "team": "Manchester City",
         "l5_average_xg": 0.02,
-        "l5_average_xa": 0.09,
-        "minutes_per_game": 44
+        "l5_average_xa": 0.16,
+        "minutes_per_game": 47
     },
-    "Ortega Moreno": {
+    "Stefan Ortega Moreno": {
         "name": "Stefan Ortega Moreno",
         "position": "Goalkeeper",
         "lookup_name": "Stefan Ortega Moreno",
         "selected_by_percent": "0.7",
         "yellow_cards": 1,
         "price": 52,
-        "clean_sheets_per_90": 0.29,
+        "clean_sheets_per_90": 0.25,
         "team": "Manchester City",
         "minutes_per_game": 90
     },
-    "Rúben": {
+    "Rúben Gato Alves Dias": {
         "name": "Rúben Dias",
         "position": "Defender",
         "lookup_name": "Rúben Gato Alves Dias",
@@ -3670,7 +3426,7 @@
         "l5_average_xa": 0.02,
         "minutes_per_game": 83
     },
-    "Stones": {
+    "John Stones": {
         "name": "John Stones",
         "position": "Defender",
         "lookup_name": "John Stones",
@@ -3686,7 +3442,7 @@
         "l5_average_xa": 0.02,
         "minutes_per_game": 40
     },
-    "Walker": {
+    "Kyle Walker": {
         "name": "Kyle Walker",
         "position": "Defender",
         "lookup_name": "Kyle Walker",
@@ -3702,23 +3458,23 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 64
     },
-    "Savinho": {
-        "name": "Kevin De Bruyne",
+    "Sávio 'Savinho' Moreira de Oliveira": {
+        "name": "Sávio",
         "position": "Midfielder",
         "lookup_name": "Sávio 'Savinho' Moreira de Oliveira",
-        "selected_by_percent": "3.8",
+        "selected_by_percent": "4.9",
         "yellow_cards": 2,
         "price": 65,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.27,
+        "clean_sheets_per_90": 0.25,
         "team": "Manchester City",
-        "l5_average_xg": 0.03,
-        "l5_average_xa": 0.26,
-        "minutes_per_game": 63
+        "l5_average_xg": 0.22,
+        "l5_average_xa": 0.34,
+        "minutes_per_game": 61
     },
-    "Gündogan": {
+    "Ilkay Gündogan": {
         "name": "Ilkay Gündogan",
         "position": "Midfielder",
         "lookup_name": "Ilkay Gündogan",
@@ -3730,49 +3486,49 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.16,
         "team": "Manchester City",
-        "l5_average_xg": 0.02,
-        "l5_average_xa": 0.02,
-        "minutes_per_game": 63
+        "l5_average_xg": 0.0,
+        "l5_average_xa": 0.05,
+        "minutes_per_game": 61
     },
-    "Amad": {
-        "name": "Amadou Onana",
+    "Amad Diallo": {
+        "name": "Amad Diallo Traore",
         "position": "Midfielder",
         "lookup_name": "Amad Diallo",
-        "selected_by_percent": "16.5",
+        "selected_by_percent": "19.3",
         "yellow_cards": 3,
-        "price": 54,
+        "price": 55,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.37,
-        "team": "Aston Villa",
-        "l5_average_xg": 0.11,
-        "l5_average_xa": 0.0,
-        "minutes_per_game": 66
+        "clean_sheets_per_90": 0.34,
+        "team": "Manchester United",
+        "l5_average_xg": 0.4,
+        "l5_average_xa": 0.13,
+        "minutes_per_game": 69
     },
-    "B.Fernandes": {
+    "Bruno Borges Fernandes": {
         "name": "Bruno Fernandes",
         "position": "Midfielder",
         "lookup_name": "Bruno Borges Fernandes",
-        "selected_by_percent": "9.5",
+        "selected_by_percent": "10.9",
         "yellow_cards": 1,
-        "price": 83,
+        "price": 84,
         "penalty_duties": true,
         "freekick_duties": true,
         "corner_duties": true,
-        "clean_sheets_per_90": 0.35,
+        "clean_sheets_per_90": 0.33,
         "team": "Manchester United",
-        "l5_average_xg": 0.43,
-        "l5_average_xa": 0.16,
-        "minutes_per_game": 82
+        "l5_average_xg": 0.44,
+        "l5_average_xa": 0.14,
+        "minutes_per_game": 83
     },
-    "Casemiro": {
+    "Carlos Henrique Casimiro": {
         "name": "Casemiro",
         "position": "Midfielder",
         "lookup_name": "Carlos Henrique Casimiro",
-        "selected_by_percent": "0.5",
+        "selected_by_percent": "0.4",
         "yellow_cards": 1,
-        "price": 48,
+        "price": 47,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
@@ -3782,11 +3538,11 @@
         "l5_average_xa": 0.08,
         "minutes_per_game": 60
     },
-    "Dalot": {
+    "Diogo Dalot Teixeira": {
         "name": "Diogo Dalot",
         "position": "Defender",
         "lookup_name": "Diogo Dalot Teixeira",
-        "selected_by_percent": "7.0",
+        "selected_by_percent": "6.3",
         "yellow_cards": 4,
         "price": 50,
         "penalty_duties": false,
@@ -3798,7 +3554,7 @@
         "l5_average_xa": 0.04,
         "minutes_per_game": 88
     },
-    "Eriksen": {
+    "Christian Eriksen": {
         "name": "Christian Eriksen",
         "position": "Midfielder",
         "lookup_name": "Christian Eriksen",
@@ -3811,10 +3567,10 @@
         "clean_sheets_per_90": 0.43,
         "team": "Manchester United",
         "l5_average_xg": 0.01,
-        "l5_average_xa": 0.04,
-        "minutes_per_game": 56
+        "l5_average_xa": 0.1,
+        "minutes_per_game": 52
     },
-    "Evans": {
+    "Jonny Evans": {
         "name": "Jonny Evans",
         "position": "Defender",
         "lookup_name": "Jonny Evans",
@@ -3830,7 +3586,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 47
     },
-    "Garnacho": {
+    "Alejandro Garnacho": {
         "name": "Alejandro Garnacho",
         "position": "Midfielder",
         "lookup_name": "Alejandro Garnacho",
@@ -3840,32 +3596,32 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.18,
+        "clean_sheets_per_90": 0.16,
         "team": "Manchester United",
-        "l5_average_xg": 0.17,
-        "l5_average_xa": 0.1,
-        "minutes_per_game": 53
+        "l5_average_xg": 0.26,
+        "l5_average_xa": 0.21,
+        "minutes_per_game": 55
     },
-    "Højlund": {
+    "Rasmus Højlund": {
         "name": "Rasmus Højlund",
         "position": "Forward",
         "lookup_name": "Rasmus Højlund",
-        "selected_by_percent": "1.4",
+        "selected_by_percent": "1.5",
         "yellow_cards": 1,
         "price": 69,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Manchester United",
-        "l5_average_xg": 0.13,
-        "l5_average_xa": 0.19,
-        "minutes_per_game": 66
+        "l5_average_xg": 0.16,
+        "l5_average_xa": 0.15,
+        "minutes_per_game": 65
     },
-    "Maguire": {
+    "Harry Maguire": {
         "name": "Harry Maguire",
         "position": "Defender",
         "lookup_name": "Harry Maguire",
-        "selected_by_percent": "0.5",
+        "selected_by_percent": "0.6",
         "yellow_cards": 5,
         "price": 49,
         "penalty_duties": false,
@@ -3875,9 +3631,9 @@
         "team": "Manchester United",
         "l5_average_xg": 0.12,
         "l5_average_xa": 0.02,
-        "minutes_per_game": 61
+        "minutes_per_game": 57
     },
-    "Mainoo": {
+    "Kobbie Mainoo": {
         "name": "Kobbie Mainoo",
         "position": "Midfielder",
         "lookup_name": "Kobbie Mainoo",
@@ -3887,13 +3643,40 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.41,
+        "clean_sheets_per_90": 0.39,
         "team": "Manchester United",
-        "l5_average_xg": 0.05,
-        "l5_average_xa": 0.14,
-        "minutes_per_game": 79
+        "l5_average_xg": 0.04,
+        "l5_average_xa": 0.13,
+        "minutes_per_game": 77
     },
-    "Rashford": {
+    "Lisandro Martínez": {
+        "name": "Lisandro Martínez",
+        "position": "Defender",
+        "lookup_name": "Lisandro Martínez",
+        "selected_by_percent": "3.6",
+        "yellow_cards": 7,
+        "price": 44,
+        "penalty_duties": false,
+        "freekick_duties": false,
+        "corner_duties": false,
+        "clean_sheets_per_90": 0.28,
+        "team": "Manchester United",
+        "l5_average_xg": 0.07,
+        "l5_average_xa": 0.15,
+        "minutes_per_game": 88
+    },
+    "André Onana": {
+        "name": "André Onana",
+        "position": "Goalkeeper",
+        "lookup_name": "André Onana",
+        "selected_by_percent": "7.5",
+        "yellow_cards": 0,
+        "price": 51,
+        "clean_sheets_per_90": 0.29,
+        "team": "Manchester United",
+        "minutes_per_game": 90
+    },
+    "Marcus Rashford": {
         "name": "Marcus Rashford",
         "position": "Midfielder",
         "lookup_name": "Marcus Rashford",
@@ -3909,22 +3692,22 @@
         "l5_average_xa": 0.05,
         "minutes_per_game": 66
     },
-    "Zirkzee": {
+    "Joshua Zirkzee": {
         "name": "Joshua Zirkzee",
         "position": "Forward",
         "lookup_name": "Joshua Zirkzee",
-        "selected_by_percent": "1.5",
+        "selected_by_percent": "1.6",
         "yellow_cards": 1,
         "price": 65,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Manchester United",
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.09,
-        "minutes_per_game": 33
+        "l5_average_xg": 0.02,
+        "l5_average_xa": 0.12,
+        "minutes_per_game": 34
     },
-    "De Ligt": {
+    "Matthijs de Ligt": {
         "name": "Matthijs de Ligt",
         "position": "Defender",
         "lookup_name": "Matthijs de Ligt",
@@ -3934,13 +3717,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.21,
+        "clean_sheets_per_90": 0.19,
         "team": "Manchester United",
-        "l5_average_xg": 0.06,
+        "l5_average_xg": 0.04,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 73
+        "minutes_per_game": 74
     },
-    "Mazraoui": {
+    "Noussair Mazraoui": {
         "name": "Noussair Mazraoui",
         "position": "Defender",
         "lookup_name": "Noussair Mazraoui",
@@ -3950,13 +3733,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.24,
+        "clean_sheets_per_90": 0.23,
         "team": "Manchester United",
         "l5_average_xg": 0.03,
-        "l5_average_xa": 0.01,
+        "l5_average_xa": 0.03,
         "minutes_per_game": 77
     },
-    "Ugarte": {
+    "Manuel Ugarte": {
         "name": "Manuel Ugarte",
         "position": "Midfielder",
         "lookup_name": "Manuel Ugarte",
@@ -3969,14 +3752,14 @@
         "clean_sheets_per_90": 0.11,
         "team": "Manchester United",
         "l5_average_xg": 0.03,
-        "l5_average_xa": 0.09,
+        "l5_average_xa": 0.0,
         "minutes_per_game": 57
     },
-    "Barnes": {
+    "Harvey Barnes": {
         "name": "Harvey Barnes",
         "position": "Midfielder",
         "lookup_name": "Harvey Barnes",
-        "selected_by_percent": "1.4",
+        "selected_by_percent": "1.2",
         "yellow_cards": 0,
         "price": 60,
         "penalty_duties": false,
@@ -3988,113 +3771,113 @@
         "l5_average_xa": 0.03,
         "minutes_per_game": 37
     },
-    "Bruno G.": {
+    "Bruno Guimarães Rodriguez Moura": {
         "name": "Bruno Guimarães",
         "position": "Midfielder",
         "lookup_name": "Bruno Guimarães Rodriguez Moura",
-        "selected_by_percent": "2.0",
+        "selected_by_percent": "2.1",
         "yellow_cards": 3,
         "price": 61,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.36,
+        "clean_sheets_per_90": 0.39,
         "team": "Newcastle United",
-        "l5_average_xg": 0.22,
-        "l5_average_xa": 0.45,
+        "l5_average_xg": 0.08,
+        "l5_average_xa": 0.54,
         "minutes_per_game": 88
     },
-    "Burn": {
-        "name": "Ben Winterburn",
+    "Dan Burn": {
+        "name": "Dan Burn",
         "position": "Defender",
         "lookup_name": "Dan Burn",
-        "selected_by_percent": "7.5",
+        "selected_by_percent": "7.7",
         "yellow_cards": 6,
         "price": 44,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.37,
-        "team": "Bournemouth",
-        "l5_average_xg": 0.0,
+        "clean_sheets_per_90": 0.4,
+        "team": "Newcastle United",
+        "l5_average_xg": 0.05,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 5
+        "minutes_per_game": 90
     },
-    "Dúbravka": {
+    "Martin Dúbravka": {
         "name": "Martin Dubravka",
         "position": "Goalkeeper",
         "lookup_name": "Martin Dúbravka",
-        "selected_by_percent": "1.9",
+        "selected_by_percent": "2.4",
         "yellow_cards": 0,
-        "price": 42,
-        "clean_sheets_per_90": 0.8,
+        "price": 43,
+        "clean_sheets_per_90": 0.83,
         "team": "Newcastle United",
         "minutes_per_game": 90
     },
-    "Gordon": {
+    "Anthony Gordon": {
         "name": "Anthony Gordon",
         "position": "Midfielder",
         "lookup_name": "Anthony Gordon",
-        "selected_by_percent": "20.4",
+        "selected_by_percent": "23.7",
         "yellow_cards": 1,
-        "price": 75,
+        "price": 77,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.48,
+        "clean_sheets_per_90": 0.51,
         "team": "Newcastle United",
-        "l5_average_xg": 0.49,
-        "l5_average_xa": 0.28,
+        "l5_average_xg": 0.6,
+        "l5_average_xa": 0.25,
         "minutes_per_game": 82
     },
-    "Hall": {
-        "name": "Kiernan Dewsbury-Hall",
+    "Lewis Hall": {
+        "name": "Lewis Hall",
         "position": "Defender",
         "lookup_name": "Lewis Hall",
-        "selected_by_percent": "20.5",
+        "selected_by_percent": "23.1",
         "yellow_cards": 3,
-        "price": 49,
+        "price": 50,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.4,
-        "team": "Chelsea",
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.02,
-        "minutes_per_game": 6
+        "clean_sheets_per_90": 0.43,
+        "team": "Newcastle United",
+        "l5_average_xg": 0.04,
+        "l5_average_xa": 0.11,
+        "minutes_per_game": 79
     },
-    "Isak": {
+    "Alexander Isak": {
         "name": "Alexander Isak",
         "position": "Forward",
         "lookup_name": "Alexander Isak",
-        "selected_by_percent": "54.7",
+        "selected_by_percent": "56.1",
         "yellow_cards": 1,
-        "price": 93,
+        "price": 94,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Newcastle United",
-        "l5_average_xg": 1.26,
-        "l5_average_xa": 0.3,
+        "l5_average_xg": 1.07,
+        "l5_average_xa": 0.26,
         "minutes_per_game": 82
     },
-    "J.Murphy": {
+    "Jacob Murphy": {
         "name": "Jacob Murphy",
         "position": "Midfielder",
         "lookup_name": "Jacob Murphy",
-        "selected_by_percent": "5.9",
+        "selected_by_percent": "5.4",
         "yellow_cards": 2,
         "price": 51,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.44,
+        "clean_sheets_per_90": 0.49,
         "team": "Newcastle United",
-        "l5_average_xg": 0.3,
+        "l5_average_xg": 0.18,
         "l5_average_xa": 0.68,
-        "minutes_per_game": 61
+        "minutes_per_game": 62
     },
-    "Joelinton": {
+    "Joelinton Cássio Apolinário de Lira": {
         "name": "Joelinton",
         "position": "Midfielder",
         "lookup_name": "Joelinton Cássio Apolinário de Lira",
@@ -4104,14 +3887,14 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.34,
+        "clean_sheets_per_90": 0.38,
         "team": "Newcastle United",
-        "l5_average_xg": 0.17,
-        "l5_average_xa": 0.12,
+        "l5_average_xg": 0.21,
+        "l5_average_xa": 0.13,
         "minutes_per_game": 84
     },
-    "Kelly": {
-        "name": "Myles Lewis-Skelly",
+    "Lloyd Kelly": {
+        "name": "Lloyd Kelly",
         "position": "Defender",
         "lookup_name": "Lloyd Kelly",
         "selected_by_percent": "0.1",
@@ -4121,12 +3904,12 @@
         "freekick_duties": false,
         "corner_duties": false,
         "clean_sheets_per_90": 0.0,
-        "team": "Arsenal",
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 40
+        "team": "Newcastle United",
+        "l5_average_xg": 0.02,
+        "l5_average_xa": 0.01,
+        "minutes_per_game": 33
     },
-    "Krafth": {
+    "Emil Krafth": {
         "name": "Emil Krafth",
         "position": "Defender",
         "lookup_name": "Emil Krafth",
@@ -4142,7 +3925,7 @@
         "l5_average_xa": 0.02,
         "minutes_per_game": 80
     },
-    "Livramento": {
+    "Tino Livramento": {
         "name": "Valentino Livramento",
         "position": "Defender",
         "lookup_name": "Tino Livramento",
@@ -4152,13 +3935,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.27,
+        "clean_sheets_per_90": 0.32,
         "team": "Newcastle United",
         "l5_average_xg": 0.0,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 69
+        "l5_average_xa": 0.0,
+        "minutes_per_game": 70
     },
-    "Longstaff": {
+    "Sean Longstaff": {
         "name": "Sean Longstaff",
         "position": "Midfielder",
         "lookup_name": "Sean Longstaff",
@@ -4174,18 +3957,18 @@
         "l5_average_xa": 0.02,
         "minutes_per_game": 41
     },
-    "Pope": {
+    "Nick Pope": {
         "name": "Nick Pope",
         "position": "Goalkeeper",
         "lookup_name": "Nick Pope",
-        "selected_by_percent": "3.4",
+        "selected_by_percent": "3.3",
         "yellow_cards": 2,
         "price": 49,
         "clean_sheets_per_90": 0.2,
         "team": "Newcastle United",
         "minutes_per_game": 90
     },
-    "Schär": {
+    "Fabian Schär": {
         "name": "Fabian Schär",
         "position": "Defender",
         "lookup_name": "Fabian Schär",
@@ -4201,7 +3984,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 86
     },
-    "Tonali": {
+    "Sandro Tonali": {
         "name": "Sandro Tonali",
         "position": "Midfielder",
         "lookup_name": "Sandro Tonali",
@@ -4211,13 +3994,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.41,
+        "clean_sheets_per_90": 0.45,
         "team": "Newcastle United",
-        "l5_average_xg": 0.26,
-        "l5_average_xa": 0.02,
-        "minutes_per_game": 60
+        "l5_average_xg": 0.25,
+        "l5_average_xa": 0.05,
+        "minutes_per_game": 62
     },
-    "Trippier": {
+    "Kieran Trippier": {
         "name": "Kieran Trippier",
         "position": "Defender",
         "lookup_name": "Kieran Trippier",
@@ -4227,29 +4010,29 @@
         "penalty_duties": false,
         "freekick_duties": true,
         "corner_duties": true,
-        "clean_sheets_per_90": 0.38,
+        "clean_sheets_per_90": 0.37,
         "team": "Newcastle United",
         "l5_average_xg": 0.0,
         "l5_average_xa": 0.01,
-        "minutes_per_game": 43
+        "minutes_per_game": 40
     },
-    "Willock": {
+    "Joe Willock": {
         "name": "Joe Willock",
         "position": "Midfielder",
         "lookup_name": "Joe Willock",
         "selected_by_percent": "0.1",
         "yellow_cards": 2,
-        "price": 48,
+        "price": 47,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.5,
+        "clean_sheets_per_90": 0.49,
         "team": "Newcastle United",
         "l5_average_xg": 0.03,
         "l5_average_xa": 0.02,
-        "minutes_per_game": 31
+        "minutes_per_game": 29
     },
-    "Alex Moreno": {
+    "Álex Moreno Lopera": {
         "name": "Álex Moreno",
         "position": "Defender",
         "lookup_name": "Álex Moreno Lopera",
@@ -4261,27 +4044,27 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.34,
         "team": "Nottingham Forest",
-        "l5_average_xg": 0.02,
-        "l5_average_xa": 0.11,
-        "minutes_per_game": 74
+        "l5_average_xg": 0.01,
+        "l5_average_xa": 0.0,
+        "minutes_per_game": 68
     },
-    "Aina": {
+    "Ola Aina": {
         "name": "Ola Aina",
         "position": "Defender",
         "lookup_name": "Ola Aina",
-        "selected_by_percent": "24.9",
+        "selected_by_percent": "26.3",
         "yellow_cards": 2,
-        "price": 52,
+        "price": 53,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.47,
+        "clean_sheets_per_90": 0.44,
         "team": "Nottingham Forest",
         "l5_average_xg": 0.06,
-        "l5_average_xa": 0.02,
+        "l5_average_xa": 0.0,
         "minutes_per_game": 87
     },
-    "Anderson": {
+    "Elliot Anderson": {
         "name": "Elliot Anderson",
         "position": "Midfielder",
         "lookup_name": "Elliot Anderson",
@@ -4291,13 +4074,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.6,
+        "clean_sheets_per_90": 0.56,
         "team": "Nottingham Forest",
-        "l5_average_xg": 0.07,
-        "l5_average_xa": 0.22,
-        "minutes_per_game": 63
+        "l5_average_xg": 0.04,
+        "l5_average_xa": 0.09,
+        "minutes_per_game": 65
     },
-    "Awoniyi": {
+    "Taiwo Awoniyi": {
         "name": "Taiwo Awoniyi",
         "position": "Forward",
         "lookup_name": "Taiwo Awoniyi",
@@ -4310,57 +4093,41 @@
         "team": "Nottingham Forest",
         "l5_average_xg": 0.31,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 13
+        "minutes_per_game": 12
     },
-    "Dominguez": {
-        "name": "Nicolás Domínguez",
-        "position": "Midfielder",
-        "lookup_name": "Nicolás Domínguez",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 6,
-        "price": 48,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.28,
-        "team": "Nottingham Forest",
-        "l5_average_xg": 0.12,
-        "l5_average_xa": 0.0,
-        "minutes_per_game": 56
-    },
-    "Elanga": {
+    "Anthony Elanga": {
         "name": "Anthony Elanga",
         "position": "Midfielder",
         "lookup_name": "Anthony Elanga",
-        "selected_by_percent": "3.8",
+        "selected_by_percent": "4.9",
         "yellow_cards": 1,
-        "price": 52,
+        "price": 53,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.57,
+        "clean_sheets_per_90": 0.52,
         "team": "Nottingham Forest",
-        "l5_average_xg": 0.38,
-        "l5_average_xa": 0.17,
-        "minutes_per_game": 57
+        "l5_average_xg": 0.28,
+        "l5_average_xa": 0.25,
+        "minutes_per_game": 58
     },
-    "Gibbs-White": {
+    "Morgan Gibbs-White": {
         "name": "Morgan Gibbs-White",
         "position": "Midfielder",
         "lookup_name": "Morgan Gibbs-White",
-        "selected_by_percent": "4.1",
-        "yellow_cards": 4,
+        "selected_by_percent": "4.2",
+        "yellow_cards": 5,
         "price": 64,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.58,
+        "clean_sheets_per_90": 0.54,
         "team": "Nottingham Forest",
-        "l5_average_xg": 0.11,
-        "l5_average_xa": 0.44,
-        "minutes_per_game": 80
+        "l5_average_xg": 0.09,
+        "l5_average_xa": 0.22,
+        "minutes_per_game": 81
     },
-    "Hudson-Odoi": {
+    "Callum Hudson-Odoi": {
         "name": "Callum Hudson-Odoi",
         "position": "Midfielder",
         "lookup_name": "Callum Hudson-Odoi",
@@ -4370,72 +4137,87 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.51,
+        "clean_sheets_per_90": 0.48,
         "team": "Nottingham Forest",
-        "l5_average_xg": 0.13,
-        "l5_average_xa": 0.21,
-        "minutes_per_game": 79
+        "l5_average_xg": 0.15,
+        "l5_average_xa": 0.19,
+        "minutes_per_game": 80
     },
-    "Murillo": {
+    "Murillo Santiago Costa dos Santos": {
         "name": "Murillo",
         "position": "Defender",
         "lookup_name": "Murillo Santiago Costa dos Santos",
-        "selected_by_percent": "2.9",
+        "selected_by_percent": "3.2",
         "yellow_cards": 4,
         "price": 46,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.43,
+        "clean_sheets_per_90": 0.41,
         "team": "Nottingham Forest",
-        "l5_average_xg": 0.04,
+        "l5_average_xg": 0.02,
         "l5_average_xa": 0.01,
         "minutes_per_game": 89
     },
-    "N.Williams": {
+    "Neco Williams": {
         "name": "Neco Williams",
         "position": "Defender",
         "lookup_name": "Neco Williams",
-        "selected_by_percent": "1.3",
+        "selected_by_percent": "1.7",
         "yellow_cards": 4,
         "price": 43,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.54,
+        "clean_sheets_per_90": 0.5,
         "team": "Nottingham Forest",
-        "l5_average_xg": 0.12,
+        "l5_average_xg": 0.1,
         "l5_average_xa": 0.02,
-        "minutes_per_game": 57
+        "minutes_per_game": 59
     },
-    "Sels": {
+    "Matz Sels": {
         "name": "Matz Sels",
         "position": "Goalkeeper",
         "lookup_name": "Matz Sels",
-        "selected_by_percent": "13.7",
+        "selected_by_percent": "15.6",
         "yellow_cards": 2,
-        "price": 49,
-        "clean_sheets_per_90": 0.45,
+        "price": 50,
+        "clean_sheets_per_90": 0.43,
         "team": "Nottingham Forest",
         "minutes_per_game": 90
     },
-    "Yates": {
+    "Chris Wood": {
+        "name": "Chris Wood",
+        "position": "Forward",
+        "lookup_name": "Chris Wood",
+        "selected_by_percent": "36.7",
+        "yellow_cards": 1,
+        "price": 69,
+        "penalty_duties": true,
+        "freekick_duties": false,
+        "corner_duties": false,
+        "team": "Nottingham Forest",
+        "l5_average_xg": 0.37,
+        "l5_average_xa": 0.03,
+        "minutes_per_game": 81
+    },
+    "Ryan Yates": {
         "name": "Ryan Yates",
         "position": "Midfielder",
         "lookup_name": "Ryan Yates",
-        "selected_by_percent": "0.2",
-        "yellow_cards": 5,
+        "selected_by_percent": "0.1",
+        "yellow_cards": 6,
         "price": 49,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.34,
+        "clean_sheets_per_90": 0.32,
         "team": "Nottingham Forest",
         "l5_average_xg": 0.01,
-        "l5_average_xa": 0.01,
+        "l5_average_xa": 0.0,
         "minutes_per_game": 69
     },
-    "Ward-Prowse": {
+    "James Ward-Prowse": {
         "name": "James Ward-Prowse",
         "position": "Midfielder",
         "lookup_name": "James Ward-Prowse",
@@ -4451,23 +4233,23 @@
         "l5_average_xa": 0.18,
         "minutes_per_game": 41
     },
-    "Milenković": {
+    "Nikola Milenković": {
         "name": "Nikola Milenkovic",
         "position": "Defender",
         "lookup_name": "Nikola Milenković",
-        "selected_by_percent": "7.5",
+        "selected_by_percent": "8.0",
         "yellow_cards": 2,
         "price": 48,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.47,
+        "clean_sheets_per_90": 0.45,
         "team": "Nottingham Forest",
-        "l5_average_xg": 0.14,
+        "l5_average_xg": 0.03,
         "l5_average_xa": 0.0,
         "minutes_per_game": 90
     },
-    "Jota Silva": {
+    "João Pedro Ferreira Silva": {
         "name": "Jota Silva",
         "position": "Midfielder",
         "lookup_name": "João Pedro Ferreira Silva",
@@ -4481,25 +4263,9 @@
         "team": "Nottingham Forest",
         "l5_average_xg": 0.0,
         "l5_average_xa": 0.17,
-        "minutes_per_game": 27
+        "minutes_per_game": 26
     },
-    "Sosa": {
-        "name": "Ramón Sosa",
-        "position": "Midfielder",
-        "lookup_name": "Ramón Sosa",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 0,
-        "price": 55,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.43,
-        "team": "Nottingham Forest",
-        "l5_average_xg": 0.08,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 15
-    },
-    "Morato": {
+    "Felipe Rodrigues da Silva": {
         "name": "Morato",
         "position": "Defender",
         "lookup_name": "Felipe Rodrigues da Silva",
@@ -4513,20 +4279,20 @@
         "team": "Nottingham Forest",
         "l5_average_xg": 0.0,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 28
+        "minutes_per_game": 26
     },
-    "Ramsdale": {
+    "Aaron Ramsdale": {
         "name": "Aaron Ramsdale",
         "position": "Goalkeeper",
         "lookup_name": "Aaron Ramsdale",
-        "selected_by_percent": "1.4",
+        "selected_by_percent": "1.3",
         "yellow_cards": 1,
         "price": 44,
-        "clean_sheets_per_90": 0.15,
+        "clean_sheets_per_90": 0.14,
         "team": "Southampton",
         "minutes_per_game": 90
     },
-    "Archer": {
+    "Cameron Archer": {
         "name": "Cameron Archer",
         "position": "Forward",
         "lookup_name": "Cameron Archer",
@@ -4541,13 +4307,13 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 50
     },
-    "Ugochukwu": {
+    "Lesley Ugochukwu": {
         "name": "Chimuanya Ugochukwu",
         "position": "Midfielder",
         "lookup_name": "Lesley Ugochukwu",
         "selected_by_percent": "0.2",
         "yellow_cards": 2,
-        "price": 45,
+        "price": 44,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
@@ -4555,9 +4321,9 @@
         "team": "Southampton",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.03,
-        "minutes_per_game": 45
+        "minutes_per_game": 48
     },
-    "Aribo": {
+    "Joe Aribo": {
         "name": "Joe Ayodele-Aribo",
         "position": "Midfielder",
         "lookup_name": "Joe Aribo",
@@ -4567,14 +4333,14 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.0,
+        "clean_sheets_per_90": 0.08,
         "team": "Southampton",
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.09,
+        "l5_average_xg": 0.01,
+        "l5_average_xa": 0.05,
         "minutes_per_game": 59
     },
-    "Armstrong": {
-        "name": "Harrison Armstrong",
+    "Adam Armstrong": {
+        "name": "Adam Armstrong",
         "position": "Forward",
         "lookup_name": "Adam Armstrong",
         "selected_by_percent": "1.1",
@@ -4583,32 +4349,32 @@
         "penalty_duties": true,
         "freekick_duties": false,
         "corner_duties": false,
-        "team": "Everton",
-        "l5_average_xg": 0.09,
-        "l5_average_xa": 0.02,
-        "minutes_per_game": 13
+        "team": "Southampton",
+        "l5_average_xg": 0.08,
+        "l5_average_xa": 0.26,
+        "minutes_per_game": 64
     },
-    "Bednarek": {
+    "Jan Bednarek": {
         "name": "Jan Bednarek",
         "position": "Defender",
         "lookup_name": "Jan Bednarek",
-        "selected_by_percent": "2.5",
+        "selected_by_percent": "2.4",
         "yellow_cards": 4,
         "price": 40,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.13,
+        "clean_sheets_per_90": 0.12,
         "team": "Southampton",
         "l5_average_xg": 0.0,
         "l5_average_xa": 0.0,
         "minutes_per_game": 89
     },
-    "Harwood-Bellis": {
+    "Taylor Harwood-Bellis": {
         "name": "Taylor Harwood-Bellis",
         "position": "Defender",
         "lookup_name": "Taylor Harwood-Bellis",
-        "selected_by_percent": "7.8",
+        "selected_by_percent": "7.6",
         "yellow_cards": 7,
         "price": 41,
         "penalty_duties": false,
@@ -4616,27 +4382,11 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.11,
         "team": "Southampton",
-        "l5_average_xg": 0.01,
-        "l5_average_xa": 0.09,
+        "l5_average_xg": 0.02,
+        "l5_average_xa": 0.13,
         "minutes_per_game": 83
     },
-    "Lallana": {
-        "name": "Adam Lallana",
-        "position": "Midfielder",
-        "lookup_name": "Adam Lallana",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 4,
-        "price": 50,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.0,
-        "team": "Southampton",
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 29
-    },
-    "Manning": {
+    "Ryan Manning": {
         "name": "Ryan Manning",
         "position": "Defender",
         "lookup_name": "Ryan Manning",
@@ -4652,7 +4402,7 @@
         "l5_average_xa": 0.15,
         "minutes_per_game": 62
     },
-    "McCarthy": {
+    "Alex McCarthy": {
         "name": "Alex McCarthy",
         "position": "Goalkeeper",
         "lookup_name": "Alex McCarthy",
@@ -4663,7 +4413,7 @@
         "team": "Southampton",
         "minutes_per_game": 90
     },
-    "Onuachu": {
+    "Paul Onuachu": {
         "name": "Paul Onuachu",
         "position": "Forward",
         "lookup_name": "Paul Onuachu",
@@ -4676,13 +4426,13 @@
         "team": "Southampton",
         "l5_average_xg": 0.31,
         "l5_average_xa": 0.03,
-        "minutes_per_game": 32
+        "minutes_per_game": 29
     },
-    "Stephens": {
+    "Jack Stephens": {
         "name": "Jack Stephens",
         "position": "Defender",
         "lookup_name": "Jack Stephens",
-        "selected_by_percent": "0.5",
+        "selected_by_percent": "0.4",
         "yellow_cards": 2,
         "price": 40,
         "penalty_duties": false,
@@ -4694,7 +4444,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 80
     },
-    "Sugawara": {
+    "Sugawara Yukinari": {
         "name": "Yukinari Sugawara",
         "position": "Defender",
         "lookup_name": "Sugawara Yukinari",
@@ -4704,13 +4454,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.18,
+        "clean_sheets_per_90": 0.17,
         "team": "Southampton",
         "l5_average_xg": 0.02,
-        "l5_average_xa": 0.08,
-        "minutes_per_game": 57
+        "l5_average_xa": 0.09,
+        "minutes_per_game": 59
     },
-    "Walker-Peters": {
+    "Kyle Walker-Peters": {
         "name": "Kyle Walker-Peters",
         "position": "Defender",
         "lookup_name": "Kyle Walker-Peters",
@@ -4722,27 +4472,27 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.11,
         "team": "Southampton",
-        "l5_average_xg": 0.04,
-        "l5_average_xa": 0.17,
+        "l5_average_xg": 0.03,
+        "l5_average_xa": 0.2,
         "minutes_per_game": 89
     },
-    "Downes": {
-        "name": "Flynn Downes",
-        "position": "Midfielder",
-        "lookup_name": "Flynn Downes",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 7,
-        "price": 48,
+    "Nathan Wood-Gordon": {
+        "name": "Nathan Wood",
+        "position": "Defender",
+        "lookup_name": "Nathan Wood-Gordon",
+        "selected_by_percent": "1.4",
+        "yellow_cards": 2,
+        "price": 40,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.13,
+        "clean_sheets_per_90": 0.16,
         "team": "Southampton",
-        "l5_average_xg": 0.02,
+        "l5_average_xg": 0.0,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 86
+        "minutes_per_game": 72
     },
-    "Brereton Díaz": {
+    "Ben Brereton Díaz": {
         "name": "Ben Brereton Díaz",
         "position": "Midfielder",
         "lookup_name": "Ben Brereton Díaz",
@@ -4758,54 +4508,38 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 43
     },
-    "Dibling": {
+    "Tyler Dibling": {
         "name": "Tyler Dibling",
         "position": "Midfielder",
         "lookup_name": "Tyler Dibling",
-        "selected_by_percent": "2.6",
-        "yellow_cards": 5,
+        "selected_by_percent": "2.5",
+        "yellow_cards": 6,
         "price": 45,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.08,
+        "clean_sheets_per_90": 0.15,
         "team": "Southampton",
-        "l5_average_xg": 0.23,
-        "l5_average_xa": 0.05,
-        "minutes_per_game": 60
+        "l5_average_xg": 0.27,
+        "l5_average_xa": 0.01,
+        "minutes_per_game": 61
     },
-    "M.Fernandes": {
-        "name": "Bruno Fernandes",
-        "position": "Midfielder",
-        "lookup_name": "Mateus Gonçalo Espanha Fernandes",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 5,
-        "price": 50,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.19,
-        "team": "Manchester United",
-        "l5_average_xg": 0.43,
-        "l5_average_xa": 0.16,
-        "minutes_per_game": 82
-    },
-    "Solanke": {
+    "Dominic Solanke-Mitchell": {
         "name": "Dominic Solanke",
         "position": "Forward",
         "lookup_name": "Dominic Solanke-Mitchell",
-        "selected_by_percent": "9.0",
+        "selected_by_percent": "8.9",
         "yellow_cards": 0,
         "price": 75,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Tottenham",
-        "l5_average_xg": 0.33,
+        "l5_average_xg": 0.35,
         "l5_average_xa": 0.13,
         "minutes_per_game": 89
     },
-    "Bentancur": {
+    "Rodrigo Bentancur": {
         "name": "Rodrigo Bentancur",
         "position": "Midfielder",
         "lookup_name": "Rodrigo Bentancur",
@@ -4821,7 +4555,7 @@
         "l5_average_xa": 0.01,
         "minutes_per_game": 58
     },
-    "Bergvall": {
+    "Lucas Bergvall": {
         "name": "Lucas Bergvall",
         "position": "Midfielder",
         "lookup_name": "Lucas Bergvall",
@@ -4831,13 +4565,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.32,
+        "clean_sheets_per_90": 0.24,
         "team": "Tottenham",
         "l5_average_xg": 0.0,
-        "l5_average_xa": 0.0,
-        "minutes_per_game": 20
+        "l5_average_xa": 0.01,
+        "minutes_per_game": 25
     },
-    "Bissouma": {
+    "Yves Bissouma": {
         "name": "Yves Bissouma",
         "position": "Midfielder",
         "lookup_name": "Yves Bissouma",
@@ -4847,13 +4581,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.2,
+        "clean_sheets_per_90": 0.19,
         "team": "Tottenham",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.0,
         "minutes_per_game": 57
     },
-    "Davies": {
+    "Ben Davies": {
         "name": "Ben Davies",
         "position": "Defender",
         "lookup_name": "Ben Davies",
@@ -4869,7 +4603,7 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 67
     },
-    "Dragusin": {
+    "Radu Drăgușin": {
         "name": "Radu Dragusin",
         "position": "Defender",
         "lookup_name": "Radu Drăgușin",
@@ -4879,24 +4613,24 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.18,
+        "clean_sheets_per_90": 0.16,
         "team": "Tottenham",
         "l5_average_xg": 0.02,
-        "l5_average_xa": 0.0,
+        "l5_average_xa": 0.07,
         "minutes_per_game": 79
     },
-    "Forster": {
+    "Fraser Forster": {
         "name": "Fraser Forster",
         "position": "Goalkeeper",
         "lookup_name": "Fraser Forster",
-        "selected_by_percent": "0.7",
+        "selected_by_percent": "0.6",
         "yellow_cards": 0,
         "price": 43,
         "clean_sheets_per_90": 0.14,
         "team": "Tottenham",
         "minutes_per_game": 90
     },
-    "Gray": {
+    "Archie Gray": {
         "name": "Archie Gray",
         "position": "Midfielder",
         "lookup_name": "Archie Gray",
@@ -4906,61 +4640,77 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.15,
+        "clean_sheets_per_90": 0.13,
         "team": "Tottenham",
         "l5_average_xg": 0.0,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 45
+        "minutes_per_game": 48
     },
-    "Kulusevski": {
-        "name": "Dejan Kulusevski",
+    "Brennan Johnson": {
+        "name": "Brennan Johnson",
         "position": "Midfielder",
-        "lookup_name": "Dejan Kulusevski",
-        "selected_by_percent": "6.6",
+        "lookup_name": "Brennan Johnson",
+        "selected_by_percent": "4.6",
         "yellow_cards": 3,
-        "price": 65,
+        "price": 64,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.23,
+        "clean_sheets_per_90": 0.12,
         "team": "Tottenham",
-        "l5_average_xg": 0.3,
-        "l5_average_xa": 0.21,
-        "minutes_per_game": 79
+        "l5_average_xg": 0.2,
+        "l5_average_xa": 0.13,
+        "minutes_per_game": 71
     },
-    "Maddison": {
+    "Dejan Kulusevski": {
+        "name": "Dejan Kulusevski",
+        "position": "Midfielder",
+        "lookup_name": "Dejan Kulusevski",
+        "selected_by_percent": "6.0",
+        "yellow_cards": 3,
+        "price": 64,
+        "penalty_duties": false,
+        "freekick_duties": false,
+        "corner_duties": false,
+        "clean_sheets_per_90": 0.21,
+        "team": "Tottenham",
+        "l5_average_xg": 0.21,
+        "l5_average_xa": 0.23,
+        "minutes_per_game": 80
+    },
+    "James Maddison": {
         "name": "James Maddison",
         "position": "Midfielder",
         "lookup_name": "James Maddison",
-        "selected_by_percent": "7.8",
+        "selected_by_percent": "6.8",
         "yellow_cards": 4,
-        "price": 76,
+        "price": 75,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": true,
-        "clean_sheets_per_90": 0.31,
+        "clean_sheets_per_90": 0.3,
         "team": "Tottenham",
-        "l5_average_xg": 0.19,
-        "l5_average_xa": 0.05,
-        "minutes_per_game": 59
+        "l5_average_xg": 0.06,
+        "l5_average_xa": 0.01,
+        "minutes_per_game": 58
     },
     "Pedro Porro": {
         "name": "Pedro Porro",
         "position": "Defender",
         "lookup_name": "Pedro Porro",
-        "selected_by_percent": "23.6",
+        "selected_by_percent": "23.0",
         "yellow_cards": 2,
-        "price": 55,
+        "price": 54,
         "penalty_duties": false,
         "freekick_duties": true,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.22,
+        "clean_sheets_per_90": 0.21,
         "team": "Tottenham",
-        "l5_average_xg": 0.01,
+        "l5_average_xg": 0.02,
         "l5_average_xa": 0.23,
         "minutes_per_game": 81
     },
-    "Romero": {
+    "Cristian Romero": {
         "name": "Cristian Romero",
         "position": "Defender",
         "lookup_name": "Cristian Romero",
@@ -4976,23 +4726,39 @@
         "l5_average_xa": 0.03,
         "minutes_per_game": 81
     },
-    "P.M.Sarr": {
-        "name": "Ismaila Sarr",
+    "Pape Matar Sarr": {
+        "name": "Pape Sarr",
         "position": "Midfielder",
         "lookup_name": "Pape Matar Sarr",
         "selected_by_percent": "0.3",
-        "yellow_cards": 3,
+        "yellow_cards": 4,
         "price": 48,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.17,
-        "team": "Crystal Palace",
-        "l5_average_xg": 0.52,
-        "l5_average_xa": 0.38,
-        "minutes_per_game": 63
+        "clean_sheets_per_90": 0.16,
+        "team": "Tottenham",
+        "l5_average_xg": 0.1,
+        "l5_average_xa": 0.0,
+        "minutes_per_game": 52
     },
-    "Spence": {
+    "Son Heung-min": {
+        "name": "Son Heung-Min",
+        "position": "Midfielder",
+        "lookup_name": "Son Heung-min",
+        "selected_by_percent": "4.9",
+        "yellow_cards": 0,
+        "price": 98,
+        "penalty_duties": true,
+        "freekick_duties": false,
+        "corner_duties": false,
+        "clean_sheets_per_90": 0.14,
+        "team": "Tottenham",
+        "l5_average_xg": 0.22,
+        "l5_average_xa": 0.03,
+        "minutes_per_game": 74
+    },
+    "Djed Spence": {
         "name": "Djed Spence",
         "position": "Defender",
         "lookup_name": "Djed Spence",
@@ -5002,17 +4768,17 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.22,
+        "clean_sheets_per_90": 0.18,
         "team": "Tottenham",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.2,
-        "minutes_per_game": 50
+        "minutes_per_game": 55
     },
-    "Udogie": {
+    "Destiny Udogie": {
         "name": "Iyenoma Destiny Udogie",
         "position": "Defender",
         "lookup_name": "Destiny Udogie",
-        "selected_by_percent": "1.8",
+        "selected_by_percent": "1.7",
         "yellow_cards": 2,
         "price": 48,
         "penalty_duties": false,
@@ -5024,11 +4790,11 @@
         "l5_average_xa": 0.01,
         "minutes_per_game": 80
     },
-    "Van de Ven": {
+    "Micky van de Ven": {
         "name": "Micky van de Ven",
         "position": "Defender",
         "lookup_name": "Micky van de Ven",
-        "selected_by_percent": "2.7",
+        "selected_by_percent": "2.6",
         "yellow_cards": 4,
         "price": 45,
         "penalty_duties": false,
@@ -5040,7 +4806,7 @@
         "l5_average_xa": 0.18,
         "minutes_per_game": 88
     },
-    "Vicario": {
+    "Guglielmo Vicario": {
         "name": "Guglielmo Vicario",
         "position": "Goalkeeper",
         "lookup_name": "Guglielmo Vicario",
@@ -5051,7 +4817,7 @@
         "team": "Tottenham",
         "minutes_per_game": 90
     },
-    "Werner": {
+    "Timo Werner": {
         "name": "Timo Werner",
         "position": "Midfielder",
         "lookup_name": "Timo Werner",
@@ -5067,23 +4833,23 @@
         "l5_average_xa": 0.12,
         "minutes_per_game": 28
     },
-    "Wan-Bissaka": {
+    "Aaron Wan-Bissaka": {
         "name": "Aaron Wan-Bissaka",
         "position": "Defender",
         "lookup_name": "Aaron Wan-Bissaka",
-        "selected_by_percent": "5.3",
-        "yellow_cards": 0,
+        "selected_by_percent": "5.2",
+        "yellow_cards": 1,
         "price": 46,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.17,
+        "clean_sheets_per_90": 0.16,
         "team": "West Ham",
         "l5_average_xg": 0.09,
-        "l5_average_xa": 0.13,
+        "l5_average_xa": 0.22,
         "minutes_per_game": 85
     },
-    "Álvarez": {
+    "Edson Álvarez Velázquez": {
         "name": "Edson Álvarez",
         "position": "Midfielder",
         "lookup_name": "Edson Álvarez Velázquez",
@@ -5097,9 +4863,9 @@
         "team": "West Ham",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.03,
-        "minutes_per_game": 60
+        "minutes_per_game": 62
     },
-    "Antonio": {
+    "Michail Antonio": {
         "name": "Michail Antonio",
         "position": "Forward",
         "lookup_name": "Michail Antonio",
@@ -5114,24 +4880,24 @@
         "l5_average_xa": 0.02,
         "minutes_per_game": 61
     },
-    "Areola": {
+    "Alphonse Areola": {
         "name": "Alphonse Areola",
         "position": "Goalkeeper",
         "lookup_name": "Alphonse Areola",
-        "selected_by_percent": "4.1",
+        "selected_by_percent": "4.0",
         "yellow_cards": 0,
         "price": 42,
         "clean_sheets_per_90": 0.1,
         "team": "West Ham",
         "minutes_per_game": 83
     },
-    "Bowen": {
+    "Jarrod Bowen": {
         "name": "Jarrod Bowen",
         "position": "Midfielder",
         "lookup_name": "Jarrod Bowen",
-        "selected_by_percent": "3.4",
+        "selected_by_percent": "3.0",
         "yellow_cards": 1,
-        "price": 74,
+        "price": 73,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
@@ -5141,7 +4907,7 @@
         "l5_average_xa": 0.05,
         "minutes_per_game": 87
     },
-    "Coufal": {
+    "Vladimír Coufal": {
         "name": "Vladimir Coufal",
         "position": "Defender",
         "lookup_name": "Vladimír Coufal",
@@ -5157,7 +4923,7 @@
         "l5_average_xa": 0.03,
         "minutes_per_game": 43
     },
-    "Emerson": {
+    "Emerson Palmieri dos Santos": {
         "name": "Emerson",
         "position": "Defender",
         "lookup_name": "Emerson Palmieri dos Santos",
@@ -5167,55 +4933,55 @@
         "penalty_duties": false,
         "freekick_duties": true,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.27,
+        "clean_sheets_per_90": 0.25,
         "team": "West Ham",
         "l5_average_xg": 0.01,
-        "l5_average_xa": 0.04,
+        "l5_average_xa": 0.03,
         "minutes_per_game": 77
     },
-    "Fabianski": {
+    "Łukasz Fabiański": {
         "name": "Lukasz Fabianski",
         "position": "Goalkeeper",
         "lookup_name": "Łukasz Fabiański",
-        "selected_by_percent": "17.0",
+        "selected_by_percent": "16.9",
         "yellow_cards": 2,
         "price": 41,
-        "clean_sheets_per_90": 0.2,
+        "clean_sheets_per_90": 0.18,
         "team": "West Ham",
-        "minutes_per_game": 80
+        "minutes_per_game": 81
     },
-    "Ings": {
-        "name": "Tyrone Mings",
+    "Danny Ings": {
+        "name": "Danny Ings",
         "position": "Forward",
         "lookup_name": "Danny Ings",
-        "selected_by_percent": "1.3",
+        "selected_by_percent": "1.4",
         "yellow_cards": 0,
         "price": 50,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "team": "Aston Villa",
-        "l5_average_xg": 0.08,
-        "l5_average_xa": 0.01,
-        "minutes_per_game": 83
+        "team": "West Ham",
+        "l5_average_xg": 0.13,
+        "l5_average_xa": 0.08,
+        "minutes_per_game": 16
     },
-    "Kilman": {
+    "Max Kilman": {
         "name": "Max Kilman",
         "position": "Defender",
         "lookup_name": "Max Kilman",
-        "selected_by_percent": "1.3",
+        "selected_by_percent": "1.2",
         "yellow_cards": 3,
         "price": 44,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.16,
+        "clean_sheets_per_90": 0.15,
         "team": "West Ham",
-        "l5_average_xg": 0.03,
+        "l5_average_xg": 0.0,
         "l5_average_xa": 0.03,
         "minutes_per_game": 86
     },
-    "Kudus": {
+    "Mohammed Kudus": {
         "name": "Mohammed Kudus",
         "position": "Midfielder",
         "lookup_name": "Mohammed Kudus",
@@ -5225,29 +4991,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.22,
+        "clean_sheets_per_90": 0.21,
         "team": "West Ham",
-        "l5_average_xg": 0.26,
-        "l5_average_xa": 0.16,
-        "minutes_per_game": 83
+        "l5_average_xg": 0.24,
+        "l5_average_xa": 0.11,
+        "minutes_per_game": 82
     },
-    "L.Paquetá": {
+    "Lucas Tolentino Coelho de Lima": {
         "name": "Lucas Paquetá",
         "position": "Midfielder",
         "lookup_name": "Lucas Tolentino Coelho de Lima",
         "selected_by_percent": "1.1",
-        "yellow_cards": 5,
+        "yellow_cards": 6,
         "price": 57,
         "penalty_duties": true,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.2,
+        "clean_sheets_per_90": 0.18,
         "team": "West Ham",
-        "l5_average_xg": 0.24,
+        "l5_average_xg": 0.31,
         "l5_average_xa": 0.12,
-        "minutes_per_game": 73
+        "minutes_per_game": 74
     },
-    "Mavropanos": {
+    "Konstantinos Mavropanos": {
         "name": "Konstantinos Mavropanos",
         "position": "Defender",
         "lookup_name": "Konstantinos Mavropanos",
@@ -5257,29 +5023,29 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.15,
+        "clean_sheets_per_90": 0.14,
         "team": "West Ham",
-        "l5_average_xg": 0.02,
-        "l5_average_xa": 0.07,
-        "minutes_per_game": 71
+        "l5_average_xg": 0.0,
+        "l5_average_xa": 0.06,
+        "minutes_per_game": 72
     },
-    "Souček": {
+    "Tomáš Souček": {
         "name": "Tomas Soucek",
         "position": "Midfielder",
         "lookup_name": "Tomáš Souček",
-        "selected_by_percent": "1.6",
-        "yellow_cards": 5,
+        "selected_by_percent": "1.7",
+        "yellow_cards": 6,
         "price": 49,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.27,
+        "clean_sheets_per_90": 0.25,
         "team": "West Ham",
-        "l5_average_xg": 0.14,
+        "l5_average_xg": 0.22,
         "l5_average_xa": 0.08,
-        "minutes_per_game": 74
+        "minutes_per_game": 75
     },
-    "Summerville": {
+    "Crysencio Summerville": {
         "name": "Crysencio Summerville",
         "position": "Midfielder",
         "lookup_name": "Crysencio Summerville",
@@ -5295,7 +5061,7 @@
         "l5_average_xa": 0.08,
         "minutes_per_game": 40
     },
-    "G.Rodríguez": {
+    "Guido Rodríguez": {
         "name": "Guido Rodríguez",
         "position": "Midfielder",
         "lookup_name": "Guido Rodríguez",
@@ -5305,13 +5071,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.3,
+        "clean_sheets_per_90": 0.28,
         "team": "West Ham",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.02,
-        "minutes_per_game": 56
+        "minutes_per_game": 58
     },
-    "Füllkrug": {
+    "Niclas Füllkrug": {
         "name": "Niclas Füllkrug",
         "position": "Forward",
         "lookup_name": "Niclas Füllkrug",
@@ -5326,11 +5092,11 @@
         "l5_average_xa": 0.23,
         "minutes_per_game": 40
     },
-    "Todibo": {
+    "Jean-Clair Todibo": {
         "name": "Jean-Clair Todibo",
         "position": "Defender",
         "lookup_name": "Jean-Clair Todibo",
-        "selected_by_percent": "0.3",
+        "selected_by_percent": "0.2",
         "yellow_cards": 0,
         "price": 42,
         "penalty_duties": false,
@@ -5342,50 +5108,34 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 56
     },
-    "C.Soler": {
-        "name": "Carlos Soler",
-        "position": "Midfielder",
-        "lookup_name": "Carlos Soler",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 5,
-        "price": 50,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.25,
-        "team": "West Ham",
-        "l5_average_xg": 0.15,
-        "l5_average_xa": 0.04,
-        "minutes_per_game": 49
-    },
-    "Johnstone": {
+    "Sam Johnstone": {
         "name": "Sam Johnstone",
         "position": "Goalkeeper",
         "lookup_name": "Sam Johnstone",
         "selected_by_percent": "0.3",
         "yellow_cards": 0,
-        "price": 43,
+        "price": 42,
         "clean_sheets_per_90": 0.0,
         "team": "Wolverhampton Wanderers",
         "minutes_per_game": 90
     },
-    "Aït-Nouri": {
+    "Rayan Aït-Nouri": {
         "name": "Rayan Ait Nouri",
         "position": "Defender",
         "lookup_name": "Rayan Aït-Nouri",
-        "selected_by_percent": "6.4",
+        "selected_by_percent": "6.1",
         "yellow_cards": 4,
         "price": 48,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.11,
+        "clean_sheets_per_90": 0.1,
         "team": "Wolverhampton Wanderers",
-        "l5_average_xg": 0.04,
-        "l5_average_xa": 0.17,
+        "l5_average_xg": 0.03,
+        "l5_average_xa": 0.15,
         "minutes_per_game": 87
     },
-    "Bellegarde": {
+    "Jean-Ricner Bellegarde": {
         "name": "Jean-Ricner Bellegarde",
         "position": "Midfielder",
         "lookup_name": "Jean-Ricner Bellegarde",
@@ -5397,26 +5147,26 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.22,
         "team": "Wolverhampton Wanderers",
-        "l5_average_xg": 0.09,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 46
+        "l5_average_xg": 0.02,
+        "l5_average_xa": 0.0,
+        "minutes_per_game": 45
     },
-    "Cunha": {
+    "Matheus Santos Carneiro Da Cunha": {
         "name": "Matheus Cunha",
         "position": "Forward",
         "lookup_name": "Matheus Santos Carneiro Da Cunha",
-        "selected_by_percent": "12.7",
+        "selected_by_percent": "12.0",
         "yellow_cards": 2,
         "price": 70,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": true,
         "team": "Wolverhampton Wanderers",
-        "l5_average_xg": 0.14,
-        "l5_average_xa": 0.31,
-        "minutes_per_game": 83
+        "l5_average_xg": 0.19,
+        "l5_average_xa": 0.28,
+        "minutes_per_game": 80
     },
-    "Dawson": {
+    "Craig Dawson": {
         "name": "Craig Dawson",
         "position": "Defender",
         "lookup_name": "Craig Dawson",
@@ -5432,55 +5182,39 @@
         "l5_average_xa": 0.0,
         "minutes_per_game": 63
     },
-    "Doherty": {
+    "Matt Doherty": {
         "name": "Matt Doherty",
         "position": "Defender",
         "lookup_name": "Matt Doherty",
         "selected_by_percent": "0.3",
-        "yellow_cards": 2,
+        "yellow_cards": 3,
         "price": 43,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.22,
+        "clean_sheets_per_90": 0.2,
         "team": "Wolverhampton Wanderers",
         "l5_average_xg": 0.01,
         "l5_average_xa": 0.08,
-        "minutes_per_game": 62
+        "minutes_per_game": 64
     },
-    "Doyle": {
-        "name": "Tommy Doyle",
-        "position": "Midfielder",
-        "lookup_name": "Tommy Doyle",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 1,
-        "price": 48,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.0,
-        "team": "Wolverhampton Wanderers",
-        "l5_average_xg": 0.01,
-        "l5_average_xa": 0.04,
-        "minutes_per_game": 24
-    },
-    "Guedes": {
+    "Gonçalo Manuel Ganchinho Guedes": {
         "name": "Gonçalo Guedes",
         "position": "Midfielder",
         "lookup_name": "Gonçalo Manuel Ganchinho Guedes",
-        "selected_by_percent": "0.2",
+        "selected_by_percent": "0.1",
         "yellow_cards": 1,
         "price": 53,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.34,
+        "clean_sheets_per_90": 0.3,
         "team": "Wolverhampton Wanderers",
-        "l5_average_xg": 0.03,
-        "l5_average_xa": 0.08,
-        "minutes_per_game": 29
+        "l5_average_xg": 0.11,
+        "l5_average_xa": 0.05,
+        "minutes_per_game": 31
     },
-    "Hee Chan": {
+    "Hwang Hee-chan": {
         "name": "Hee-Chan Hwang",
         "position": "Midfielder",
         "lookup_name": "Hwang Hee-chan",
@@ -5494,36 +5228,36 @@
         "team": "Wolverhampton Wanderers",
         "l5_average_xg": 0.15,
         "l5_average_xa": 0.0,
-        "minutes_per_game": 34
+        "minutes_per_game": 35
     },
-    "J.Gomes": {
+    "João Victor Gomes da Silva": {
         "name": "João Gomes",
         "position": "Midfielder",
         "lookup_name": "João Victor Gomes da Silva",
-        "selected_by_percent": "0.4",
+        "selected_by_percent": "0.3",
         "yellow_cards": 6,
         "price": 49,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.17,
+        "clean_sheets_per_90": 0.16,
         "team": "Wolverhampton Wanderers",
-        "l5_average_xg": 0.19,
-        "l5_average_xa": 0.03,
+        "l5_average_xg": 0.12,
+        "l5_average_xa": 0.02,
         "minutes_per_game": 86
     },
-    "José Sá": {
+    "José Malheiro de Sá": {
         "name": "José Sá",
         "position": "Goalkeeper",
         "lookup_name": "José Malheiro de Sá",
         "selected_by_percent": "1.8",
         "yellow_cards": 1,
         "price": 43,
-        "clean_sheets_per_90": 0.23,
+        "clean_sheets_per_90": 0.21,
         "team": "Wolverhampton Wanderers",
         "minutes_per_game": 90
     },
-    "Mario Jr.": {
+    "Mario Lemina": {
         "name": "Mario Lemina",
         "position": "Midfielder",
         "lookup_name": "Mario Lemina",
@@ -5539,7 +5273,7 @@
         "l5_average_xa": 0.09,
         "minutes_per_game": 80
     },
-    "N.Semedo": {
+    "Nélson Cabral Semedo": {
         "name": "Nélson Semedo",
         "position": "Defender",
         "lookup_name": "Nélson Cabral Semedo",
@@ -5552,10 +5286,10 @@
         "clean_sheets_per_90": 0.19,
         "team": "Wolverhampton Wanderers",
         "l5_average_xg": 0.01,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 88
+        "l5_average_xa": 0.12,
+        "minutes_per_game": 84
     },
-    "R.Gomes": {
+    "Rodrigo Martins Gomes": {
         "name": "Rodrigo Gomes",
         "position": "Midfielder",
         "lookup_name": "Rodrigo Martins Gomes",
@@ -5565,13 +5299,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.2,
+        "clean_sheets_per_90": 0.17,
         "team": "Wolverhampton Wanderers",
         "l5_average_xg": 0.07,
-        "l5_average_xa": 0.1,
-        "minutes_per_game": 34
+        "l5_average_xa": 0.12,
+        "minutes_per_game": 36
     },
-    "S.Bueno": {
+    "Santiago Bueno": {
         "name": "Santiago Bueno",
         "position": "Defender",
         "lookup_name": "Santiago Bueno",
@@ -5581,13 +5315,13 @@
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
-        "clean_sheets_per_90": 0.25,
+        "clean_sheets_per_90": 0.23,
         "team": "Wolverhampton Wanderers",
         "l5_average_xg": 0.05,
         "l5_average_xa": 0.0,
         "minutes_per_game": 82
     },
-    "Sarabia": {
+    "Pablo Sarabia": {
         "name": "Pablo Sarabia",
         "position": "Midfielder",
         "lookup_name": "Pablo Sarabia",
@@ -5599,26 +5333,26 @@
         "corner_duties": false,
         "clean_sheets_per_90": 0.0,
         "team": "Wolverhampton Wanderers",
-        "l5_average_xg": 0.18,
+        "l5_average_xg": 0.25,
         "l5_average_xa": 0.05,
-        "minutes_per_game": 30
+        "minutes_per_game": 26
     },
-    "Strand Larsen": {
+    "Jørgen Strand Larsen": {
         "name": "Jørgen Strand Larsen",
         "position": "Forward",
         "lookup_name": "Jørgen Strand Larsen",
-        "selected_by_percent": "2.8",
+        "selected_by_percent": "2.5",
         "yellow_cards": 2,
-        "price": 55,
+        "price": 54,
         "penalty_duties": false,
         "freekick_duties": false,
         "corner_duties": false,
         "team": "Wolverhampton Wanderers",
         "l5_average_xg": 0.44,
-        "l5_average_xa": 0.03,
-        "minutes_per_game": 82
+        "l5_average_xa": 0.06,
+        "minutes_per_game": 83
     },
-    "Toti": {
+    "Toti António Gomes": {
         "name": "Toti",
         "position": "Defender",
         "lookup_name": "Toti António Gomes",
@@ -5633,21 +5367,5 @@
         "l5_average_xg": 0.0,
         "l5_average_xa": 0.02,
         "minutes_per_game": 79
-    },
-    "André": {
-        "name": "André",
-        "position": "Midfielder",
-        "lookup_name": "André Trindade da Costa Neto",
-        "selected_by_percent": "0.0",
-        "yellow_cards": 2,
-        "price": 50,
-        "penalty_duties": false,
-        "freekick_duties": false,
-        "corner_duties": false,
-        "clean_sheets_per_90": 0.18,
-        "team": "Wolverhampton Wanderers",
-        "l5_average_xg": 0.0,
-        "l5_average_xa": 0.02,
-        "minutes_per_game": 67
     }
 }

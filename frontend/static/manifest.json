@@ -12,7 +12,7 @@
       "js": ["contentScript.js"]
     }
   ],
-  "permissions": ["storage", "scripting", "contextMenus", "activeTab"],
+  "permissions": ["scripting", "contextMenus", "activeTab"],
   "action": {
     "default_title": "FPLLM",
     "default_popup": "popup.html",

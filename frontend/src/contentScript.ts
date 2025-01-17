@@ -1,7 +1,7 @@
 chrome.runtime.onMessage.addListener((message) => {
   if (message.action === "displayOverlay") {
     if (message.loading) {
-      showOverlay(null, null, null, null, true);
+      showOverlay(null, null, null, null);
     }
     if (message.error) {
       // Update the overlay with an error message
@@ -13,11 +13,10 @@ chrome.runtime.onMessage.addListener((message) => {
   }
 });
 
-function showOverlay(player = null, matchups = null, analysis = null, errorMessage = null, loading = false) {
+function showOverlay(player = null, matchups = null, analysis = null, errorMessage = null) {
   // Remove any existing overlay
   const existingOverlay = document.getElementById("analyze-pick-overlay");
   if (existingOverlay) existingOverlay.remove();
-  console.log(player, matchups, analysis);
 
   // Create the overlay
   const overlay = document.createElement("div");
@@ -43,7 +42,7 @@ function showOverlay(player = null, matchups = null, analysis = null, errorMessa
       <h2>Error</h2>
       <p>${errorMessage}</p>
     `;
-  } else if (player && analysis) {
+  } else if (player && matchups && analysis) {
     // Show player analysis
     overlay.innerHTML = `
       <h2>Player Analysis</h2>
@@ -63,7 +62,7 @@ function showOverlay(player = null, matchups = null, analysis = null, errorMessa
   const closeIcon = document.createElement("div");
   closeIcon.style.position = "absolute";
   closeIcon.style.top = "10px";
-  closeIcon.style.right = "30px";
+  closeIcon.style.right = "10px"; // Ensure it's at the top-right corner of the overlay
   closeIcon.style.width = "24px";
   closeIcon.style.height = "24px";
   closeIcon.style.borderRadius = "50%";
@@ -76,6 +75,7 @@ function showOverlay(player = null, matchups = null, analysis = null, errorMessa
     <span style="color: white; font-family: 'Arial', sans-serif; font-size: 16px;">&times;</span>
   `;
 
+  
   // Append close icon to overlay
   overlay.appendChild(closeIcon);
 

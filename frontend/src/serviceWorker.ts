@@ -1,4 +1,3 @@
-import { initializeStorageWithDefaults } from './storage';
 import { createClient } from '@supabase/supabase-js';
 import { GoogleGenerativeAI } from '@google/generative-ai'
 
@@ -12,12 +11,17 @@ const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 
 
+function jsonToSentences(jsonData) {
+    const sentences:string[] = [];
+    jsonData.forEach(matchup => {
+      const sentence = `\n ${matchup.opponent} (${matchup.home_or_away}),  Team Average xG: ${matchup.team_average_xg}, Team xG rank: ${matchup.team_average_xg_rank}, Team average xGA: ${matchup.team_average_xga}, Team xGA rank: ${matchup.team_average_xga_rank}  Opponent Average xG: ${matchup.opponent_average_xg}, Opponent xG rank: ${matchup.opponent_average_xg_rank}, Opponent average xGA: ${matchup.opponent_average_xga}, Opponent xGA rank: ${matchup.opponent_average_xga_rank} \n`;
+      sentences.push(sentence);
+    });
+    return sentences.join(". "); 
+}
+
 chrome.runtime.onInstalled.addListener(async () => {
-    // Here goes everything you want to execute after extension initialization
-
-    await initializeStorageWithDefaults({});
-
-    // Create context menu after installation is complete
+   // Create context menu after installation is complete
     chrome.contextMenus.create({
         id: 'analyzePick',
         title: 'Analyze Pick',
@@ -74,21 +78,117 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 });
 
 async function generateAnalysis(player: any, matchups: any) {
+    console.log(matchups)
     try {
-        const systemPrompt = `You are a fantasy football analyst. Analyze the following player data and matchups 
-        to provide a very concise analysis of the player's pros, cons, and a verdict on whether they are a good pick. 
-        Give some evidence for your statements, e.g. when listing tough or easy matchup names give their xG/xGA as it applies to the player
-        (xG for defenders and goalkeepers, xGA for midfielders and forwards).
-        When speaking about team xG and xGA make sure to mention that it's the AVERAGE and whether or not they're home or away as that does affect it. 
-        Also mention the team's rank in that metric as the "nth-ranked" home/away offense/defense in the league by {metric}. ALWAYS mention home/away right next to the offense/defence.
-        When mentioning a player's xG/xA stats mention that it's the average of their last 5 games, but don't be verbose with either of these statements.
-        Only mention penalty, corner and free kick duties if they exist and do not mention if they don't.
-        Don't talk about reliance on these duties for goals since you don't have any scope for where the goals come from. 
-        For players with high xG and xA, they're clearly attacking players - don't mention their involvement with clean sheets
-        Provide your analysis in the following format:\n Pros: ...\nCons: ...\nVerdict: ...
-        Never surround any of the required formatting things with *** around them, just plain text. It's distracting and unnecessary.
-        `;
+        const systemPrompt = `
+            Objective: You are a Chrome extension designed to advise Fantasy Premier League players who need help buying, selling and holding players.
+            Analyze the provided fantasy football player data and matchups to determine the player's fantasy football viability. 
+            People depend on you for their picks, so be very careful and detail-oriented!
 
+
+            Data:
+
+            Player Data: (See sample below)
+
+            Sample: "Son": { "name": "Son Heung-Min", "position": "Midfielder", "lookup_name": "Son Heung-Min", "selected_by_percent": "5.2", "yellow_cards": 0, "price": 98, "penalty_duties": true, "freekick_duties": false, "corner_duties": false, "clean_sheets_per_90": 0.15, "team": "Tottenham", "l5_average_xg": 0.37, "l5_average_xa": 0.3, "minutes_per_game": 73 }
+            Key Fields:
+            Name
+            Position
+            Yellow Cards
+            Price
+            Clean Sheets per 90 (defenders, goalkeepers)
+            Penalty Duties (if applicable)
+            Corner Kick Duties (if applicable)
+            Free Kick Duties (if applicable)
+            Team
+            Last 5 games' average xG (forwards, midfielders)
+            Last 5 games' average xA (midfielders, forwards)
+            Minutes per Game
+
+
+            Matchup Data: (See sample below)
+
+            Sample: Opponent (Home/Away), Team average xG: {team_average_xg}, Team xG rank: {team_average_xg_rank}, Team average xGA: {team_average_xga}, Team xGA rank: {team_average_xga_rank} Opponent average xG: {opponent_average_xg}, Opponent xG rank: {opponent_average_xg_rank}, Opponent average xGA: {opponent_average_xga}, Opponent xGA rank: {opponent_average_xga_rank}
+            Key Fields:
+                Opponent Team
+                Home or Away
+                Opponent's Average xG (defenders, goalkeepers) 
+                Opponent's Average xGA (forwards, midfielders) 
+                Opponent's Rank in xG (defenders, goalkeepers) - Descending order (higher rank = higher xG)
+                Opponent's Rank in xGA (forwards, midfielders) - Ascending order (higher rank = lower xGA)
+                All of the above fields for the team
+                For each matchup, determine the opponent's 'home_or_away' status (if the team is playing at home, the opponent is 'away' and vice versa)
+
+
+            Analysis Guidelines:
+
+                Matchup Difficulty Analysis:
+                    Easy Matchup:
+                        Defenders, Goalkeepers: Opponent's xG  rank is between 14-20 (low xG). Higher rank = better matchup!! Explicit guideline: Opponent's average xG is less than 1.5 goals per game
+                        Forwards, Midfielders: Opponent's xGA rank is between 14-20 (high xGA). Higher rank = better matchup!! Explicit guideline: Opponent's average xGA is greater than 1.5 goals per game
+                    Tough Matchup:
+                        Defenders, Goalkeepers: Opponent's xG  rank is between 1-7 (high xG). Lower rank = worse matchup!! Explicit guideline: Opponent's average xG is greater than 1.8 goals per game
+                        Forwards, Midfielders: Opponent's xGA rank is between 1-7 (low xGA). Lower rank = worse matchup!! Explicit guideline: Opponent's average xGA is less than 1.2 goals per game. 
+                    Neutral Matchup:
+                        Defenders, Goalkeepers: Opponent's xG  rank is between 8-13 (moderate xG).
+                        Forwards, Midfielders: Opponent's xGA rank is between 8-13 (low xGA). 
+                    Consider the team's average xG and xGA (and their ranks) as additional factors when assessing the overall matchup difficulty.
+
+
+                    For each matchup in the provided list:
+                        Extract the opponent's name.
+                        Extract the opponent's average xGA.
+                        Extract the opponent's xGA rank
+                        Determine if the opponent's xGA rank falls within the 'Easy Matchup' range (14-20), the 'Tough Matchup' range (1-7), or the 'Neutral Matchup' range (8-13)
+                        If the opponent's xGA rank falls within the 'Easy Matchup' range, add the opponent's name to the 'Easy Matchups' list.
+                        If the opponent's xGA rank falls within the 'Tough Matchup' range, add the opponent's name to the 'Neutral Matchups' list.
+                        If the opponent's xGA rank falls within the 'Tough Matchup' range, add the opponent's name to the 'Tough Matchups' list.
+                    
+                    If the team has a high average xG/xGA rank and is facing a "neutral" opponent, consider it a potentially favorable matchup.
+                    Attackers: If the matchup is in "neutral" range and the team's average xG is significantly higher than the other team's xGA, consider it an easy matchup regardless of rank.
+                    Defenders: If the matchup is in "neutral" range and the team's average xGA is significantly lower than the other team's xG, consider it an easy matchup regardless of rank.
+
+                Player Strengths:
+                    High xG/xA in recent games (>= 0.3 for forwards, >= 0.15 for midfielders)
+                    Strong attacking role (for midfielders with high xG/xA)
+                    Penalty, corner, or free kick duties
+                    Facing easy matchups
+                    High average minutes (>60 in a game since that's the 2 point threshold)
+                    Relatively low ownership % (<10%) IF the above are good, represents a differential pick
+                    Relatively cheap price
+
+                Player Weaknesses:
+                    Low xG/xA in recent games (<= 0.1 for forwards, <= 0.05 for midfielders)
+                    Facing tough matchups
+                    Defensive role (for midfielders with low xG/xA)
+                    Low average minutes (<60)
+                    Relatively high ownership (>25%) IF they have good strengths, represents a safe pick with a low ceiling
+                    Relatively low ownership IF they have bad strengths, represents avoidance from the community
+                    Relatively high price
+
+                Consider a player's average minutes per game. Players with consistently low minutes are more susceptible to rotation and may not provide consistent fantasy returns.
+
+            Verdict: Do not give definitive judgment, just comment on their fantasy viability based on the above information. Make sure to include minutes per game analysis.
+            Prioritize and emphasize player strengths, such as high xG/xA, favorable matchups (easy or neutral), set-piece duties, and low ownership. Highlight any unique advantages, such as a player's role within the team or their recent form.
+
+            Additional Guidelines:
+                Use the "-" character for bullet points 
+                List the easy matchups (if they genuinely are easy) in pros or your verdict section and the tough matchups in cons, don't lump them together.
+                Mention ONLY an opponent's xGA when talking about attacking midfielders and forwards, and mention ONLY an opponent's xG when talking about defenders and goalkeepers. An opponent's xG is not relevant to attackers, and an opponent's xGA is not relevant to defenders.
+                Mention ONLY the teham's xG when talking about attacking midfielders and forwards, and mention ONLY the team's xGA when talking about defenders and goalkeepers. A team's xGA is not relevant to attackers, and an team's xG is not relevant to defenders.
+                When mentioning a team's rank in a certain metric, give the actual figure as well in this format: (nth-ranked average {home/away} {metric}, {metric number}). Don't use the word "opponent" in the brackets, it's understood. Make sure to mention home or away though, it's important
+            
+            Output Format:
+
+            Pros:
+                Bullet points listing player strengths (e.g., "High xG in last 5 games", "Facing opponent with high xGA")
+            Cons:
+                Bullet points listing player weaknesses (e.g., "Facing opponent with low xGA", "Low xA in last 5 games")
+
+
+            Verdict: Based on the above information, {player} appears to be a {strong/decent/potential} option. While {player} faces some challenges, his [positive aspect] makes him a viable option.
+
+        `;
 
         const prompt = `
         ${systemPrompt}
@@ -96,17 +196,19 @@ async function generateAnalysis(player: any, matchups: any) {
           Team: ${player.team_name}
           Position: ${player.position}
           Price: £${player.price}
+          Minutes per game: ${player.minutes_per_game}
           Selected by: ${player.selected_by_percent}%
           Clean sheets per 90: ${player.clean_sheets_per_90}
           Last 5 games xG: ${player.l5_average_xg}
           Last 5 games xA: ${player.l5_average_xa}
-          Matchups: ${JSON.stringify(matchups)}
+          Matchups: ${jsonToSentences(matchups)}
 
           ${player.penalty_duties ? `Has penalty duties, ` : ''}
           ${player.corner_duties ? `Has corner duties, ` : ''}
           ${player.freekick_duties ? `Has free kick duties.` : ''}
         `;
 
+        console.log(prompt)
         const result = await model.generateContent(prompt);
         const response = await result.response;
         const text = response.text();
@@ -117,6 +219,7 @@ async function generateAnalysis(player: any, matchups: any) {
         return null;
     }
 }
+
 
 
 async function getPlayerAndMatchups(selectedText: string) {
@@ -156,6 +259,7 @@ async function getPlayerAndMatchups(selectedText: string) {
         }
 
         playerData['team_name'] = teamsDictionary[playerData.team_id];
+        console.log(playerData)
         
         // 2. Query the matchups table using the team_id from the player data
         const { data: matchups, error: matchupError } = await supabase

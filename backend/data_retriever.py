@@ -4,9 +4,11 @@ import json
 import requests
 import pandas as pd
 from datetime import datetime
-from fuzzywuzzy import process
+from fuzzywuzzy import fuzz, process
 import soccerdata as sd
 from supabase import create_client, Client
+import inquirer
+
 
 # Load environment variables
 load_dotenv(find_dotenv())
@@ -21,6 +23,8 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 bootstrap_static_url = "https://fantasy.premierleague.com/api/bootstrap-static/"
 understat = sd.Understat(leagues="ENG-Premier League", seasons="2024/2025")
 
+
+
 # Load Data
 def load_fpl_data():
     general_fpl_data = requests.get(url=bootstrap_static_url).json()
@@ -33,10 +37,55 @@ def load_understat_data():
     schedule = understat.read_schedule().reset_index()
     return player_season_data, player_per_game_data, team_data, schedule
 
-# Fuzzy match player names
-def fuzzy_match(player_name, understat_names):
-    match, score, index = process.extractOne(player_name, understat_names)
-    return match if score >= 75 else None
+def fuzzy_match(web_name, full_name, understat_names):
+    def perform_fuzzy_match(name, understat_names):
+        # Fuzzy match all candidates
+        matches = process.extract(name, understat_names, limit=5)
+
+        # Skip 100% matches
+        if matches[0][1] == 100:
+            match = matches[0][0]
+            understat_names = understat_names[understat_names != match]
+            return match, understat_names, True
+
+        # Automatically accept a single high-confidence match (≥ 90) if no close contenders
+        if matches[0][1] >= 90 and (len(matches) < 2 or matches[1][1] < 80):
+            match = matches[0][0]
+            understat_names = understat_names[understat_names != match]
+            return match, understat_names, True
+
+        # Prepare options for selection
+        options = [f"{match[0]} (score: {match[1]})" for match in matches]
+        options.append("None of these")  # Option to skip if no match is suitable
+
+        # Interactive prompt
+        questions = [
+            inquirer.List(
+                "selected_match",
+                message=f"Select the best match for '{name}':",
+                choices=options,
+            )
+        ]
+        answer = inquirer.prompt(questions)
+
+        if answer and answer["selected_match"] != "None of these":
+            # Extract selected match name (remove score details)
+            match = matches[options.index(answer["selected_match"])][0]
+            understat_names = understat_names[understat_names != match]
+            return match, understat_names, False
+
+        return None, understat_names, False  # No match selected or skipped
+
+    # First, attempt matching with web_name
+    match, understat_names, high_confidence = perform_fuzzy_match(web_name, understat_names)
+    if match or high_confidence:
+        return match
+
+    # If no match was selected, try with full_name
+    match, understat_names, _ = perform_fuzzy_match(full_name, understat_names)
+    return match
+
+
 
 def calculate_team_stats(team_data):
     home_xg = team_data.groupby('home_team')['home_xg'].mean().reset_index().round(2)
@@ -91,8 +140,8 @@ def get_next_5_opponent_stats(team, schedule, team_stats):
             'team_average_xga_rank': int(team_stats_row['home_xga_rank'] if is_home else team_stats_row['away_xga_rank']),
             'opponent_average_xg': opponent_stats_row['average_away_xg'] if is_home else opponent_stats_row['average_home_xg'],
             'opponent_average_xga': opponent_stats_row['average_away_xga'] if is_home else opponent_stats_row['average_home_xga'],
-            'opponent_average_xg_rank': int(opponent_stats_row['home_xg_rank'] if is_home else opponent_stats_row['away_xg_rank']),
-            'opponent_average_xga_rank': int(opponent_stats_row['home_xga_rank'] if is_home else opponent_stats_row['away_xga_rank']),
+            'opponent_average_xg_rank': int(opponent_stats_row['away_xg_rank'] if is_home else opponent_stats_row['home_xg_rank']),
+            'opponent_average_xga_rank': int(opponent_stats_row['away_xga_rank'] if is_home else opponent_stats_row['home_xga_rank']),
         }
         matchups.append(matchup)
 
@@ -100,60 +149,52 @@ def get_next_5_opponent_stats(team, schedule, team_stats):
 
 # Process and map FPL player data to Understat
 def process_fpl_players(player_data_fpl_site, player_season_data_understat, player_per_game_data_understat, element_types):
-    names_mapping = {"Son": {"name": "Son Heung-Min", "position": "Midfielder"},
-                     "Wood": {"name": "Chris Wood", "position": "Forward"},
-                     "Justin": {"name": "James Justin", "position": "Defender"}
-    }
+    names_mapping = {}
+
+    with open('names_mapping.json', encoding='utf8') as f:
+        names_mapping = json.loads(f.read())
 
     understat_names = player_season_data_understat["player"]
     for player in player_data_fpl_site:
-        if player["status"] == "u" or player["total_points"] < 10:
+        if player["status"] == "u" or player["total_points"] < 10 or float(player["selected_by_percent"]) < 0.1:
             continue
 
         player_position = element_types[player["element_type"] - 1]["singular_name"]
-        web_name = player["web_name"]
+        fpl_name = player["first_name"] + " " + player["second_name"] 
+        understat_name = ""
         # use this as a field for players in the database because players will be 
-        # opening player info > highlighting player full name > analyze pick
-        lookup_name = player["first_name"] + " " + player["second_name"]
-
-        if web_name not in names_mapping:
-            match = fuzzy_match(web_name, understat_names)
-            if match:
-                understat_name = match
-            else:
-                understat_name = fuzzy_match(lookup_name, understat_names)
-
-            names_mapping[web_name] = {"name": understat_name, "position": player_position}
-            names_mapping[web_name]["lookup_name"] = lookup_name
+        if fpl_name not in names_mapping:
+            understat_name = fuzzy_match(player["web_name"], fpl_name, understat_names)
         else:
-            names_mapping[web_name]["lookup_name"] = names_mapping[web_name]["name"]
+            understat_name = names_mapping[fpl_name]["name"]
+        names_mapping[fpl_name] = {"name": understat_name, "position": player_position}
+        names_mapping[fpl_name]["lookup_name"] = fpl_name
+        names_mapping[fpl_name]["selected_by_percent"] = player["selected_by_percent"]
 
-        # Update player data with FPL info
-        
-        names_mapping[web_name]["selected_by_percent"] = player["selected_by_percent"]
-        names_mapping[web_name]["yellow_cards"] = player["yellow_cards"]
-        names_mapping[web_name]["price"] = player["now_cost"]
+        names_mapping[fpl_name]["yellow_cards"] = player["yellow_cards"]
+        names_mapping[fpl_name]["price"] = player["now_cost"]
 
         if player_position != "Goalkeeper":
-            names_mapping[web_name]["penalty_duties"] = True if player["penalties_order"] == 1 else False
-            names_mapping[web_name]["freekick_duties"] = True if player["direct_freekicks_order"] == 1 else False
-            names_mapping[web_name]["corner_duties"] = True if player["corners_and_indirect_freekicks_order"] == 1 else False
+            names_mapping[fpl_name]["penalty_duties"] = True if player["penalties_order"] == 1 else False
+            names_mapping[fpl_name]["freekick_duties"] = True if player["direct_freekicks_order"] == 1 else False
+            names_mapping[fpl_name]["corner_duties"] = True if player["corners_and_indirect_freekicks_order"] == 1 else False
+
 
         if player_position != "Forward":
-            names_mapping[web_name]["clean_sheets_per_90"] = player["clean_sheets_per_90"]
+            names_mapping[fpl_name]["clean_sheets_per_90"] = player["clean_sheets_per_90"]
 
-        # Get last 5 games xG and xA
-        l5_xg, l5_xa = get_last_5_games_xgi(names_mapping[web_name]["name"], player_per_game_data_understat)
+        # # Get last 5 games xG and xA
+        l5_xg, l5_xa = get_last_5_games_xgi(names_mapping[fpl_name]["name"], player_per_game_data_understat)
 
         # Get the player's season data
-        player_data = player_season_data_understat[player_season_data_understat["player"] == names_mapping[web_name]["name"]]
+        player_data = player_season_data_understat[player_season_data_understat["player"] == names_mapping[fpl_name]["name"]]
         minutes_per_game = float(player_data["minutes"].sum() / player_data["matches"].sum()) if not player_data.empty else 0
 
-        names_mapping[web_name]["team"] = player_data["team"].iloc[0]
+        names_mapping[fpl_name]["team"] = player_data["team"].iloc[0]
         if player_position != "Goalkeeper":
-            names_mapping[web_name]["l5_average_xg"] = l5_xg
-            names_mapping[web_name]["l5_average_xa"] = l5_xa
-        names_mapping[web_name]["minutes_per_game"] = int(minutes_per_game)
+            names_mapping[fpl_name]["l5_average_xg"] = l5_xg
+            names_mapping[fpl_name]["l5_average_xa"] = l5_xa
+        names_mapping[fpl_name]["minutes_per_game"] = int(minutes_per_game)
 
     return names_mapping
 
@@ -191,6 +232,7 @@ def insert_player_data(player_mapping):
 
 def insert_matchup_data(team_matchups):
     matchups_table = supabase.table("matchups")  
+    matchups_table.delete()
     for team, matchups in team_matchups.items():
         team_id_req = supabase.table("teams").select("id").eq("team_name", team).execute()
         for matchup in matchups:
@@ -207,7 +249,7 @@ def insert_matchup_data(team_matchups):
                 "opponent_average_xga": matchup["opponent_average_xga"],
                 "opponent_average_xg_rank": matchup["opponent_average_xg_rank"],
                 "opponent_average_xga_rank": matchup["opponent_average_xga_rank"]
-            }).execute()
+            }, on_conflict=["team_id, opponent_id"]).execute()
 
 def insert_team_stats(team_stats):
     teams_table = supabase.table("teams")  # Replace with your actual table name
@@ -231,9 +273,9 @@ def main():
     player_season_data, player_per_game_data, team_data, schedule = load_understat_data()
 
     # Calculations
-    team_stats = calculate_team_stats(team_data)
+    # team_stats = calculate_team_stats(team_data)
     players_mapping = process_fpl_players(player_data_fpl_site, player_season_data, player_per_game_data, element_types)
-    team_matchups = process_team_data(schedule, team_stats)
+    # team_matchups = process_team_data(schedule, team_stats)
 
 
     # Insertion
@@ -246,8 +288,8 @@ def main():
     with open('names_mapping.json', 'w', encoding='utf-8') as f:
         json.dump(players_mapping, f, ensure_ascii=False, indent=4)
 
-    with open('team_data.json', 'w', encoding='utf-8') as f:
-        json.dump(team_matchups, f, ensure_ascii=False, indent=4)
+    # with open('team_data.json', 'w', encoding='utf-8') as f:
+    #     json.dump(team_matchups, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
     main()
