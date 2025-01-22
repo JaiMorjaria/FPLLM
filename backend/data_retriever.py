@@ -273,23 +273,23 @@ def main():
     player_season_data, player_per_game_data, team_data, schedule = load_understat_data()
 
     # Calculations
-    # team_stats = calculate_team_stats(team_data)
+    team_stats = calculate_team_stats(team_data)
     players_mapping = process_fpl_players(player_data_fpl_site, player_season_data, player_per_game_data, element_types)
-    # team_matchups = process_team_data(schedule, team_stats)
+    team_matchups = process_team_data(schedule, team_stats)
 
 
     # Insertion
-    # insert_team_stats(team_stats)
+    insert_team_stats(team_stats)
     insert_player_data(players_mapping)
-    # insert_matchup_data(team_matchups)
+    insert_matchup_data(team_matchups)
 
     
     # Save the results
     with open('names_mapping.json', 'w', encoding='utf-8') as f:
         json.dump(players_mapping, f, ensure_ascii=False, indent=4)
 
-    # with open('team_data.json', 'w', encoding='utf-8') as f:
-    #     json.dump(team_matchups, f, ensure_ascii=False, indent=4)
+    with open('team_data.json', 'w', encoding='utf-8') as f:
+        json.dump(team_matchups, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
     main()

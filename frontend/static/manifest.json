@@ -1,7 +1,7 @@
 {
   "name": "FPLLM",
   "description": "AI-powered fantasy football analysis - use at your own risk!",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "manifest_version": 3,
   "background": {
     "service_worker": "serviceWorker.js"
@@ -12,7 +12,7 @@
       "js": ["contentScript.js"]
     }
   ],
-  "permissions": ["scripting", "contextMenus", "activeTab"],
+  "permissions": ["contextMenus", "activeTab"],
   "action": {
     "default_title": "FPLLM",
     "default_popup": "popup.html",
