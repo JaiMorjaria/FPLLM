@@ -1,3 +1,6 @@
+import { Matchup, Player } from './types';
+
+
 chrome.runtime.onMessage.addListener((message) => {
   if (message.action === "displayOverlay") {
     if (message.loading) {
@@ -13,7 +16,7 @@ chrome.runtime.onMessage.addListener((message) => {
   }
 });
 
-function showOverlay(player = null, matchups = null, analysis = null, errorMessage = null) {
+function showOverlay(player:Player | null = null, matchups: Matchup[] | null = null, analysis:string = null, errorMessage:string = null) {
   // Remove any existing overlay
   const existingOverlay = document.getElementById("analyze-pick-overlay");
   if (existingOverlay) existingOverlay.remove();

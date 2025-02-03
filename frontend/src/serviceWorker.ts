@@ -1,6 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import { GoogleGenerativeAI } from '@google/generative-ai'
-
+import { Matchup, Player, Team } from './types';
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_KEY = process.env.SUPABASE_KEY;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY
@@ -11,9 +11,9 @@ const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 
 
-function jsonToSentences(jsonData) {
+function jsonToSentences(jsonData:Matchup[]) {
     const sentences:string[] = [];
-    jsonData.forEach(matchup => {
+    jsonData.forEach((matchup) => {
       const sentence = `\n ${matchup.opponent} (${matchup.home_or_away}),  Team Average xG: ${matchup.team_average_xg}, Team xG rank: ${matchup.team_average_xg_rank}, Team average xGA: ${matchup.team_average_xga}, Team xGA rank: ${matchup.team_average_xga_rank}  Opponent Average xG: ${matchup.opponent_average_xg}, Opponent xG rank: ${matchup.opponent_average_xg_rank}, Opponent average xGA: ${matchup.opponent_average_xga}, Opponent xGA rank: ${matchup.opponent_average_xga_rank} \n`;
       sentences.push(sentence);
     });
@@ -78,7 +78,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
     }
 });
 
-async function generateAnalysis(player: any, matchups: any) {
+async function generateAnalysis(player: Player, matchups: Matchup[]) {
     console.log(matchups)
     try {
         const systemPrompt = `
@@ -252,9 +252,9 @@ async function getPlayerAndMatchups(selectedText: string) {
             return null;
         }
 
-        const teamsDictionary = {};
+        const teamsDictionary:Record<number, string> = {};
 
-        teamsData.forEach((team) => {
+        teamsData.forEach((team:Team) => {
             teamsDictionary[team.id] = team.team_name;
         }, {});
 
@@ -291,7 +291,7 @@ async function getPlayerAndMatchups(selectedText: string) {
             return null;
         }
 
-        matchups.forEach(matchup => {
+        matchups.forEach((matchup:Matchup) => {
             matchup['team'] = teamsDictionary[matchup.team_id];
             matchup['opponent'] = teamsDictionary[matchup.opponent_id];
         });
