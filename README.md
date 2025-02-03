@@ -5,7 +5,7 @@ Automating your fantasy premier league research using key statistics and an LLM 
 
 
 ## Technologies:
-- JavaScript (chrome extension frontend, middleware)
+- TypeScript (chrome extension frontend, middleware)
 - Python (data propagation, stat calculation and filtering)
 - PostgreSQL using Supabase to host data (medium-long term stat storage)
 - Gemini 1.5 (to help users contextualize data)
